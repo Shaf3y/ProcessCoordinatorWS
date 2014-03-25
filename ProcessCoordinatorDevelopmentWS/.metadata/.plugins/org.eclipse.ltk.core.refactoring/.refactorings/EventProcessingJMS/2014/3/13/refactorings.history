@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;EventProcessingJMS/src/main/resources/META-INF/Spring/application-context.xml&apos; to &apos;jms-spring.xml&apos;" description="Rename resource &apos;application-context.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/META-INF/Spring/application-context.xml" name="jms-spring.xml" stamp="1395737802098" updateReferences="true"/>
+</session>

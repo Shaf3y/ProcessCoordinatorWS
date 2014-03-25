@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esper-configuration>
+  <plugin-loader name="MyLoader" class-name="com.espertech.esperio.SpringContextLoader">
+    <init-arg name="classpath-app-context" value="spring\jms-spring.xml" />
+    <init-arg name="file-app-context" value="spring\jms-spring.xml" />
+  </plugin-loader>
+
+</esper-configuration>

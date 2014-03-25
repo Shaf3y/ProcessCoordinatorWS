@@ -1,0 +1,581 @@
+2014-03-23 15:28:10,543 [ModalContext] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-23 15:28:10,644 [New I/O client worker #1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.137.250:9999/nexus/content/groups/public/org/appfuse/archetypes/appfuse-basic-spring/maven-metadata.xml
+2014-03-23 15:33:16,385 [Worker-36] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-23 15:33:17,295 [Worker-36] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EventProcessingJMS/src/main/java
+2014-03-23 15:33:17,297 [Worker-36] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EventProcessingJMS/src/main/resources
+2014-03-23 15:33:17,298 [Worker-36] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EventProcessingJMS/src/test/java
+2014-03-23 15:33:17,298 [Worker-36] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EventProcessingJMS/src/test/resources
+2014-03-23 15:33:17,797 [Worker-21] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-23 15:33:18,063 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-23 15:33:18,068 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-23 15:33:18,072 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-23 15:33:18,073 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-23 15:33:19,085 [Worker-21] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-23 15:33:19,304 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-23 15:33:19,307 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-23 15:33:19,309 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-23 15:33:19,309 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-23 15:37:47,589 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-23 15:37:47,604 [Worker-31] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-23 15:37:47,637 [New I/O client worker #2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.137.250:9999/nexus/content/groups/public/com/espertech/esperio-springjms/4.11.0/esperio-springjms-4.11.0.pom
+2014-03-23 15:37:47,642 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.espertech:esperio-springjms:jar:4.11.0 is missing, no dependency information available
+2014-03-23 15:37:47,644 [Worker-31] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-23 15:37:47,659 [New I/O client worker #3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.137.250:9999/nexus/content/groups/public/com/espertech/esperio-springjms/4.11.0/esperio-springjms-4.11.0.jar
+2014-03-23 15:37:47,712 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-23 15:37:47,712 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-23 15:37:47,714 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-23 15:37:47,715 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-23 15:38:00,208 [Worker-36] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-23 15:38:00,209 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.espertech:esperio-springjms:jar:4.11.0 is missing, no dependency information available
+2014-03-23 15:38:00,241 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-23 15:38:00,241 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-23 15:38:00,243 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-23 15:38:00,243 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-23 15:38:17,568 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-23 15:38:17,570 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.espertech:esperio-springjms:jar:4.11.0 is missing, no dependency information available
+2014-03-23 15:38:17,602 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-23 15:38:17,602 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-23 15:38:17,604 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-23 15:38:17,604 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-23 15:38:22,858 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-23 15:38:22,861 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.espertech:esperio-springjms:jar:4.11.0 is missing, no dependency information available
+2014-03-23 15:38:22,902 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-23 15:38:22,903 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-23 15:38:22,904 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-23 15:38:22,905 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-23 15:40:14,281 [Worker-38] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2014-03-23 15:40:14,311 [Worker-38] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-23 15:40:14,313 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.espertech:esperio-springjms:jar:4.11.0 is missing, no dependency information available
+2014-03-23 15:40:14,350 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EventProcessingJMS/src/main/java
+2014-03-23 15:40:14,351 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EventProcessingJMS/src/main/resources
+2014-03-23 15:40:14,351 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EventProcessingJMS/src/test/java
+2014-03-23 15:40:14,351 [Worker-38] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EventProcessingJMS/src/test/resources
+2014-03-23 15:40:14,380 [Worker-38] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2014-03-23 15:40:14,555 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-23 15:40:14,557 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-23 15:40:14,559 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-23 15:40:14,560 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-23 15:41:17,059 [Worker-39] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2014-03-23 15:41:17,252 [Worker-39] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-23 15:41:17,254 [Worker-39] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-23 15:41:21,105 [New I/O client worker #4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/espertech/esperio-springjms/4.11.0/esperio-springjms-4.11.0.pom
+2014-03-23 15:41:21,108 [New I/O client worker #4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/espertech/esperio-springjms/4.11.0/esperio-springjms-4.11.0.pom
+2014-03-23 15:41:21,623 [Worker-39] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-23 15:41:23,083 [New I/O client worker #5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/espertech/esper/4.11.0/esper-4.11.0.pom
+2014-03-23 15:41:23,084 [New I/O client worker #5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/espertech/esper/4.11.0/esper-4.11.0.pom
+2014-03-23 15:41:23,414 [Worker-39] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-23 15:41:24,083 [New I/O client worker #6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-beans/3.1.1.RELEASE/spring-beans-3.1.1.RELEASE.pom
+2014-03-23 15:41:24,083 [New I/O client worker #6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-beans/3.1.1.RELEASE/spring-beans-3.1.1.RELEASE.pom
+2014-03-23 15:41:24,493 [Worker-39] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-23 15:41:24,980 [New I/O client worker #7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-parent/3.1.1.RELEASE/spring-parent-3.1.1.RELEASE.pom
+2014-03-23 15:41:25,064 [New I/O client worker #7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-parent/3.1.1.RELEASE/spring-parent-3.1.1.RELEASE.pom
+2014-03-23 15:41:29,603 [Worker-39] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-23 15:41:31,098 [New I/O client worker #8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-core/3.1.1.RELEASE/spring-core-3.1.1.RELEASE.pom
+2014-03-23 15:41:31,100 [New I/O client worker #8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-core/3.1.1.RELEASE/spring-core-3.1.1.RELEASE.pom
+2014-03-23 15:41:31,681 [Worker-39] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-23 15:41:32,388 [New I/O client worker #9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-asm/3.1.1.RELEASE/spring-asm-3.1.1.RELEASE.pom
+2014-03-23 15:41:32,389 [New I/O client worker #9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-asm/3.1.1.RELEASE/spring-asm-3.1.1.RELEASE.pom
+2014-03-23 15:41:32,700 [Worker-39] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-23 15:41:33,310 [New I/O client worker #10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-context/3.1.1.RELEASE/spring-context-3.1.1.RELEASE.pom
+2014-03-23 15:41:33,357 [New I/O client worker #10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-context/3.1.1.RELEASE/spring-context-3.1.1.RELEASE.pom
+2014-03-23 15:41:33,653 [Worker-39] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-23 15:41:34,268 [New I/O client worker #11-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-aop/3.1.1.RELEASE/spring-aop-3.1.1.RELEASE.pom
+2014-03-23 15:41:34,271 [New I/O client worker #11-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-aop/3.1.1.RELEASE/spring-aop-3.1.1.RELEASE.pom
+2014-03-23 15:41:34,671 [Worker-39] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-23 15:41:35,357 [New I/O client worker #12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-expression/3.1.1.RELEASE/spring-expression-3.1.1.RELEASE.pom
+2014-03-23 15:41:35,358 [New I/O client worker #12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-expression/3.1.1.RELEASE/spring-expression-3.1.1.RELEASE.pom
+2014-03-23 15:41:35,740 [Worker-39] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-23 15:41:36,405 [New I/O client worker #13-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-jms/3.1.1.RELEASE/spring-jms-3.1.1.RELEASE.pom
+2014-03-23 15:41:36,406 [New I/O client worker #13-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-jms/3.1.1.RELEASE/spring-jms-3.1.1.RELEASE.pom
+2014-03-23 15:41:36,984 [Worker-39] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-23 15:41:38,069 [New I/O client worker #14-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-tx/3.1.1.RELEASE/spring-tx-3.1.1.RELEASE.pom
+2014-03-23 15:41:38,069 [New I/O client worker #14-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-tx/3.1.1.RELEASE/spring-tx-3.1.1.RELEASE.pom
+2014-03-23 15:41:38,378 [Worker-39] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-23 15:41:38,927 [New I/O client worker #15-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/espertech/esperio-springjms/4.11.0/esperio-springjms-4.11.0.jar
+2014-03-23 15:41:39,074 [New I/O client worker #15-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-aop/3.1.1.RELEASE/spring-aop-3.1.1.RELEASE.jar
+2014-03-23 15:41:39,204 [New I/O client worker #15-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/espertech/esper/4.11.0/esper-4.11.0.jar
+2014-03-23 15:41:39,333 [New I/O client worker #15-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-context/3.1.1.RELEASE/spring-context-3.1.1.RELEASE.jar
+2014-03-23 15:41:39,454 [New I/O client worker #15-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-beans/3.1.1.RELEASE/spring-beans-3.1.1.RELEASE.jar
+2014-03-23 15:41:39,576 [New I/O client worker #15-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-expression/3.1.1.RELEASE/spring-expression-3.1.1.RELEASE.jar
+2014-03-23 15:41:39,791 [New I/O client worker #15-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-asm/3.1.1.RELEASE/spring-asm-3.1.1.RELEASE.jar
+2014-03-23 15:41:39,985 [New I/O client worker #15-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-core/3.1.1.RELEASE/spring-core-3.1.1.RELEASE.jar
+2014-03-23 15:41:40,263 [New I/O client worker #15-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-jms/3.1.1.RELEASE/spring-jms-3.1.1.RELEASE.jar
+2014-03-23 15:41:42,207 [New I/O client worker #15-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/espertech/esperio-springjms/4.11.0/esperio-springjms-4.11.0.jar
+2014-03-23 15:41:44,864 [New I/O client worker #15-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-tx/3.1.1.RELEASE/spring-tx-3.1.1.RELEASE.jar
+2014-03-23 15:41:47,185 [New I/O client worker #15-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-asm/3.1.1.RELEASE/spring-asm-3.1.1.RELEASE.jar
+2014-03-23 15:42:12,479 [New I/O client worker #15-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-expression/3.1.1.RELEASE/spring-expression-3.1.1.RELEASE.jar
+2014-03-23 15:42:13,078 [New I/O client worker #15-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-jms/3.1.1.RELEASE/spring-jms-3.1.1.RELEASE.jar
+2014-03-23 15:42:17,599 [New I/O client worker #15-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-tx/3.1.1.RELEASE/spring-tx-3.1.1.RELEASE.jar
+2014-03-23 15:42:17,807 [New I/O client worker #15-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-core/3.1.1.RELEASE/spring-core-3.1.1.RELEASE.jar
+2014-03-23 15:42:22,497 [New I/O client worker #15-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-beans/3.1.1.RELEASE/spring-beans-3.1.1.RELEASE.jar
+2014-03-23 15:42:24,287 [New I/O client worker #15-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-aop/3.1.1.RELEASE/spring-aop-3.1.1.RELEASE.jar
+2014-03-23 15:42:27,059 [New I/O client worker #15-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-context/3.1.1.RELEASE/spring-context-3.1.1.RELEASE.jar
+2014-03-23 15:43:38,896 [New I/O client worker #15-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/espertech/esper/4.11.0/esper-4.11.0.jar
+2014-03-23 15:43:41,682 [Worker-39] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EventProcessingJMS/src/main/java
+2014-03-23 15:43:41,683 [Worker-39] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EventProcessingJMS/src/main/resources
+2014-03-23 15:43:41,683 [Worker-39] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EventProcessingJMS/src/test/java
+2014-03-23 15:43:41,684 [Worker-39] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EventProcessingJMS/src/test/resources
+2014-03-23 15:43:41,856 [Worker-39] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 144 sec
+2014-03-23 15:43:42,071 [Worker-37] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-23 15:43:42,190 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-23 15:43:42,192 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-23 15:43:42,195 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-23 15:43:42,196 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:08:36,908 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:08:36,984 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:08:36,987 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:08:36,988 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:08:42,794 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:08:42,801 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:08:42,805 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:08:42,805 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:09:07,338 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:09:07,339 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:09:07,364 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:09:07,365 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:10:30,630 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:10:30,631 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:10:30,634 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:10:30,634 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:10:34,132 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:10:34,134 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:10:34,136 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:10:34,136 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:10:48,205 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:10:48,207 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:10:48,209 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:10:48,210 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:10:49,343 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:10:49,345 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:10:49,349 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:10:49,349 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:10:51,053 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:10:51,054 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:10:51,060 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:10:51,061 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:43:11,029 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:43:11,030 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:43:11,032 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:43:11,033 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:43:14,144 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:43:14,144 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:43:14,146 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:43:14,147 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:43:22,242 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:43:22,243 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:43:22,245 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:43:22,245 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:43:23,956 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:43:23,957 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:43:23,959 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:43:23,959 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:43:34,586 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:43:34,587 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:43:34,589 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:43:34,589 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:43:39,293 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:43:39,294 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:43:39,296 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:43:39,296 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:46:01,297 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:46:01,298 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:46:01,300 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:46:01,301 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:46:19,806 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:46:19,807 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:46:19,810 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:46:19,810 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:47:04,144 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:47:04,146 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:47:04,150 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:47:04,151 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:48:10,584 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:48:10,586 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:48:10,588 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:48:10,588 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:48:12,715 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:48:12,716 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:48:12,721 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:48:12,722 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:48:18,988 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:48:18,989 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:48:18,991 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:48:18,991 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:48:20,607 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:48:20,608 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:48:20,610 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:48:20,610 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:50:08,843 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:50:08,844 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:50:08,846 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:50:08,847 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:50:12,446 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:50:12,447 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:50:12,448 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:50:12,449 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:50:15,458 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:50:15,459 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:50:15,462 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:50:15,463 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:50:45,810 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:50:45,811 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:50:45,813 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:50:45,813 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:53:24,822 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:53:24,823 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:53:24,827 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:53:24,829 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:53:29,164 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:53:29,164 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:53:29,166 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:53:29,166 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:56:05,040 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:56:05,041 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:56:05,043 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:56:05,043 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:56:13,008 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:56:13,009 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:56:13,011 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:56:13,012 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:56:16,368 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:56:16,369 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:56:16,371 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:56:16,372 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 10:56:42,365 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:56:42,365 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 10:56:42,367 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 10:56:42,368 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 11:02:11,737 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 11:02:11,739 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 11:02:11,740 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 11:02:11,741 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 11:05:31,372 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 11:05:31,373 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 11:05:31,375 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 11:05:31,375 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 11:07:39,128 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 11:07:39,130 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 11:07:39,133 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 11:07:39,134 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 11:07:43,540 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 11:07:43,541 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 11:07:43,542 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 11:07:43,543 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 11:07:51,663 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 11:07:51,663 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 11:07:51,665 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 11:07:51,665 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 11:07:55,275 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 11:07:55,276 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 11:07:55,277 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 11:07:55,278 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 11:34:58,764 [Worker-86] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-25 11:34:58,951 [Worker-86] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:35:01,233 [New I/O client worker #1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0.pom
+2014-03-25 11:35:01,468 [New I/O client worker #1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0.pom
+2014-03-25 11:35:01,642 [Worker-86] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:35:01,965 [New I/O client worker #2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-parent/5.7.0/activemq-parent-5.7.0.pom
+2014-03-25 11:35:02,107 [New I/O client worker #2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-parent/5.7.0/activemq-parent-5.7.0.pom
+2014-03-25 11:35:02,475 [Worker-86] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:35:02,825 [New I/O client worker #3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/activemq/kahadb/5.7.0/kahadb-5.7.0.pom
+2014-03-25 11:35:02,827 [New I/O client worker #3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/activemq/kahadb/5.7.0/kahadb-5.7.0.pom
+2014-03-25 11:35:03,043 [Worker-86] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:35:03,355 [New I/O client worker #4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/activemq/protobuf/activemq-protobuf/1.1/activemq-protobuf-1.1.pom
+2014-03-25 11:35:03,357 [New I/O client worker #4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/activemq/protobuf/activemq-protobuf/1.1/activemq-protobuf-1.1.pom
+2014-03-25 11:35:03,499 [Worker-86] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:35:03,766 [New I/O client worker #5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/activemq/protobuf/activemq-protobuf-pom/1.1/activemq-protobuf-pom-1.1.pom
+2014-03-25 11:35:03,774 [New I/O client worker #5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/activemq/protobuf/activemq-protobuf-pom/1.1/activemq-protobuf-pom-1.1.pom
+2014-03-25 11:35:04,279 [Worker-86] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:35:04,624 [New I/O client worker #6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/fusesource/mqtt-client/mqtt-client/1.3/mqtt-client-1.3.pom
+2014-03-25 11:35:04,625 [New I/O client worker #6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/fusesource/mqtt-client/mqtt-client/1.3/mqtt-client-1.3.pom
+2014-03-25 11:35:04,771 [Worker-86] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:35:05,025 [New I/O client worker #7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/fusesource/mqtt-client/mqtt-client-project/1.3/mqtt-client-project-1.3.pom
+2014-03-25 11:35:05,049 [New I/O client worker #7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/fusesource/mqtt-client/mqtt-client-project/1.3/mqtt-client-project-1.3.pom
+2014-03-25 11:35:05,242 [Worker-86] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:35:05,596 [New I/O client worker #8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/fusesource/hawtdispatch/hawtdispatch-transport/1.11/hawtdispatch-transport-1.11.pom
+2014-03-25 11:35:05,597 [New I/O client worker #8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/fusesource/hawtdispatch/hawtdispatch-transport/1.11/hawtdispatch-transport-1.11.pom
+2014-03-25 11:35:05,731 [Worker-86] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:35:05,994 [New I/O client worker #9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/fusesource/hawtdispatch/hawtdispatch-project/1.11/hawtdispatch-project-1.11.pom
+2014-03-25 11:35:06,016 [New I/O client worker #9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/fusesource/hawtdispatch/hawtdispatch-project/1.11/hawtdispatch-project-1.11.pom
+2014-03-25 11:35:06,163 [Worker-86] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:35:06,425 [New I/O client worker #10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/fusesource/hawtdispatch/hawtdispatch/1.11/hawtdispatch-1.11.pom
+2014-03-25 11:35:06,426 [New I/O client worker #10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/fusesource/hawtdispatch/hawtdispatch/1.11/hawtdispatch-1.11.pom
+2014-03-25 11:35:06,811 [Worker-86] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:35:07,321 [Worker-86] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:35:07,685 [New I/O client worker #12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-net/commons-net/3.1/commons-net-3.1.pom
+2014-03-25 11:35:08,086 [New I/O client worker #12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-net/commons-net/3.1/commons-net-3.1.pom
+2014-03-25 11:35:08,254 [Worker-86] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:35:08,595 [New I/O client worker #13-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/23/commons-parent-23.pom
+2014-03-25 11:35:08,784 [New I/O client worker #13-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/23/commons-parent-23.pom
+2014-03-25 11:35:08,999 [Worker-86] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:35:09,254 [New I/O client worker #14-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jasypt/jasypt/1.9.0/jasypt-1.9.0.pom
+2014-03-25 11:35:09,275 [New I/O client worker #14-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jasypt/jasypt/1.9.0/jasypt-1.9.0.pom
+2014-03-25 11:35:09,442 [Worker-86] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:35:09,765 [New I/O client worker #15-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0.jar
+2014-03-25 11:35:09,805 [New I/O client worker #15-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/fusesource/mqtt-client/mqtt-client/1.3/mqtt-client-1.3.jar
+2014-03-25 11:35:09,818 [New I/O client worker #15-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/activemq/kahadb/5.7.0/kahadb-5.7.0.jar
+2014-03-25 11:35:09,864 [New I/O client worker #15-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/activemq/protobuf/activemq-protobuf/1.1/activemq-protobuf-1.1.jar
+2014-03-25 11:35:09,887 [New I/O client worker #15-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/fusesource/hawtdispatch/hawtdispatch-transport/1.11/hawtdispatch-transport-1.11.jar
+2014-03-25 11:35:09,941 [New I/O client worker #15-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-net/commons-net/3.1/commons-net-3.1.jar
+2014-03-25 11:35:09,975 [New I/O client worker #15-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jasypt/jasypt/1.9.0/jasypt-1.9.0.jar
+2014-03-25 11:35:10,018 [New I/O client worker #15-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/fusesource/hawtdispatch/hawtdispatch/1.11/hawtdispatch-1.11.jar
+2014-03-25 11:35:11,618 [New I/O client worker #15-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/fusesource/mqtt-client/mqtt-client/1.3/mqtt-client-1.3.jar
+2014-03-25 11:35:11,933 [New I/O client worker #15-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/activemq/protobuf/activemq-protobuf/1.1/activemq-protobuf-1.1.jar
+2014-03-25 11:35:11,965 [New I/O client worker #15-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/fusesource/hawtdispatch/hawtdispatch-transport/1.11/hawtdispatch-transport-1.11.jar
+2014-03-25 11:35:12,304 [New I/O client worker #15-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jasypt/jasypt/1.9.0/jasypt-1.9.0.jar
+2014-03-25 11:35:12,375 [New I/O client worker #15-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/fusesource/hawtdispatch/hawtdispatch/1.11/hawtdispatch-1.11.jar
+2014-03-25 11:35:12,464 [New I/O client worker #15-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/activemq/kahadb/5.7.0/kahadb-5.7.0.jar
+2014-03-25 11:35:13,319 [New I/O client worker #15-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-net/commons-net/3.1/commons-net-3.1.jar
+2014-03-25 11:35:22,084 [New I/O client worker #15-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0.jar
+2014-03-25 11:35:25,699 [Worker-78] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-25 11:35:25,859 [Worker-78] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-25 11:35:26,009 [Worker-78] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-25 11:35:27,274 [Worker-86] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-25 11:35:33,648 [Worker-78] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-25 11:35:39,178 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 11:35:39,253 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-03-25 11:35:39,256 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 11:35:39,257 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 11:37:35,924 [Worker-90] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-25 11:37:36,029 [Worker-90] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:37:37,584 [New I/O client worker #16-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-broker/5.9.0/activemq-broker-5.9.0.pom
+2014-03-25 11:37:37,624 [New I/O client worker #16-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-broker/5.9.0/activemq-broker-5.9.0.pom
+2014-03-25 11:37:37,759 [Worker-90] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:37:38,094 [New I/O client worker #17-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-parent/5.9.0/activemq-parent-5.9.0.pom
+2014-03-25 11:37:38,285 [New I/O client worker #17-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-parent/5.9.0/activemq-parent-5.9.0.pom
+2014-03-25 11:37:38,443 [Worker-90] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:37:38,715 [New I/O client worker #18-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-client/5.9.0/activemq-client-5.9.0.pom
+2014-03-25 11:37:38,729 [New I/O client worker #18-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-client/5.9.0/activemq-client-5.9.0.pom
+2014-03-25 11:37:39,088 [Worker-90] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:37:39,374 [New I/O client worker #19-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-openwire-legacy/5.9.0/activemq-openwire-legacy-5.9.0.pom
+2014-03-25 11:37:39,375 [New I/O client worker #19-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-openwire-legacy/5.9.0/activemq-openwire-legacy-5.9.0.pom
+2014-03-25 11:37:39,534 [Worker-90] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:37:39,854 [New I/O client worker #20-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-broker/5.9.0/activemq-broker-5.9.0.jar
+2014-03-25 11:37:39,904 [New I/O client worker #20-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-client/5.9.0/activemq-client-5.9.0.jar
+2014-03-25 11:37:39,945 [New I/O client worker #20-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-openwire-legacy/5.9.0/activemq-openwire-legacy-5.9.0.jar
+2014-03-25 11:37:44,367 [New I/O client worker #20-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-openwire-legacy/5.9.0/activemq-openwire-legacy-5.9.0.jar
+2014-03-25 11:37:45,315 [New I/O client worker #20-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-broker/5.9.0/activemq-broker-5.9.0.jar
+2014-03-25 11:37:46,565 [New I/O client worker #20-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-client/5.9.0/activemq-client-5.9.0.jar
+2014-03-25 11:37:48,108 [Worker-78] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-25 11:37:54,566 [Worker-88] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-25 11:37:54,696 [Worker-88] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:37:55,065 [New I/O client worker #21-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-pool/5.9.0/activemq-pool-5.9.0.pom
+2014-03-25 11:37:55,066 [New I/O client worker #21-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-pool/5.9.0/activemq-pool-5.9.0.pom
+2014-03-25 11:37:55,210 [Worker-88] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:37:55,474 [New I/O client worker #22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-jms-pool/5.9.0/activemq-jms-pool-5.9.0.pom
+2014-03-25 11:37:55,475 [New I/O client worker #22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-jms-pool/5.9.0/activemq-jms-pool-5.9.0.pom
+2014-03-25 11:37:55,663 [Worker-88] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:37:55,934 [New I/O client worker #23-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.0.1B_spec/1.0.1/geronimo-jta_1.0.1B_spec-1.0.1.pom
+2014-03-25 11:37:55,934 [New I/O client worker #23-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.0.1B_spec/1.0.1/geronimo-jta_1.0.1B_spec-1.0.1.pom
+2014-03-25 11:37:56,079 [Worker-88] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:37:56,455 [New I/O client worker #24-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/specs/1.1/specs-1.1.pom
+2014-03-25 11:37:56,485 [New I/O client worker #24-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/specs/1.1/specs-1.1.pom
+2014-03-25 11:37:56,856 [Worker-88] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:37:57,354 [Worker-88] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:37:57,674 [New I/O client worker #26-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-pool/commons-pool/1.6/commons-pool-1.6.pom
+2014-03-25 11:37:57,699 [New I/O client worker #26-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-pool/commons-pool/1.6/commons-pool-1.6.pom
+2014-03-25 11:37:57,896 [Worker-88] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:37:58,204 [New I/O client worker #27-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-pool/5.9.0/activemq-pool-5.9.0.jar
+2014-03-25 11:37:58,238 [New I/O client worker #27-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-jms-pool/5.9.0/activemq-jms-pool-5.9.0.jar
+2014-03-25 11:37:58,274 [New I/O client worker #27-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.0.1B_spec/1.0.1/geronimo-jta_1.0.1B_spec-1.0.1.jar
+2014-03-25 11:37:58,306 [New I/O client worker #27-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-pool/commons-pool/1.6/commons-pool-1.6.jar
+2014-03-25 11:37:58,354 [New I/O client worker #27-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-pool/5.9.0/activemq-pool-5.9.0.jar
+2014-03-25 11:37:58,419 [New I/O client worker #27-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/activemq/activemq-jms-pool/5.9.0/activemq-jms-pool-5.9.0.jar
+2014-03-25 11:37:58,424 [New I/O client worker #27-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.0.1B_spec/1.0.1/geronimo-jta_1.0.1B_spec-1.0.1.jar
+2014-03-25 11:37:58,673 [New I/O client worker #27-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-pool/commons-pool/1.6/commons-pool-1.6.jar
+2014-03-25 11:38:00,586 [Worker-91] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-25 11:38:16,221 [Worker-92] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-25 11:38:35,445 [Worker-78] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-25 11:38:50,649 [Worker-78] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-25 11:40:00,863 [Worker-78] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-25 11:40:00,865 [Worker-78] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:40:02,190 [New I/O client worker #28-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-context/4.0.2.RELEASE/spring-context-4.0.2.RELEASE.pom
+2014-03-25 11:40:02,191 [New I/O client worker #28-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-context/4.0.2.RELEASE/spring-context-4.0.2.RELEASE.pom
+2014-03-25 11:40:02,345 [Worker-78] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:40:02,657 [New I/O client worker #29-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.0.2.RELEASE/spring-aop-4.0.2.RELEASE.pom
+2014-03-25 11:40:02,657 [New I/O client worker #29-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.0.2.RELEASE/spring-aop-4.0.2.RELEASE.pom
+2014-03-25 11:40:02,815 [Worker-78] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:40:03,127 [New I/O client worker #30-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.0.2.RELEASE/spring-beans-4.0.2.RELEASE.pom
+2014-03-25 11:40:03,128 [New I/O client worker #30-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.0.2.RELEASE/spring-beans-4.0.2.RELEASE.pom
+2014-03-25 11:40:03,274 [Worker-78] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:40:03,547 [New I/O client worker #31-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-core/4.0.2.RELEASE/spring-core-4.0.2.RELEASE.pom
+2014-03-25 11:40:03,548 [New I/O client worker #31-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-core/4.0.2.RELEASE/spring-core-4.0.2.RELEASE.pom
+2014-03-25 11:40:03,694 [Worker-78] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:40:04,027 [New I/O client worker #32-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom
+2014-03-25 11:40:04,100 [New I/O client worker #32-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom
+2014-03-25 11:40:04,254 [Worker-78] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:40:04,569 [New I/O client worker #33-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
+2014-03-25 11:40:04,729 [New I/O client worker #33-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
+2014-03-25 11:40:04,943 [Worker-78] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:40:05,218 [New I/O client worker #34-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.0.2.RELEASE/spring-expression-4.0.2.RELEASE.pom
+2014-03-25 11:40:05,218 [New I/O client worker #34-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.0.2.RELEASE/spring-expression-4.0.2.RELEASE.pom
+2014-03-25 11:40:05,508 [Worker-78] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:40:05,848 [New I/O client worker #35-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.0.2.RELEASE/spring-aop-4.0.2.RELEASE.jar
+2014-03-25 11:40:05,889 [New I/O client worker #35-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-context/4.0.2.RELEASE/spring-context-4.0.2.RELEASE.jar
+2014-03-25 11:40:05,909 [New I/O client worker #35-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-core/4.0.2.RELEASE/spring-core-4.0.2.RELEASE.jar
+2014-03-25 11:40:05,960 [New I/O client worker #35-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.0.2.RELEASE/spring-expression-4.0.2.RELEASE.jar
+2014-03-25 11:40:06,059 [New I/O client worker #35-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.0.2.RELEASE/spring-beans-4.0.2.RELEASE.jar
+2014-03-25 11:40:08,389 [New I/O client worker #35-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.0.2.RELEASE/spring-expression-4.0.2.RELEASE.jar
+2014-03-25 11:40:08,649 [New I/O client worker #35-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.0.2.RELEASE/spring-aop-4.0.2.RELEASE.jar
+2014-03-25 11:40:12,541 [New I/O client worker #35-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.0.2.RELEASE/spring-beans-4.0.2.RELEASE.jar
+2014-03-25 11:40:12,701 [New I/O client worker #35-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-context/4.0.2.RELEASE/spring-context-4.0.2.RELEASE.jar
+2014-03-25 11:40:13,148 [New I/O client worker #35-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-core/4.0.2.RELEASE/spring-core-4.0.2.RELEASE.jar
+2014-03-25 11:40:14,876 [Worker-91] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-25 11:40:31,829 [Worker-95] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-25 11:40:31,987 [Worker-95] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:40:33,330 [New I/O client worker #36-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar
+2014-03-25 11:40:33,538 [New I/O client worker #36-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar
+2014-03-25 11:40:46,501 [Worker-78] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-25 11:40:47,713 [Worker-78] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-25 11:40:59,989 [Worker-95] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-25 11:41:00,003 [Worker-95] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:41:00,315 [New I/O client worker #37-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-jms/4.0.2.RELEASE/spring-jms-4.0.2.RELEASE.pom
+2014-03-25 11:41:00,316 [New I/O client worker #37-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-jms/4.0.2.RELEASE/spring-jms-4.0.2.RELEASE.pom
+2014-03-25 11:41:00,448 [Worker-95] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:41:00,694 [New I/O client worker #38-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.0.2.RELEASE/spring-tx-4.0.2.RELEASE.pom
+2014-03-25 11:41:00,694 [New I/O client worker #38-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.0.2.RELEASE/spring-tx-4.0.2.RELEASE.pom
+2014-03-25 11:41:00,954 [Worker-95] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-03-25 11:41:01,263 [New I/O client worker #39-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.0.2.RELEASE/spring-tx-4.0.2.RELEASE.jar
+2014-03-25 11:41:01,309 [New I/O client worker #39-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-jms/4.0.2.RELEASE/spring-jms-4.0.2.RELEASE.jar
+2014-03-25 11:41:02,303 [New I/O client worker #39-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-jms/4.0.2.RELEASE/spring-jms-4.0.2.RELEASE.jar
+2014-03-25 11:41:02,333 [New I/O client worker #39-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.0.2.RELEASE/spring-tx-4.0.2.RELEASE.jar
+2014-03-25 11:41:03,815 [Worker-95] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-25 13:25:41,953 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 13:25:42,018 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-03-25 13:25:42,042 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 13:25:42,042 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 13:28:50,947 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 13:28:50,955 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 13:28:50,962 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 13:28:50,963 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 13:28:54,678 [Worker-29] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-25 13:28:55,045 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 13:28:55,047 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-03-25 13:28:55,050 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 13:28:55,051 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 13:29:42,733 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 13:29:42,736 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 13:29:42,742 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 13:29:42,743 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 14:24:31,479 [ModalContext] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit does not contain lifecycle mapping metadata
+2014-03-25 14:24:31,480 [ModalContext] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive does not contain lifecycle mapping metadata
+2014-03-25 14:24:31,481 [ModalContext] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subclipse does not contain lifecycle mapping metadata
+2014-03-25 14:25:38,029 [Worker-37] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:VLSDataServices:0.0.1-SNAPSHOT @ /media/shaf3y/X86_710/Juniors Training/Server Side Developement/DevelopmentWS/VLS/VLSDataServices/pom.xml.
+2014-03-25 14:25:42,605 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /VLSDataServices/src/main/java
+2014-03-25 14:25:42,606 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /VLSDataServices/src/main/resources overlaps with sources folder /VLSDataServices/src/main/resources
+2014-03-25 14:25:42,607 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /VLSDataServices/src/test/java
+2014-03-25 14:25:43,750 [Worker-37] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Project import completed 69 sec
+2014-03-25 14:25:44,431 [Worker-33] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2014-03-25 14:25:44,431 [Worker-33] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2014-03-25 14:25:45,445 [Worker-41] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:VLSDataServices:0.0.1-SNAPSHOT @ /media/shaf3y/X86_710/Juniors Training/Server Side Developement/DevelopmentWS/VLS/VLSDataServices/pom.xml.
+2014-03-25 14:25:45,615 [Worker-41] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:VLSDataServices:0.0.1-SNAPSHOT @ /media/shaf3y/X86_710/Juniors Training/Server Side Developement/DevelopmentWS/VLS/VLSDataServices/pom.xml.
+2014-03-25 14:25:47,069 [Worker-36] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:VLSDataServices:0.0.1-SNAPSHOT @ /media/shaf3y/X86_710/Juniors Training/Server Side Developement/DevelopmentWS/VLS/VLSDataServices/pom.xml.
+2014-03-25 14:25:47,274 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-03-25 14:25:47,277 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2014-03-25 14:25:47,316 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-03-25 14:25:47,316 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/shaf3y/X86_710/Juniors Training/Server Side Developement/DevelopmentWS/VLS/VLSDataServices/src/test/resources
+2014-03-25 14:25:48,530 [Worker-27] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:VLSDataServices:0.0.1-SNAPSHOT @ /media/shaf3y/X86_710/Juniors Training/Server Side Developement/DevelopmentWS/VLS/VLSDataServices/pom.xml.
+2014-03-25 14:25:48,666 [Worker-27] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:VLSDataServices:0.0.1-SNAPSHOT @ /media/shaf3y/X86_710/Juniors Training/Server Side Developement/DevelopmentWS/VLS/VLSDataServices/pom.xml.
+2014-03-25 14:26:53,923 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 14:26:53,924 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 14:26:53,926 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 14:26:53,927 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 14:26:53,982 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-03-25 14:26:53,993 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2014-03-25 14:26:53,996 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-03-25 14:26:53,996 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/shaf3y/X86_710/Juniors Training/Server Side Developement/DevelopmentWS/VLS/VLSDataServices/src/test/resources
+2014-03-25 14:27:30,145 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-03-25 14:27:30,148 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2014-03-25 14:27:30,151 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-03-25 14:27:30,152 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/shaf3y/X86_710/Juniors Training/Server Side Developement/DevelopmentWS/VLS/VLSDataServices/src/test/resources
+2014-03-25 14:27:34,588 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-03-25 14:27:34,589 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 14:27:34,596 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-03-25 14:27:34,596 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/shaf3y/X86_710/Juniors Training/Server Side Developement/DevelopmentWS/VLS/VLSDataServices/src/test/resources
+2014-03-25 14:28:03,571 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-03-25 14:28:03,571 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 14:28:03,574 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-03-25 14:28:03,574 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/shaf3y/X86_710/Juniors Training/Server Side Developement/DevelopmentWS/VLS/VLSDataServices/src/test/resources
+2014-03-25 14:29:07,055 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-03-25 14:29:07,056 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 14:29:07,061 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-03-25 14:29:07,061 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/shaf3y/X86_710/Juniors Training/Server Side Developement/DevelopmentWS/VLS/VLSDataServices/src/test/resources
+2014-03-25 14:29:37,221 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-03-25 14:29:37,222 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-03-25 14:29:37,228 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-03-25 14:29:37,228 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/shaf3y/X86_710/Juniors Training/Server Side Developement/DevelopmentWS/VLS/VLSDataServices/src/test/resources
+2014-03-25 14:29:47,006 [Worker-41] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:EventProcessingJMS:0.0.1-SNAPSHOT @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml.
+2014-03-25 14:29:47,344 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 14:29:47,345 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-03-25 14:29:47,347 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 14:29:47,347 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 14:29:47,558 [Worker-41] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:VLSDataServices:0.0.1-SNAPSHOT @ /media/shaf3y/X86_710/Juniors Training/Server Side Developement/DevelopmentWS/VLS/VLSDataServices/pom.xml.
+2014-03-25 14:29:47,680 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-03-25 14:29:47,680 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2014-03-25 14:29:47,696 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-03-25 14:29:47,696 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/shaf3y/X86_710/Juniors Training/Server Side Developement/DevelopmentWS/VLS/VLSDataServices/src/test/resources
+2014-03-25 14:30:15,254 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 14:30:15,269 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-03-25 14:30:15,278 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-03-25 14:30:15,279 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-03-25 14:30:16,599 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-03-25 14:30:16,602 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2014-03-25 14:30:16,605 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-03-25 14:30:16,606 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/shaf3y/X86_710/Juniors Training/Server Side Developement/DevelopmentWS/VLS/VLSDataServices/src/test/resources
+2014-03-25 15:35:21,016 [Worker-16] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration App references closed project VLSDataServices
+org.eclipse.core.runtime.CoreException: Launch configuration App references closed project VLSDataServices
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1397) ~[org.eclipse.jdt.launching_3.6.101.v20130111-183046.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1269) ~[org.eclipse.jdt.launching_3.6.101.v20130111-183046.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:52) [org.eclipse.m2e.jdt_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:37) [org.eclipse.m2e.jdt_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:228) [org.eclipse.debug.core_3.7.100.v20120521-2012.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.100.v20120522-1841.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.7.100.v20120521-2012.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:538) [org.eclipse.debug.core_3.7.100.v20120521-2012.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:419) [org.eclipse.debug.core_3.7.100.v20120521-2012.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:316) [org.eclipse.m2e.jdt_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:342) [org.eclipse.m2e.jdt_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:69) [org.eclipse.m2e.jdt_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:729) [org.eclipse.m2e.core_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:852) [org.eclipse.m2e.core_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:93) [org.eclipse.m2e.core_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.5.200.v20120521-2346.jar:na]
+2014-03-25 15:35:21,019 [Worker-16] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration App references closed project VLSDataServices
+org.eclipse.core.runtime.CoreException: Launch configuration App references closed project VLSDataServices
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1397) ~[org.eclipse.jdt.launching_3.6.101.v20130111-183046.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1269) ~[org.eclipse.jdt.launching_3.6.101.v20130111-183046.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:52) [org.eclipse.m2e.jdt_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:37) [org.eclipse.m2e.jdt_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:228) [org.eclipse.debug.core_3.7.100.v20120521-2012.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.100.v20120522-1841.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.7.100.v20120521-2012.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:538) [org.eclipse.debug.core_3.7.100.v20120521-2012.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:419) [org.eclipse.debug.core_3.7.100.v20120521-2012.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:317) [org.eclipse.m2e.jdt_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:342) [org.eclipse.m2e.jdt_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:69) [org.eclipse.m2e.jdt_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:729) [org.eclipse.m2e.core_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:852) [org.eclipse.m2e.core_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:93) [org.eclipse.m2e.core_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.5.200.v20120521-2346.jar:na]
+2014-03-25 15:35:21,025 [Worker-16] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration App references closed project VLSDataServices
+org.eclipse.core.runtime.CoreException: Launch configuration App references closed project VLSDataServices
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1397) ~[org.eclipse.jdt.launching_3.6.101.v20130111-183046.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1269) ~[org.eclipse.jdt.launching_3.6.101.v20130111-183046.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:52) [org.eclipse.m2e.jdt_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:37) [org.eclipse.m2e.jdt_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:228) [org.eclipse.debug.core_3.7.100.v20120521-2012.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.100.v20120522-1841.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.7.100.v20120521-2012.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2141) [org.eclipse.debug.core_3.7.100.v20120521-2012.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:380) [org.eclipse.debug.core_3.7.100.v20120521-2012.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:246) [org.eclipse.debug.core_3.7.100.v20120521-2012.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:216) [org.eclipse.debug.core_3.7.100.v20120521-2012.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:170) [org.eclipse.debug.core_3.7.100.v20120521-2012.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:318) [org.eclipse.m2e.jdt_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:342) [org.eclipse.m2e.jdt_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:69) [org.eclipse.m2e.jdt_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:729) [org.eclipse.m2e.core_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:852) [org.eclipse.m2e.core_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:93) [org.eclipse.m2e.core_1.2.0.20120903-1050.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.5.200.v20120521-2346.jar:na]
