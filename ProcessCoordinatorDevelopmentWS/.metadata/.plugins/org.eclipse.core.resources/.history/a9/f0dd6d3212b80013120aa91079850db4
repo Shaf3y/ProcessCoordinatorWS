@@ -1,0 +1,10 @@
+package com.marisoft.ziba.jms;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class MessageProducer {
+
+	
+
+}

@@ -1,0 +1,12 @@
+package com.marisoft.ziba;
+
+public class EsperApp {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}

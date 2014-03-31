@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esper-configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.espertech.com/schema/esper"
+    xsi:noNamespaceSchemaLocation="esper-configuration-4-0.xsd">
+  
+  <plugin-loader name="MyLoader" class-name="com.espertech.esperio.SpringContextLoader">
+    
+    <!-- SpringApplicationContext translates into Spring ClassPathXmlApplicationContext 
+           or FileSystemXmlApplicationContext. Only one app-context of a sort can be used. 
+           When both attributes are used classpath and file, classpath prevails -->
+    
+    <init-arg name="classpath-app-context" value="spring\jms-spring.xml" />
+    <!-- <init-arg name="file-app-context" value="spring\jms-spring.xml" /> -->
+  
+  	<!-- Event Types -->
+  </plugin-loader>
+  
+  
+
+</esper-configuration>

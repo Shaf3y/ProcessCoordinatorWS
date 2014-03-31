@@ -1,0 +1,8 @@
+package com.marisoft.ziba.jms;
+
+import javax.jms.ExceptionListener;
+
+public class JmsExceptionListener implements ExceptionListener {
+
+	
+}

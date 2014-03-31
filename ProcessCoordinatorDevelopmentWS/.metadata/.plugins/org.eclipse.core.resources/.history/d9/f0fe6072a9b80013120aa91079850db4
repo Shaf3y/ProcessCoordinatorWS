@@ -1,0 +1,6 @@
+package com.marisoft.ziba.jms;
+
+public class JmsExceptionListener {
+
+	
+}

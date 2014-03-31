@@ -1,0 +1,26 @@
+package com.marisoft.ziba.jms;
+
+import java.util.concurrent.atomic.AtomicInteger;
+
+import javax.jms.Message;
+import javax.jms.MessageListener;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class JmsMessageListener implements MessageListener {
+
+	@Autowired
+	private AtomicInteger counter;
+	
+	public void onMessage(Message message) {
+		try {
+			
+		} catch (Exception ex) {
+			
+		}
+	}
+
+
+}

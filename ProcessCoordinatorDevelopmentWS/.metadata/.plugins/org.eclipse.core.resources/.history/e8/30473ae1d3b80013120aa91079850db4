@@ -1,0 +1,9 @@
+package com.marisoft.ziba.jms;
+
+import com.espertech.esper.client.UpdateListener;
+
+public class MyInputEventListener implements UpdateListener {
+
+	public void update(com.espertech.esper.client.EventBean[] newEvents, com.espertech.esper.client.EventBean[] oldEvents) {};
+
+}

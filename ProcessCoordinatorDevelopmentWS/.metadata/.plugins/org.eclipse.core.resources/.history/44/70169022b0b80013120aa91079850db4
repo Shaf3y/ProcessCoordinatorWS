@@ -1,0 +1,15 @@
+package com.marisoft.ziba;
+
+import com.espertech.esper.client.Configuration;
+
+public class EsperApp {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Configuration configuration = new Configuration();
+		configuration.configure();
+	}
+
+}
