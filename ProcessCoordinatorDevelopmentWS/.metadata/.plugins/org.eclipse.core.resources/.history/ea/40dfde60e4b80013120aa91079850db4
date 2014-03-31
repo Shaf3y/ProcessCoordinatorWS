@@ -1,0 +1,13 @@
+package com.marisoft.ziba.bpm.coordinator;
+
+public class EventBasedBPCoordinator {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

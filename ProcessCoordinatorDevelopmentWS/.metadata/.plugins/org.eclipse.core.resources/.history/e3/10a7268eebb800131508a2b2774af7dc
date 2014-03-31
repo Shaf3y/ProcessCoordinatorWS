@@ -1,0 +1,9 @@
+package com.marisoft.ziba.bpm.coordinator;
+
+/** 
+ * @author shaf3y
+ *
+ */
+public interface IBPCoordinator {
+
+}
