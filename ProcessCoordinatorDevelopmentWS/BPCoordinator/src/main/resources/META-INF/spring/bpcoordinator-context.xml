@@ -17,8 +17,20 @@
 	<context:annotation-config/>
 	<context:component-scan base-package="com.marisoft.ziba.bpm"/>
 	
-	<!-- AMQ Connection Factory -->
-	<amq:connectionFactory id="connectionFactory" brokerURL="tcp://localhost:61616" userName="admin" password="admin"/>
+	<bean id="jmsExceptionListener" class="com.marisoft.ziba.bpm.coordinator.jms.JmsExceptionListener"/>
+	<bean id="eventBasedBPCoordinator" class="com.marisoft.ziba.bpm.coordinator.jms"/>
 	
-	<bean id="jmsConnectionFactory" class=""></bean>
+	<!-- AMQ Connection Factory -->
+	<amq:connectionFactory id="amqConnectionFactory" brokerURL="tcp://localhost:61616" userName="admin" password="admin"/>
+	
+	<!-- JmsConnection Factory Configuration -->
+	<bean id="jmsConnectionFactory" class="org.springframework.jms.connection.CachingConnectionFactory">
+		<constructor-arg ref="amqConnectionFactory"/>
+		<property name="exceptionListener" ref="jmsExceptionListener"/>
+		<property name="sessionCacheSize" value="100"/>
+	</bean>
+	
+	<jms:listener-container container-type="default" connection-factory="jmsConnectionFactory" acknowledge="auto">
+		<jms:listener destination="BPCoordinator-QUEUE" ref=""/>
+	</jms:listener-container>
 </beans>

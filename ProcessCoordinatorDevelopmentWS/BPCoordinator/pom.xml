@@ -7,6 +7,7 @@
 	<name>BusinessProcessCoordinator</name>
 
 	<dependencies>
+		
 		<!-- Spring Framework Dependencies -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -36,6 +37,31 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-jms</artifactId>
 			<version>4.0.2.RELEASE</version>
+		</dependency>
+		
+		<!-- ActiveMQ Dependencies -->
+		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>activemq-core</artifactId>
+			<version>5.7.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>activemq-broker</artifactId>
+			<version>5.9.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>activemq-pool</artifactId>
+			<version>5.9.0</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.xbean</groupId>
+			<artifactId>xbean-spring</artifactId>
+			<version>3.16</version>
 		</dependency>
 		
 	</dependencies>

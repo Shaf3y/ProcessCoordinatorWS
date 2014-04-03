@@ -31,6 +31,11 @@
 		<constructor-arg value="ESPER-QUEUE"/>
 	</bean>
 	
+	<!-- BPCoordinator Destination -->
+	<bean id="bpCoordinatorDest" class="org.apache.activemq.command.ActiveMQQueue">
+		<constructor-arg value="BPCoordinator-QUEUE"/>
+	</bean>
+	
 	<!-- Spring JMS Template For ActiveMQ -->
 	<bean id="jmsActiveMQTemplate" class="org.springframework.jms.core.JmsTemplate">
 		<property name="connectionFactory" ref="jmsActiveMQFactory"/>

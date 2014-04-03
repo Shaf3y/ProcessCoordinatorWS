@@ -1,0 +1,8 @@
+package com.marisoft.ziba.cep;
+
+import com.espertech.esper.client.UpdateListener;
+
+public class BProcessEventListener implements UpdateListener {
+	
+
+}

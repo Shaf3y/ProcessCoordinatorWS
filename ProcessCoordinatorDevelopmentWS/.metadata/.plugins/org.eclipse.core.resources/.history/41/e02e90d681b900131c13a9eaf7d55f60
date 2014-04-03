@@ -1,0 +1,7 @@
+package com.marisoft.ziba.bpm.coordinator.jms;
+
+import javax.jms.MessageListener;
+
+public class BPCoordinatorJMSListener implements MessageListener{
+	
+}

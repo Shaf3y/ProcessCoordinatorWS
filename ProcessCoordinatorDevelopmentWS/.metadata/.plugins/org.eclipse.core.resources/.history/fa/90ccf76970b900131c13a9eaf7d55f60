@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esper-configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.espertech.com/schema/esper"
+	xsi:schemaLocation="http://www.espertech.com/schema/esper http://www.espertech.com/schema/esper/esper-configuration-4-0.xsd">
+
+
+	<plugin-loader name="loader" class-name="com.espertech.esperio.SpringContextLoader">
+		<init-arg name="classpath-app-context" value="META-INF/spring/esper-jms-spring.xml" />		
+	</plugin-loader>
+
+	<!-- Event Types -->
+	<event-type name="MyInputEvent">
+		<java-util-map>
+			<map-property name="text" class="String"/>
+			<map-property name="count" class="int"/>
+		</java-util-map>
+	</event-type>
+	
+	<event-type name="MyOutputStream">
+		<java-util-map>
+			<map-property name="assetId" class="String"/>
+			<map-property name="zone" class="int"/>
+		</java-util-map>
+	</event-type>
+	
+	
+
+</esper-configuration>

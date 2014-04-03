@@ -1,0 +1,9 @@
+package com.marisoft.ziba.bpm.coordinator.jms;
+
+import javax.jms.ExceptionListener;
+
+
+public class JmsExceptionListener implements ExceptionListener {
+
+
+}

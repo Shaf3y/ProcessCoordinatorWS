@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="68" version="2.0">
+<workbench progressCount="42" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="0" y="0">
 <fastViewData fastViewLocation="1024">
@@ -21,7 +21,7 @@
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="156" y="34"/>
 <coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="44" y="34"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="72" y="34"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="44" y="34"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
@@ -44,29 +44,19 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
-<part id="3"/>
-<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.m2e.editor.MavenPomEditor" name="pom.xml" partName="EventProcessingJMS/pom.xml" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/pom.xml" title="EventProcessingJMS/pom.xml" tooltip="EventProcessingJMS/pom.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EventProcessingJMS/pom.xml"/>
-</editor>
 <editor id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" name="Dashboard" partName="Dashboard" title="Dashboard" tooltip="Dashboard" workbook="DefaultEditorWorkbook">
 <input factoryID="org.springsource.ide.eclipse.dashboard.ui.dashboard.elementFactory" openDashboard="true"/>
 </editor>
-<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="jms-spring.xml" partName="jms-spring.xml" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/src/main/resources/META-INF/Spring/jms-spring.xml" title="jms-spring.xml" tooltip="EventProcessingJMS/src/main/resources/META-INF/Spring/jms-spring.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EventProcessingJMS/src/main/resources/META-INF/Spring/jms-spring.xml"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4064" selectionTopPixel="840"/>
+<editor id="org.eclipse.m2e.editor.MavenPomEditor" name="pom.xml" partName="JMSProducer/pom.xml" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/JMSProducer/pom.xml" title="JMSProducer/pom.xml" tooltip="JMSProducer/pom.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JMSProducer/pom.xml"/>
 </editor>
-<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="esper-config.xml" partName="esper-config.xml" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/src/main/resources/META-INF/esper-config.xml" title="esper-config.xml" tooltip="EventProcessingJMS/src/main/resources/META-INF/esper-config.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EventProcessingJMS/src/main/resources/META-INF/esper-config.xml"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1023" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EventProcessingJMS/src/main/java/com/marisoft/ziba/Main.java" title="Main.java" tooltip="EventProcessingJMS/src/main/java/com/marisoft/ziba/Main.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EventProcessingJMS/src/main/java/com/marisoft/ziba/Main.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IBPCoordinator.java" partName="IBPCoordinator.java" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/IBPCoordinator.java" title="IBPCoordinator.java" tooltip="BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/IBPCoordinator.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/IBPCoordinator.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="299" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -294,10 +284,6 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.m2e.editor.MavenPomEditor" path="/EventProcessingJMS/pom.xml"/>
-<editor factoryID="org.springsource.ide.eclipse.dashboard.ui.dashboard.elementFactory" id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" openDashboard="true"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/EventProcessingJMS/src/main/resources/META-INF/Spring/application-context.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/EventProcessingJMS/src/main/resources/META-INF/esper-config.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/EventProcessingJMS/src/main/resources/META-INF/Spring/jms-spring.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/EventProcessingJMS/src/main/resources/META-INF/Spring/jms-spring.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/EventProcessingJMS/src/main/resources/META-INF/Spring/jms-spring.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/VLSDataServices/src/main/java/com/marisoft/vls/App.java"/>
@@ -316,116 +302,138 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/EventProcessingJMS/src/main/resources/META-INF/esper-config.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/EventProcessingJMS/src/main/resources/META-INF/Spring/jms-spring.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EventProcessingJMS/src/main/java/com/marisoft/ziba/Main.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.m2e.editor.MavenPomEditor" path="/EventProcessingJMS/pom.xml"/>
+<editor factoryID="org.springsource.ide.eclipse.dashboard.ui.dashboard.elementFactory" id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" openDashboard="true"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.m2e.editor.MavenPomEditor" path="/JMSProducer/pom.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/IBPCoordinator.java"/>
 </editors>
-<item historyLabel="EventProcessingJMS/pom.xml" index="0"/>
-<item historyLabel="Dashboard" index="1"/>
-<item historyLabel="EventProcessingJMS/pom.xml" index="0"/>
-<item historyLabel="application-context.xml" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="esper-config.xml" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="jms-spring.xml" index="4">
-<position info="not_deleted" x="2306" y="0"/>
-</item>
-<item historyLabel="esper-config.xml" index="3">
-<position info="not_deleted" x="820" y="0"/>
-</item>
-<item historyLabel="jms-spring.xml" index="5">
+<item historyLabel="jms-spring.xml" index="1">
 <position/>
 </item>
 <item historyLabel="EventProcessingJMS/pom.xml" index="0"/>
-<item historyLabel="jms-spring.xml" index="5">
+<item historyLabel="jms-spring.xml" index="1">
 <position info="not_deleted" x="1176" y="0"/>
 </item>
 <item historyLabel="EventProcessingJMS/pom.xml" index="0"/>
-<item historyLabel="jms-spring.xml" index="5">
+<item historyLabel="jms-spring.xml" index="1">
 <position info="not_deleted" x="1175" y="0"/>
 </item>
-<item historyLabel="jms-spring.xml" index="6">
+<item historyLabel="jms-spring.xml" index="2">
 <position info="not_deleted" x="2195" y="0"/>
 </item>
-<item historyLabel="jms-spring.xml" index="6">
+<item historyLabel="jms-spring.xml" index="2">
 <position info="not_deleted" x="1981" y="17"/>
 </item>
-<item historyLabel="App.java" index="7">
+<item historyLabel="App.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="App.java" index="7">
+<item historyLabel="App.java" index="3">
 <position info="not_deleted" x="560" y="158"/>
 </item>
-<item historyLabel="application-context.xml" index="8">
+<item historyLabel="application-context.xml" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="App.java" index="7">
+<item historyLabel="App.java" index="3">
 <position info="not_deleted" x="626" y="0"/>
 </item>
-<item historyLabel="application-context.xml" index="9">
+<item historyLabel="application-context.xml" index="5">
 <position info="not_deleted" x="1768" y="345"/>
 </item>
-<item historyLabel="App.java" index="7">
+<item historyLabel="App.java" index="3">
 <position info="not_deleted" x="738" y="0"/>
 </item>
-<item historyLabel="App.java" index="7">
+<item historyLabel="App.java" index="3">
 <position info="not_deleted" x="595" y="0"/>
 </item>
-<item historyLabel="App.java" index="7">
+<item historyLabel="App.java" index="3">
 <position info="not_deleted" x="469" y="0"/>
 </item>
-<item historyLabel="AuthorService.java" index="10">
+<item historyLabel="AuthorService.java" index="6">
 <position info="not_deleted" x="526" y="13"/>
 </item>
-<item historyLabel="App.java" index="7">
+<item historyLabel="App.java" index="3">
 <position info="not_deleted" x="469" y="0"/>
 </item>
-<item historyLabel="application-context.xml" index="11">
+<item historyLabel="application-context.xml" index="7">
 <position info="not_deleted" x="1768" y="345"/>
 </item>
-<item historyLabel="VLSDataServices/pom.xml" index="12"/>
-<item historyLabel="persistence.xml" index="13"/>
-<item historyLabel="VLSDataServices/pom.xml" index="12"/>
-<item historyLabel="Address.java" index="14">
+<item historyLabel="VLSDataServices/pom.xml" index="8"/>
+<item historyLabel="persistence.xml" index="9"/>
+<item historyLabel="VLSDataServices/pom.xml" index="8"/>
+<item historyLabel="Address.java" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="VLSDataServices/pom.xml" index="12"/>
-<item historyLabel="Library.java" index="15">
+<item historyLabel="VLSDataServices/pom.xml" index="8"/>
+<item historyLabel="Library.java" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="VLSDataServices/pom.xml" index="12"/>
-<item historyLabel="application-context.xml" index="11">
+<item historyLabel="VLSDataServices/pom.xml" index="8"/>
+<item historyLabel="application-context.xml" index="7">
 <position info="not_deleted" x="2261" y="0"/>
 </item>
-<item historyLabel="App.java" index="7">
+<item historyLabel="App.java" index="3">
 <position info="not_deleted" x="469" y="0"/>
 </item>
-<item historyLabel="EventProcessingJMS/pom.xml" index="16"/>
-<item historyLabel="esper-config.xml" index="17">
+<item historyLabel="EventProcessingJMS/pom.xml" index="12"/>
+<item historyLabel="esper-config.xml" index="13">
 <position info="not_deleted" x="820" y="0"/>
 </item>
-<item historyLabel="jms-spring.xml" index="18">
+<item historyLabel="jms-spring.xml" index="14">
 <position info="not_deleted" x="2206" y="0"/>
 </item>
-<item historyLabel="esper-config.xml" index="19">
+<item historyLabel="esper-config.xml" index="15">
 <position info="not_deleted" x="919" y="0"/>
 </item>
-<item historyLabel="esper-config.xml" index="20">
+<item historyLabel="esper-config.xml" index="16">
 <position info="not_deleted" x="950" y="0"/>
 </item>
-<item historyLabel="esper-config.xml" index="20">
+<item historyLabel="esper-config.xml" index="16">
 <position info="not_deleted" x="962" y="0"/>
 </item>
-<item historyLabel="jms-spring.xml" index="21">
+<item historyLabel="jms-spring.xml" index="17">
 <position info="not_deleted" x="4064" y="0"/>
 </item>
-<item historyLabel="Main.java" index="22">
+<item historyLabel="Main.java" index="18">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="jms-spring.xml" index="21">
+<item historyLabel="jms-spring.xml" index="17">
 <position info="not_deleted" x="4064" y="0"/>
 </item>
-<item active="true" historyLabel="Main.java" index="22">
+<item historyLabel="Main.java" index="18">
 <position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="EventProcessingJMS/pom.xml" index="19"/>
+<item historyLabel="Dashboard" index="20"/>
+<item historyLabel="JMSProducer/pom.xml" index="21"/>
+<item historyLabel="IBPCoordinator.java" index="22">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="IBPCoordinator.java" index="22">
+<position info="not_deleted" x="129" y="0"/>
+</item>
+<item historyLabel="IBPCoordinator.java" index="22">
+<position info="not_deleted" x="151" y="0"/>
+</item>
+<item historyLabel="IBPCoordinator.java" index="22">
+<position info="not_deleted" x="175" y="0"/>
+</item>
+<item historyLabel="IBPCoordinator.java" index="22">
+<position info="not_deleted" x="198" y="0"/>
+</item>
+<item historyLabel="IBPCoordinator.java" index="22">
+<position info="not_deleted" x="217" y="0"/>
+</item>
+<item historyLabel="IBPCoordinator.java" index="22">
+<position info="not_deleted" x="239" y="0"/>
+</item>
+<item historyLabel="IBPCoordinator.java" index="22">
+<position info="not_deleted" x="259" y="0"/>
+</item>
+<item historyLabel="IBPCoordinator.java" index="22">
+<position info="not_deleted" x="276" y="0"/>
+</item>
+<item active="true" historyLabel="IBPCoordinator.java" index="22">
+<position info="not_deleted" x="297" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -446,6 +454,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IBPCoordinator.java" tooltip="BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/IBPCoordinator.java">
+<persistable path="/BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/IBPCoordinator.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.m2e.editor.MavenPomEditor" name="pom.xml" tooltip="JMSProducer/pom.xml">
+<persistable path="/JMSProducer/pom.xml"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="EventProcessingJMS/src/main/java/com/marisoft/ziba/Main.java">
 <persistable path="/EventProcessingJMS/src/main/java/com/marisoft/ziba/Main.java"/>
 </file>
