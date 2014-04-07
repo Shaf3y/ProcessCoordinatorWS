@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="42" version="2.0">
+<workbench progressCount="43" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="0" y="0">
+<window height="766" maximized="true" width="1024" x="1426" y="41">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.jdt.junit.ResultView"/>
 <orientation position="512" view="org.springframework.ide.eclipse.aop.ui.navigator.aopReferenceModelNavigator"/>
@@ -21,7 +21,7 @@
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="156" y="34"/>
 <coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="44" y="34"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="72" y="34"/>
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="44" y="34"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
@@ -31,7 +31,7 @@
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.m2e.editor.MavenPomEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.m2e.editor.MavenPomEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -44,6 +44,9 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
@@ -51,12 +54,25 @@
 <editor id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" name="Dashboard" partName="Dashboard" title="Dashboard" tooltip="Dashboard" workbook="DefaultEditorWorkbook">
 <input factoryID="org.springsource.ide.eclipse.dashboard.ui.dashboard.elementFactory" openDashboard="true"/>
 </editor>
-<editor id="org.eclipse.m2e.editor.MavenPomEditor" name="pom.xml" partName="JMSProducer/pom.xml" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/JMSProducer/pom.xml" title="JMSProducer/pom.xml" tooltip="JMSProducer/pom.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JMSProducer/pom.xml"/>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="esper-jms-spring.xml" partName="esper-jms-spring.xml" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/JMSConsumer/src/main/resources/META-INF/spring/esper-jms-spring.xml" title="esper-jms-spring.xml" tooltip="JMSConsumer/src/main/resources/META-INF/spring/esper-jms-spring.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JMSConsumer/src/main/resources/META-INF/spring/esper-jms-spring.xml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="18" selectionOffset="1100" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IBPCoordinator.java" partName="IBPCoordinator.java" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/IBPCoordinator.java" title="IBPCoordinator.java" tooltip="BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/IBPCoordinator.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/IBPCoordinator.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="299" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EsperApp.java" partName="EsperApp.java" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/JMSConsumer/src/main/java/com/marisoft/ziba/cep/jms/EsperApp.java" title="EsperApp.java" tooltip="JMSConsumer/src/main/java/com/marisoft/ziba/cep/jms/EsperApp.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JMSConsumer/src/main/java/com/marisoft/ziba/cep/jms/EsperApp.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="951" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProducerApp.java" partName="ProducerApp.java" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/JMSProducer/src/main/java/com/marisoft/ziba/jms/ProducerApp.java" title="ProducerApp.java" tooltip="JMSProducer/src/main/java/com/marisoft/ziba/jms/ProducerApp.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JMSProducer/src/main/java/com/marisoft/ziba/jms/ProducerApp.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="557" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="producer-context.xml" partName="producer-context.xml" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/JMSProducer/src/main/resources/META-INF/spring/producer-context.xml" title="producer-context.xml" tooltip="JMSProducer/src/main/resources/META-INF/spring/producer-context.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JMSProducer/src/main/resources/META-INF/spring/producer-context.xml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="1845" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyInputEventListener.java" partName="MyInputEventListener.java" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/JMSConsumer/src/main/java/com/marisoft/ziba/cep/jms/MyInputEventListener.java" title="MyInputEventListener.java" tooltip="JMSConsumer/src/main/java/com/marisoft/ziba/cep/jms/MyInputEventListener.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JMSConsumer/src/main/java/com/marisoft/ziba/cep/jms/MyInputEventListener.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="20" selectionOffset="168" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -118,7 +134,7 @@
 </view>
 </views>
 <perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="com.springsource.sts.ide.perspective">
-<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.springframework.ide.eclipse.ui.perspective.StsPerspective" id="com.springsource.sts.ide.perspective" label="Spring"/>
 <alwaysOnActionSet id="ajrefactoring"/>
 <alwaysOnActionSet id="org.eclipse.contribution.xref.ui.XRefActionSet"/>
@@ -197,7 +213,6 @@
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <fastViews>
 <view id="org.eclipse.jdt.junit.ResultView" ratio="0.25"/>
 <view id="org.springframework.ide.eclipse.aop.ui.navigator.aopReferenceModelNavigator" ratio="0.25"/>
@@ -206,24 +221,27 @@
 <fastViewBars>
 <fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
 <fastViews>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.37826088"/>
 <view id="org.eclipse.ui.views.AllMarkersView" ratio="0.3"/>
 <view id="org.eclipse.search.ui.views.SearchView" ratio="0.3"/>
 <view id="org.eclipse.ui.views.ProgressView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="left" orientation="512" selectedTabId="org.eclipse.jdt.ui.PackageExplorer" style="1">
+<fastViews>
+<view id="org.eclipse.jdt.ui.PackageExplorer" ratio="0.2998933"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="left">
-<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@f816b6e" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="left">
@@ -234,7 +252,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.26034573" ratioLeft="497" ratioRight="1412" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.24044003" ratioLeft="459" ratioRight="1450" relationship="2" relative="left"/>
 <info folder="true" part="topright" ratio="0.74934036" ratioLeft="568" ratioRight="190" relationship="2" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
@@ -254,8 +272,8 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.79873216" ratioLeft="504" ratioRight="127" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
+<info folder="true" part="bottom" ratio="0.6202394" ratioLeft="570" ratioRight="349" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="0">
 <page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.AllMarkersView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
@@ -283,157 +301,173 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.m2e.editor.MavenPomEditor" path="/EventProcessingJMS/pom.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/EventProcessingJMS/src/main/resources/META-INF/Spring/jms-spring.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/EventProcessingJMS/src/main/resources/META-INF/Spring/jms-spring.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/VLSDataServices/src/main/java/com/marisoft/vls/App.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/VLSDataServices/src/main/resources/META-INF/spring/application-context.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/VLSDataServices/src/main/resources/META-INF/spring/application-context.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/VLSDataServices/src/main/java/com/marisoft/vls/data/services/beans/AuthorService.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/VLSDataServices/src/main/resources/META-INF/spring/application-context.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.m2e.editor.MavenPomEditor" path="/VLSDataServices/pom.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jpt.jpa.ui.internal.editors.PersistenceEditor" path="/VLSDataServices/src/main/resources/META-INF/persistence.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/VLSDataServices/src/main/java/com/marisoft/vls/data/entities/Address.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/VLSDataServices/src/main/java/com/marisoft/vls/data/entities/Library.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.m2e.editor.MavenPomEditor" path="/EventProcessingJMS/pom.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/EventProcessingJMS/src/main/resources/META-INF/esper-config.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/EventProcessingJMS/src/main/resources/META-INF/Spring/jms-spring.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/EventProcessingJMS/src/main/resources/META-INF/esper-config.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/EventProcessingJMS/src/main/resources/META-INF/esper-config.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/EventProcessingJMS/src/main/resources/META-INF/Spring/jms-spring.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EventProcessingJMS/src/main/java/com/marisoft/ziba/Main.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.m2e.editor.MavenPomEditor" path="/EventProcessingJMS/pom.xml"/>
-<editor factoryID="org.springsource.ide.eclipse.dashboard.ui.dashboard.elementFactory" id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" openDashboard="true"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.m2e.editor.MavenPomEditor" path="/JMSProducer/pom.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/JMSConsumer/src/main/resources/META-INF/spring/consumer-context.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/JMSConsumer/src/main/resources/META-INF/spring/esper-jms-spring.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/JMSConsumer/src/main/resources/META-INF/esper.cfg.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JMSConsumer/src/main/java/com/marisoft/ziba/cep/jms/EsperApp.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/IBPCoordinator.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ZIBACEP/src/com/marisoft/ziba/cep/events/EntityManagerMergeOperationExecutedEvent.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ZIBACEP/src/com/marisoft/ziba/cep/CEPService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JMSProducer/src/main/java/com/marisoft/ziba/jms/ProducerApp.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JMSConsumer/src/main/java/com/marisoft/ziba/cep/jms/EsperApp.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JMSConsumer/src/main/java/com/marisoft/ziba/cep/BProcessEventListener.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/JMSConsumer/src/main/resources/META-INF/esper.cfg.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/JMSProducer/src/main/resources/META-INF/spring/producer-context.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/JMSConsumer/src/main/resources/META-INF/esper.cfg.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/JMSConsumer/src/main/resources/META-INF/spring/esper-jms-spring.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/JMSConsumer/src/main/resources/META-INF/spring/esper-jms-spring.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JMSProducer/src/main/java/com/marisoft/ziba/jms/MessageProducer.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JMSConsumer/src/main/java/com/marisoft/ziba/cep/jms/MyInputEventListener.java"/>
 </editors>
-<item historyLabel="jms-spring.xml" index="1">
+<item historyLabel="esper-jms-spring.xml" index="1">
+<position info="not_deleted" x="1779" y="19"/>
+</item>
+<item historyLabel="consumer-context.xml" index="0">
+<position info="not_deleted" x="1323" y="25"/>
+</item>
+<item historyLabel="EsperApp.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="consumer-context.xml" index="0">
+<position info="not_deleted" x="1323" y="25"/>
+</item>
+<item historyLabel="esper-jms-spring.xml" index="1">
+<position info="not_deleted" x="3808" y="0"/>
+</item>
+<item historyLabel="esper.cfg.xml" index="2">
 <position/>
 </item>
-<item historyLabel="EventProcessingJMS/pom.xml" index="0"/>
-<item historyLabel="jms-spring.xml" index="1">
-<position info="not_deleted" x="1176" y="0"/>
+<item historyLabel="IBPCoordinator.java" index="4">
+<position info="not_deleted" x="302" y="0"/>
 </item>
-<item historyLabel="EventProcessingJMS/pom.xml" index="0"/>
-<item historyLabel="jms-spring.xml" index="1">
-<position info="not_deleted" x="1175" y="0"/>
-</item>
-<item historyLabel="jms-spring.xml" index="2">
-<position info="not_deleted" x="2195" y="0"/>
-</item>
-<item historyLabel="jms-spring.xml" index="2">
-<position info="not_deleted" x="1981" y="17"/>
-</item>
-<item historyLabel="App.java" index="3">
+<item historyLabel="EntityManagerMergeOperationExecutedEvent.java" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="App.java" index="3">
-<position info="not_deleted" x="560" y="158"/>
+<item historyLabel="IBPCoordinator.java" index="4">
+<position info="not_deleted" x="302" y="0"/>
 </item>
-<item historyLabel="application-context.xml" index="4">
+<item historyLabel="CEPService.java" index="6">
+<position/>
+</item>
+<item historyLabel="IBPCoordinator.java" index="4">
+<position info="not_deleted" x="302" y="0"/>
+</item>
+<item historyLabel="ProducerApp.java" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="App.java" index="3">
-<position info="not_deleted" x="626" y="0"/>
-</item>
-<item historyLabel="application-context.xml" index="5">
-<position info="not_deleted" x="1768" y="345"/>
-</item>
-<item historyLabel="App.java" index="3">
-<position info="not_deleted" x="738" y="0"/>
-</item>
-<item historyLabel="App.java" index="3">
-<position info="not_deleted" x="595" y="0"/>
-</item>
-<item historyLabel="App.java" index="3">
-<position info="not_deleted" x="469" y="0"/>
-</item>
-<item historyLabel="AuthorService.java" index="6">
-<position info="not_deleted" x="526" y="13"/>
-</item>
-<item historyLabel="App.java" index="3">
-<position info="not_deleted" x="469" y="0"/>
-</item>
-<item historyLabel="application-context.xml" index="7">
-<position info="not_deleted" x="1768" y="345"/>
-</item>
-<item historyLabel="VLSDataServices/pom.xml" index="8"/>
-<item historyLabel="persistence.xml" index="9"/>
-<item historyLabel="VLSDataServices/pom.xml" index="8"/>
-<item historyLabel="Address.java" index="10">
+<item historyLabel="EsperApp.java" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="VLSDataServices/pom.xml" index="8"/>
-<item historyLabel="Library.java" index="11">
+<item historyLabel="BProcessEventListener.java" index="9">
+<position info="not_deleted" x="429" y="0"/>
+</item>
+<item historyLabel="BProcessEventListener.java" index="9">
+<position info="not_deleted" x="369" y="46"/>
+</item>
+<item historyLabel="ProducerApp.java" index="7">
+<position info="not_deleted" x="557" y="0"/>
+</item>
+<item historyLabel="EsperApp.java" index="8">
+<position info="not_deleted" x="1354" y="0"/>
+</item>
+<item historyLabel="esper.cfg.xml" index="10">
+<position/>
+</item>
+<item historyLabel="EsperApp.java" index="8">
+<position info="not_deleted" x="1354" y="0"/>
+</item>
+<item historyLabel="ProducerApp.java" index="7">
+<position info="not_deleted" x="557" y="0"/>
+</item>
+<item historyLabel="producer-context.xml" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="VLSDataServices/pom.xml" index="8"/>
-<item historyLabel="application-context.xml" index="7">
-<position info="not_deleted" x="2261" y="0"/>
+<item historyLabel="ProducerApp.java" index="7">
+<position info="not_deleted" x="557" y="0"/>
 </item>
-<item historyLabel="App.java" index="3">
-<position info="not_deleted" x="469" y="0"/>
+<item historyLabel="esper.cfg.xml" index="12">
+<position info="not_deleted" x="1148" y="0"/>
 </item>
-<item historyLabel="EventProcessingJMS/pom.xml" index="12"/>
-<item historyLabel="esper-config.xml" index="13">
-<position info="not_deleted" x="820" y="0"/>
+<item historyLabel="ProducerApp.java" index="7">
+<position info="not_deleted" x="557" y="0"/>
 </item>
-<item historyLabel="jms-spring.xml" index="14">
-<position info="not_deleted" x="2206" y="0"/>
+<item historyLabel="esper-jms-spring.xml" index="13">
+<position info="not_deleted" x="3808" y="0"/>
 </item>
-<item historyLabel="esper-config.xml" index="15">
-<position info="not_deleted" x="919" y="0"/>
+<item historyLabel="ProducerApp.java" index="7">
+<position info="not_deleted" x="557" y="0"/>
 </item>
-<item historyLabel="esper-config.xml" index="16">
-<position info="not_deleted" x="950" y="0"/>
+<item historyLabel="EsperApp.java" index="8">
+<position info="not_deleted" x="1354" y="0"/>
 </item>
-<item historyLabel="esper-config.xml" index="16">
-<position info="not_deleted" x="962" y="0"/>
+<item historyLabel="esper-jms-spring.xml" index="14">
+<position info="not_deleted" x="1610" y="11"/>
 </item>
-<item historyLabel="jms-spring.xml" index="17">
-<position info="not_deleted" x="4064" y="0"/>
-</item>
-<item historyLabel="Main.java" index="18">
+<item historyLabel="producer-context.xml" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="jms-spring.xml" index="17">
-<position info="not_deleted" x="4064" y="0"/>
+<item historyLabel="MessageProducer.java" index="15">
+<position/>
 </item>
-<item historyLabel="Main.java" index="18">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="producer-context.xml" index="11">
+<position info="not_deleted" x="1845" y="11"/>
 </item>
-<item historyLabel="EventProcessingJMS/pom.xml" index="19"/>
-<item historyLabel="Dashboard" index="20"/>
-<item historyLabel="JMSProducer/pom.xml" index="21"/>
-<item historyLabel="IBPCoordinator.java" index="22">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ProducerApp.java" index="7">
+<position info="not_deleted" x="557" y="0"/>
 </item>
-<item historyLabel="IBPCoordinator.java" index="22">
-<position info="not_deleted" x="129" y="0"/>
+<item historyLabel="EsperApp.java" index="8">
+<position info="not_deleted" x="1283" y="0"/>
 </item>
-<item historyLabel="IBPCoordinator.java" index="22">
-<position info="not_deleted" x="151" y="0"/>
+<item historyLabel="MyInputEventListener.java" index="16">
+<position info="not_deleted" x="168" y="20"/>
 </item>
-<item historyLabel="IBPCoordinator.java" index="22">
-<position info="not_deleted" x="175" y="0"/>
+<item historyLabel="EsperApp.java" index="8">
+<position info="not_deleted" x="1225" y="21"/>
 </item>
-<item historyLabel="IBPCoordinator.java" index="22">
-<position info="not_deleted" x="198" y="0"/>
+<item historyLabel="ProducerApp.java" index="7">
+<position info="not_deleted" x="451" y="0"/>
 </item>
-<item historyLabel="IBPCoordinator.java" index="22">
-<position info="not_deleted" x="217" y="0"/>
+<item historyLabel="MessageProducer.java" index="15">
+<position info="not_deleted" x="502" y="15"/>
 </item>
-<item historyLabel="IBPCoordinator.java" index="22">
-<position info="not_deleted" x="239" y="0"/>
+<item historyLabel="MyInputEventListener.java" index="16">
+<position info="not_deleted" x="168" y="20"/>
 </item>
-<item historyLabel="IBPCoordinator.java" index="22">
-<position info="not_deleted" x="259" y="0"/>
+<item historyLabel="EsperApp.java" index="8">
+<position info="not_deleted" x="951" y="0"/>
 </item>
-<item historyLabel="IBPCoordinator.java" index="22">
-<position info="not_deleted" x="276" y="0"/>
+<item historyLabel="MessageProducer.java" index="15">
+<position info="not_deleted" x="1051" y="0"/>
 </item>
-<item active="true" historyLabel="IBPCoordinator.java" index="22">
-<position info="not_deleted" x="297" y="0"/>
+<item historyLabel="EsperApp.java" index="8">
+<position info="not_deleted" x="951" y="0"/>
+</item>
+<item historyLabel="ProducerApp.java" index="7">
+<position info="not_deleted" x="451" y="0"/>
+</item>
+<item historyLabel="EsperApp.java" index="8">
+<position info="not_deleted" x="951" y="0"/>
+</item>
+<item historyLabel="ProducerApp.java" index="7">
+<position info="not_deleted" x="451" y="0"/>
+</item>
+<item historyLabel="producer-context.xml" index="11">
+<position info="not_deleted" x="1845" y="11"/>
+</item>
+<item historyLabel="ProducerApp.java" index="7">
+<position info="not_deleted" x="451" y="0"/>
+</item>
+<item historyLabel="EsperApp.java" index="8">
+<position info="not_deleted" x="951" y="0"/>
+</item>
+<item historyLabel="ProducerApp.java" index="7">
+<position info="not_deleted" x="557" y="0"/>
+</item>
+<item historyLabel="CEPService.java" index="6">
+<position info="not_deleted" x="3942" y="12"/>
+</item>
+<item active="true" historyLabel="ProducerApp.java" index="7">
+<position info="not_deleted" x="557" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -441,6 +475,9 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 <trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
@@ -454,47 +491,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IBPCoordinator.java" tooltip="BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/IBPCoordinator.java">
-<persistable path="/BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/IBPCoordinator.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CEPService.java" tooltip="ZIBACEP/src/com/marisoft/ziba/cep/CEPService.java">
+<persistable path="/ZIBACEP/src/com/marisoft/ziba/cep/CEPService.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.m2e.editor.MavenPomEditor" name="pom.xml" tooltip="JMSProducer/pom.xml">
-<persistable path="/JMSProducer/pom.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MessageProducer.java" tooltip="JMSProducer/src/main/java/com/marisoft/ziba/jms/MessageProducer.java">
+<persistable path="/JMSProducer/src/main/java/com/marisoft/ziba/jms/MessageProducer.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="EventProcessingJMS/src/main/java/com/marisoft/ziba/Main.java">
-<persistable path="/EventProcessingJMS/src/main/java/com/marisoft/ziba/Main.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyInputEventListener.java" tooltip="JMSConsumer/src/main/java/com/marisoft/ziba/cep/jms/MyInputEventListener.java">
+<persistable path="/JMSConsumer/src/main/java/com/marisoft/ziba/cep/jms/MyInputEventListener.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Library.java" tooltip="VLSDataServices/src/main/java/com/marisoft/vls/data/entities/Library.java">
-<persistable path="/VLSDataServices/src/main/java/com/marisoft/vls/data/entities/Library.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="producer-context.xml" tooltip="JMSProducer/src/main/resources/META-INF/spring/producer-context.xml">
+<persistable path="/JMSProducer/src/main/resources/META-INF/spring/producer-context.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Address.java" tooltip="VLSDataServices/src/main/java/com/marisoft/vls/data/entities/Address.java">
-<persistable path="/VLSDataServices/src/main/java/com/marisoft/vls/data/entities/Address.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProducerApp.java" tooltip="JMSProducer/src/main/java/com/marisoft/ziba/jms/ProducerApp.java">
+<persistable path="/JMSProducer/src/main/java/com/marisoft/ziba/jms/ProducerApp.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jpt.jpa.ui.internal.editors.PersistenceEditor" name="persistence.xml" tooltip="VLSDataServices/src/main/resources/META-INF/persistence.xml">
-<persistable path="/VLSDataServices/src/main/resources/META-INF/persistence.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EntityManagerMergeOperationExecutedEvent.java" tooltip="ZIBACEP/src/com/marisoft/ziba/cep/events/EntityManagerMergeOperationExecutedEvent.java">
+<persistable path="/ZIBACEP/src/com/marisoft/ziba/cep/events/EntityManagerMergeOperationExecutedEvent.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.m2e.editor.MavenPomEditor" name="pom.xml" tooltip="VLSDataServices/pom.xml">
-<persistable path="/VLSDataServices/pom.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BProcessEventListener.java" tooltip="JMSConsumer/src/main/java/com/marisoft/ziba/cep/BProcessEventListener.java">
+<persistable path="/JMSConsumer/src/main/java/com/marisoft/ziba/cep/BProcessEventListener.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AuthorService.java" tooltip="VLSDataServices/src/main/java/com/marisoft/vls/data/services/beans/AuthorService.java">
-<persistable path="/VLSDataServices/src/main/java/com/marisoft/vls/data/services/beans/AuthorService.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EsperApp.java" tooltip="JMSConsumer/src/main/java/com/marisoft/ziba/jms/EsperApp.java">
+<persistable path="/JMSConsumer/src/main/java/com/marisoft/ziba/jms/EsperApp.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="application-context.xml" tooltip="VLSDataServices/src/main/resources/META-INF/spring/application-context.xml">
-<persistable path="/VLSDataServices/src/main/resources/META-INF/spring/application-context.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JmsMessageListener.java" tooltip="JMSConsumer/src/main/java/com/marisoft/ziba/jms/JmsMessageListener.java">
+<persistable path="/JMSConsumer/src/main/java/com/marisoft/ziba/jms/JmsMessageListener.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="App.java" tooltip="VLSDataServices/src/main/java/com/marisoft/vls/App.java">
-<persistable path="/VLSDataServices/src/main/java/com/marisoft/vls/App.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BPCoordinatorJMSListener.java" tooltip="BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/jms/BPCoordinatorJMSListener.java">
+<persistable path="/BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/jms/BPCoordinatorJMSListener.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="esper-config.xml" tooltip="EventProcessingJMS/src/main/resources/META-INF/esper-config.xml">
-<persistable path="/EventProcessingJMS/src/main/resources/META-INF/esper-config.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EventBasedBPCoordinator.java" tooltip="BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/jms/EventBasedBPCoordinator.java">
+<persistable path="/BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/jms/EventBasedBPCoordinator.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="application-context.xml" tooltip="EventProcessingJMS/src/main/resources/META-INF/Spring/application-context.xml">
-<persistable path="/EventProcessingJMS/src/main/resources/META-INF/Spring/application-context.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JmsExceptionListener.java" tooltip="BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/jms/JmsExceptionListener.java">
+<persistable path="/BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/jms/JmsExceptionListener.java"/>
 </file>
-<file factoryID="org.springsource.ide.eclipse.dashboard.ui.dashboard.elementFactory" id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" name="Dashboard" tooltip="Dashboard">
-<persistable openDashboard="true"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.m2e.editor.MavenPomEditor" name="pom.xml" tooltip="JMSConsumer/pom.xml">
+<persistable path="/JMSConsumer/pom.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.m2e.editor.MavenPomEditor" name="pom.xml" tooltip="EventProcessingJMS/pom.xml">
-<persistable path="/EventProcessingJMS/pom.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.m2e.editor.MavenPomEditor" name="pom.xml" tooltip="BPCoordinator/pom.xml">
+<persistable path="/BPCoordinator/pom.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JmsExceptionListener.java" tooltip="JMSConsumer/src/main/java/com/marisoft/ziba/jms/JmsExceptionListener.java">
+<persistable path="/JMSConsumer/src/main/java/com/marisoft/ziba/jms/JmsExceptionListener.java"/>
 </file>
 </mruList>
 </workbench>

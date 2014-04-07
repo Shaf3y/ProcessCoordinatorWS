@@ -23,5 +23,19 @@
 			<map-property name="zone" class="int"/>
 		</java-util-map>
 	</event-type>
+	
+	<!-- 
+	<event-type name="BProcessEvent">
+		<java-util-map>
+			<map-property name="" class=""/>
+		</java-util-map>
+	</event-type>
+	
+	<event-type name="BPCoordinatorStream">
+		<java-util-map>
+			<map-property name="command" class="String"/>
+		</java-util-map>
+	</event-type>
+	 -->
 
 </esper-configuration>

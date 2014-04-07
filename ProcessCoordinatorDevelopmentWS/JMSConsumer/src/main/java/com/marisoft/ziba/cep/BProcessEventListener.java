@@ -10,8 +10,8 @@ import com.espertech.esper.client.UpdateListener;
 @Component
 public class BProcessEventListener implements UpdateListener {
 	
-	@Autowired
-	private JmsTemplate jmsTemplate;
+//	@Autowired
+//	private JmsTemplate jmsTemplate;
 	
 	public void update(EventBean[] newEvents, EventBean[] oldEvents) {
 		// TODO Auto-generated method stub

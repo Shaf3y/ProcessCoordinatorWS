@@ -15,20 +15,21 @@
                            http://activemq.apache.org/schema/core/activemq-core.xsd">
 
 	<context:annotation-config/>
-	<context:component-scan base-package="com.marisoft.ziba.jms" />
-	
+	<context:component-scan base-package="com.marisoft.ziba.cep" />	
 	 	
-	<!-- Connection Factory -->
+	<!-- AMQ Connection Factory -->
 	<amq:connectionFactory id="jmsFactory" brokerURL="tcp://localhost:61616" userName="admin" password="admin"/>
 	
-	<bean id="jmsExceptionListener" class="com.marisoft.ziba.jms.JmsExceptionListener"/>
+	<bean id="jmsExceptionListener" class="com.marisoft.ziba.cep.jms.JmsExceptionListener"/>
 	
-	<!-- JMS Producer Configuration -->
+	<!-- JMS Consumer Configuration -->
 	<bean id="jmsConsumerConnectionFactory" class="org.springframework.jms.connection.CachingConnectionFactory">
 		<constructor-arg ref="jmsFactory"/>
 		<property name="exceptionListener" ref="jmsExceptionListener"/>
 		<property name="sessionCacheSize" value="100"/>
 	</bean>
+	
+	<bean id="jmsMessageListener" class="com.marisoft.ziba.cep.jms.JmsMessageListener"/>
     
     <!--       
 	<jms:listener-container container-type="default" 

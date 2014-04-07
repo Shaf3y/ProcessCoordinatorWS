@@ -24,6 +24,7 @@
 		</java-util-map>
 	</event-type>
 	
+	<!-- 
 	<event-type name="BProcessEvent">
 		<java-util-map>
 			<map-property name="" class=""/>
@@ -35,5 +36,6 @@
 			<map-property name="command" class="String"/>
 		</java-util-map>
 	</event-type>
+	 -->
 
 </esper-configuration>
