@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="43" version="2.0">
+<workbench progressCount="37" version="2.0">
 <workbenchAdvisor/>
 <window height="766" maximized="true" width="1024" x="1426" y="41">
 <fastViewData fastViewLocation="1024">
@@ -21,7 +21,7 @@
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="156" y="34"/>
 <coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="44" y="34"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="72" y="34"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="44" y="34"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
@@ -64,7 +64,7 @@
 </editor>
 <editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProducerApp.java" partName="ProducerApp.java" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/JMSProducer/src/main/java/com/marisoft/ziba/jms/ProducerApp.java" title="ProducerApp.java" tooltip="JMSProducer/src/main/java/com/marisoft/ziba/jms/ProducerApp.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JMSProducer/src/main/java/com/marisoft/ziba/jms/ProducerApp.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="557" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="554" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="producer-context.xml" partName="producer-context.xml" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/JMSProducer/src/main/resources/META-INF/spring/producer-context.xml" title="producer-context.xml" tooltip="JMSProducer/src/main/resources/META-INF/spring/producer-context.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JMSProducer/src/main/resources/META-INF/spring/producer-context.xml"/>
@@ -89,9 +89,6 @@
 </viewState>
 </view>
 <view id="org.eclipse.contribution.xref.ui.views.XReferenceView" partName="Cross References"/>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
-</view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
 <customFilters userDefinedPatternsEnabled="false">
@@ -131,6 +128,9 @@
 </xmlDefinedFilters>
 </customFilters>
 </viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
 </view>
 </views>
 <perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="com.springsource.sts.ide.perspective">
@@ -236,7 +236,7 @@
 <layout>
 <mainWindow>
 <info folder="true" part="left">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
@@ -273,7 +273,7 @@
 </folder>
 </info>
 <info folder="true" part="bottom" ratio="0.6202394" ratioLeft="570" ratioRight="349" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.AllMarkersView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>

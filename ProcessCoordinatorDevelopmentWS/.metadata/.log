@@ -5247,3 +5247,30 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.repository
 
 !ENTRY org.eclipse.ui 4 0 2014-04-06 10:37:43.651
 !MESSAGE Action must implement IEditorActionDelegate
+!SESSION 2014-04-08 14:56:24.557 -----------------------------------------------
+eclipse.buildId=3.1.0.201210061308-RELEASE-e38
+java.version=1.6.0_45
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.ui.ide 4 4 2014-04-09 18:03:27.888
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2014-04-09 18:03:27.919
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2014-04-09 18:03:27.919
+!MESSAGE Could not write metadata for '/Servers'.
+!STACK 0
+java.io.FileNotFoundException: /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.markers (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1576)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1656)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1142)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2375)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
