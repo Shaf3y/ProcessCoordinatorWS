@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="EventDetectionIT" project="EnterpriseEventProcessing" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="com.marisoft.ziba.cep.tests.jms.EventDetectionIT" time="13.369">
+    <testcase name="testsubmitEventAndDetectionOfIt" classname="com.marisoft.ziba.cep.tests.jms.EventDetectionIT" time="13.369">
+      <failure>java.lang.AssertionError: expected:&lt;[ActiveMQMapMessage {commandId = 733, responseRequired = true, messageId = ID:shaf3y-HP-ProBook-4540s-38568-1397551211686-3:3:147:1:1, originalDestination = null, originalTransactionId = null, producerId = ID:shaf3y-HP-ProBook-4540s-38568-1397551211686-3:3:147:1, destination = queue://BPCoordinator-QUEUE, transactionId = null, expiration = 0, timestamp = 1397551224072, arrival = 0, brokerInTime = 1397551224137, brokerOutTime = 1397551224138, correlationId = null, replyTo = null, persistent = true, type = null, priority = 4, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = org.apache.activemq.util.ByteSequence@5e64dd79, dataStructure = null, redeliveryCounter = 0, size = 1024, properties = {command=startProcess}, readOnlyProperties = true, readOnlyBody = true, droppable = false} ActiveMQMapMessage{ theTable = {} }]&gt; but was:&lt;100&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.marisoft.ziba.cep.tests.jms.EventDetectionIT.testsubmitEventAndDetectionOfIt(EventDetectionIT.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
+</failure>
+    </testcase>
+  </testsuite>
+</testrun>

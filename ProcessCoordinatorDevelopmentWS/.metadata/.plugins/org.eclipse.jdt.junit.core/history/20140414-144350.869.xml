@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="MessageProducerIT" project="JMSProducer" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.marisoft.ziba.jms.tests.MessageProducerIT" time="2.55">
+    <testcase name="testGeneratingMessagesAndCosumingThem" classname="com.marisoft.ziba.jms.tests.MessageProducerIT" time="2.55"/>
+  </testsuite>
+</testrun>

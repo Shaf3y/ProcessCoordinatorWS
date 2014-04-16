@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="MessageProducerIT" project="JMSProducer" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="com.marisoft.ziba.jms.tests.MessageProducerIT" time="0.001">
+    <testcase name="initializationError" classname="com.marisoft.ziba.jms.tests.MessageProducerIT" time="0.0">
+      <error>java.lang.IllegalStateException: Neither GenericXmlContextLoader nor AnnotationConfigContextLoader was able to detect defaults, and no ApplicationContextInitializers were declared for context configuration [ContextConfigurationAttributes@7e80fa6f declaringClass = 'com.marisoft.ziba.jms.tests.MessageProducerIT', locations = '{}', classes = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.processContextConfiguration(AbstractDelegatingSmartContextLoader.java:200)
+	at org.springframework.test.context.ContextLoaderUtils.buildMergedContextConfiguration(ContextLoaderUtils.java:702)
+	at org.springframework.test.context.ContextLoaderUtils.buildMergedContextConfiguration(ContextLoaderUtils.java:655)
+	at org.springframework.test.context.DefaultTestContext.&lt;init&gt;(DefaultTestContext.java:93)
+	at org.springframework.test.context.TestContextManager.&lt;init&gt;(TestContextManager.java:119)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTestContextManager(SpringJUnit4ClassRunner.java:120)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.&lt;init&gt;(SpringJUnit4ClassRunner.java:109)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:29)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:21)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.&lt;init&gt;(JUnit4TestReference.java:33)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestClassReference.&lt;init&gt;(JUnit4TestClassReference.java:25)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.createTest(JUnit4TestLoader.java:48)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.loadTests(JUnit4TestLoader.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:452)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

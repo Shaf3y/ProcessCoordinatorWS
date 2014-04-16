@@ -1,0 +1,27 @@
+package com.marisoft.ziba.cep.tests.jms;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.marisoft.ziba.cep.jms.EsperEventProcessingAgent;
+import com.marisoft.ziba.cep.tests.utils.EventProducer;
+
+public class EventDetectionIT {
+
+	private ApplicationContext applicationContext;
+	
+	@Before
+	public void setUp() {
+		applicationContext = new ClassPathXmlApplicationContext("META-INF/spring-test/test-context.xml");
+		
+	}
+	
+	@Test
+	public void testsubmitEventAndDetectionOfIt() {
+		EventProducer producer = applicationContext.getBean(EventProducer.class);
+		EsperEventProcessingAgent agent = applicationContext.getBean(EsperEventProcessingAgent.class);
+		
+	}
+}

@@ -1,0 +1,11 @@
+package com.marisoft.ziba.cep.epn.elements;
+
+/** 
+ * @author shaf3y
+ * Logically is associated with event producer
+ * Responsible for converting and packaging raw events
+ * from producers for delivery to the event bus
+ */
+public class EventEmitter {
+
+}

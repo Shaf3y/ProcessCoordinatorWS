@@ -1,0 +1,7 @@
+package com.marisoft.ziba.cep.jms;
+
+public class MyInputEvent {
+
+	
+
+}

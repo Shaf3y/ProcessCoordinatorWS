@@ -1,0 +1,9 @@
+package com.marisoft.ziba.jms.tests;
+
+import org.junit.runner.RunWith;
+
+@RunWith(SpringJ)
+public class MessageProducerIT {
+
+
+}

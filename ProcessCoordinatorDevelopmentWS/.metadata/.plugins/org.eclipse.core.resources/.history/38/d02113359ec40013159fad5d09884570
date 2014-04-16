@@ -1,0 +1,13 @@
+package com.marisoft.ziba.jms;
+
+public class MyInputInvent {
+
+	private Integer count;
+	private String text;
+	
+	public MyInputInvent(Integer count, String text) {
+		this.count = count;
+		this.text = text;
+	}
+
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:jms="http://www.springframework.org/schema/jms"
+       xmlns:amq="http://activemq.apache.org/schema/core"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context 
+                           http://www.springframework.org/schema/context/spring-context.xsd
+                           http://www.springframework.org/schema/jms 
+                           http://www.springframework.org/schema/jms/spring-jms.xsd
+                           http://activemq.apache.org/schema/core 
+                           http://activemq.apache.org/schema/core/activemq-core.xsd">
+                           
+	<context:component-scan base-package="com.marisoft.ziba.jms" />
+
+	<bean id="jmsExceptionListener" class="com.marisoft.ziba.cep.jms.JmsExceptionListener"/>
+
+	<!-- ActiveMQ Broker Configuration -->
+	<amq:broker useJmx="false" persistent="false">
+		<amq:transportConnectors>
+			<amq:transportConnector uri="tcp://localhost:1108" />
+		</amq:transportConnectors>
+	</amq:broker>
+	
+	<amq:connectionFactory id="jmsFactory" brokerURL="vm://localhost"/>
+
+	<!-- ActiveMQ Destination -->
+	<amq:queue id="destination" physicalName="ESPER-QUEUE" />
+	
+	<!-- Spring JMSTemplate -->
+	<bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate" p:defaultDestination-ref="destination">
+		<property name="connectionFactory">
+			<bean class="org.springframework.jms.connection.SingleConnectionFactory">
+				<property name="targetConnectionFactory" ref="jmsFactory"/>
+			</bean>
+		</property>
+	</bean>
+	
+	<!-- ***************************** Input Adapter Configuration *********************************** -->
+	
+	<!-- Messages UnMarshaller -->
+	<bean id="jmsMessageUnMarshaller" class="com.espertech.esperio.jms.JMSDefaultAnyMessageUnmarshaller"/>
+	
+	<!-- Input Adapter -->
+	<bean id="jmsInputAdapter" class="com.espertech.esperio.jms.SpringJMSTemplateInputAdapter">
+		<property name="jmsTemplate" ref="jmsActiveMQTemplate"/>
+		<property name="jmsMessageUnmarshaller" ref="jmsMessageUnMarshaller"/>		
+	</bean>
+	
+	<!-- Listener threads configuration -->
+	<bean id="listenerContainer" class="org.springframework.jms.listener.SimpleMessageListenerContainer">
+		<property name="connectionFactory" ref="jmsActiveMQFactory"/>
+		<property name="destination" ref="defaultDestination"/>
+		<property name="messageListener" ref="jmsInputAdapter"/>
+	</bean>
+	
+	<!-- ***************************** Input Adapter Configuration *********************************** -->
+	
+	<!-- Required Beans for Testing -->
+	<bean id="eventProducer" class="com.marisoft.ziba.cep.tests.utils.EventProducer"/>
+	<bean id="testListener" class="com.marisoft.ziba.cep.tests.utils.TestListener"/>
+	
+	<!-- Test Listener -->
+	<jms:listener-container container-type="default" connection-factory="jmsFactory" acknowledge="auto" >
+		<jms:listener destination="BPCoordinator-QUEUE" ref="testListener"/>
+	</jms:listener-container>
+	
+	
+</beans>
