@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jms="http://www.springframework.org/schema/jms" xmlns:amq="http://activemq.apache.org/schema/core"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context 
+                           http://www.springframework.org/schema/context/spring-context.xsd
+                           http://www.springframework.org/schema/jms 
+                           http://www.springframework.org/schema/jms/spring-jms.xsd
+                           http://activemq.apache.org/schema/core 
+                           http://activemq.apache.org/schema/core/activemq-core.xsd">
+
+	<context:component-scan base-package="com.marisoft.ziba.jms" />
+
+	<bean id="jmsExceptionListener" class="com.marisoft.ziba.jms.JmsExceptionListener"/>
+
+	<!-- ActiveMQ Broker Configuration -->
+	<amq:broker useJmx="false" persistent="false">
+		<amq:transportConnectors>
+			<amq:transportConnector uri="tcp://localhost:1108" />
+		</amq:transportConnectors>
+	</amq:broker>
+	
+	<amq:connectionFactory id="jmsFactory" brokerURL="vm://localhost"/>
+
+	<!-- ActiveMQ Destination -->
+	<amq:queue id="destination" physicalName="ESPER-QUEUE" />
+
+	<!-- Spring JMSTemplate -->
+	<bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate" p:defaultDestination-ref="destination">
+		<property name="connectionFactory">
+			<bean class="org.springframework.jms.connection.SingleConnectionFactory">
+				<property name="targetConnectionFactory" ref="jmsFactory"/>
+			</bean>
+		</property>
+	</bean>
+	
+	<bean id="messageProducer" class="com"/>
+</beans>

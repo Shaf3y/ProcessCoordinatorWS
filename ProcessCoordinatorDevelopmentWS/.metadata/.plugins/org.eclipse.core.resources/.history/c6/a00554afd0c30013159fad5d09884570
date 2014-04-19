@@ -1,0 +1,13 @@
+package com.marisoft.ziba.jms.tests.utils;
+
+import javax.jms.Message;
+import javax.jms.MessageListener;
+
+public class TestListener implements MessageListener {
+
+	private 
+	
+	public void onMessage(Message msg) {
+		
+	}
+}

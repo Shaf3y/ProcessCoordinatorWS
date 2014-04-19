@@ -1,0 +1,10 @@
+package com.marisoft.ziba.cep.elements;
+
+public class EventType {
+
+	private String eventTypeIdentifier;
+	private boolean composed;
+	private TemporalGranularity granularity;
+	
+	private EventHeader header;
+}

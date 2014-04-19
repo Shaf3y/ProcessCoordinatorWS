@@ -1,0 +1,13 @@
+package com.marisoft.ziba.cep.tests.jms;
+
+import org.springframework.context.ApplicationContext;
+
+public class EventDetectionIT {
+
+	private ApplicationContext applicationContext;
+	
+	@Befor
+	public void setUp() {
+		
+	}
+}

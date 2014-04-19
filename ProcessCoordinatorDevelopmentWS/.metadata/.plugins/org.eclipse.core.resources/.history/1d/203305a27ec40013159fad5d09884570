@@ -1,0 +1,30 @@
+package com.marisoft.ziba.cep.jms;
+
+public class MyInputEvent {
+
+	private Integer count;
+	private String text;
+	
+	public MyInputEvent() {
+		
+	}
+
+	public Integer getCount() {
+		return count;
+	}
+
+	public void setCount(Integer count) {
+		this.count = count;
+	}
+
+	public String getText() {
+		return text;
+	}
+
+	public void setText(String text) {
+		this.text = text;
+	}
+	
+	
+
+}

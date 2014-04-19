@@ -1,0 +1,18 @@
+package com.marisoft.ziba.cep.elements;
+
+public class EventHeader {
+
+	/** A system generated unique ID for each individual event instance
+	 * Denotes an identifier for event occurrence for tracking issues */
+	private Long eventIdentity;
+	
+	/** A time stamp with a precision given by the event type's temporal
+	 * granularity 
+	 * 	*/
+	private Long occurrenceTime;
+	
+	private Float certainty;
+	private String annotation;
+	private String eventSource;
+	private Long detectionTime;
+}

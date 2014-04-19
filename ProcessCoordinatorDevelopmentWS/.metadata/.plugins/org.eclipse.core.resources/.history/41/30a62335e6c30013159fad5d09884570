@@ -1,0 +1,24 @@
+package com.marisoft.ziba.cep.tests.jms;
+
+import java.io.InputStream;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class EventDetectionIT {
+
+	private ApplicationContext applicationContext;
+	
+	@Before
+	public void setUp() {
+		applicationContext = new ClassPathXmlApplicationContext("META-INF/spring-test/test-context.xml");
+		
+	}
+	
+	@Test
+	public void testsubmitEventAndDetectionOfIt() {
+		InputStream  this.getClass().getClassLoader().getResource("META-INF/META-INF/esper.cfg.xml");
+	}
+}

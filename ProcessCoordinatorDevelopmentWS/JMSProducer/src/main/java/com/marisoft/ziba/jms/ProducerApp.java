@@ -11,7 +11,14 @@ public class ProducerApp {
 	 */
 	public static void main(String[] args) throws InterruptedException {
 		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("META-INF/spring/producer-context.xml");
+		
 		MessageProducer messageProducer = applicationContext.getBean(MessageProducer.class);
+		try {
+			messageProducer.generateMessages();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		Thread.sleep(4000);
 	}

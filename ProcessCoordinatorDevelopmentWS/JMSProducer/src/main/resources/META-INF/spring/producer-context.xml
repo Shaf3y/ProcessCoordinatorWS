@@ -34,5 +34,6 @@
 	<bean id="jmsProducerTemplate" class="org.springframework.jms.core.JmsTemplate" p:defaultDestination-ref="destination">
 		<constructor-arg ref="jmsProducerConnectionFactory"/>
 	</bean>
+	
 </beans>
                          

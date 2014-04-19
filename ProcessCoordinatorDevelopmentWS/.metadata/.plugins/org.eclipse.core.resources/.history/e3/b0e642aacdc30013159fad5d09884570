@@ -1,0 +1,12 @@
+package com.marisoft.ziba.jms.tests.utils;
+
+import javax.jms.Message;
+import javax.jms.MessageListener;
+
+public class TestListener implements MessageListener {
+
+	public void onMessage(Message msg) {
+		// TODO Auto-generated method stub
+		
+	}
+}
