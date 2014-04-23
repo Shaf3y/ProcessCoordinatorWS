@@ -1,0 +1,12 @@
+package com.marisoft.ziba.cep.elements;
+
+import java.util.List;
+
+public class EventProcessingAgent {
+
+	private String identifier;	
+	private String description;	
+	private List<EventChannel> channels;
+	
+	
+}
