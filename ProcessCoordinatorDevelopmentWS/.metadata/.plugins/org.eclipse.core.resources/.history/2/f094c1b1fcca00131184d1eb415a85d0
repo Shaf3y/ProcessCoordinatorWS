@@ -1,0 +1,12 @@
+package com.marisoft.ziba.cep.elements;
+
+public class EventBody {
+
+	/* Specifies whether body might have openContent*/
+	private Applicability openContentIdicator;
+	
+	public EventBody() {
+		openContentIdicator = Applicability.NOT_APPLICABLE;
+	}
+
+}
