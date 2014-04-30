@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ProjectsViewInfo>
-	<DiagramOpenInfos activeDiagramId="93vD9qKD.AACAQ7n">
-		<Info bounds="Re:0.0,0.0,1691.0,903.0" diagramId="lxLKgqKD.AACAQWa" maximized="true" offsetX="0" offsetY="0"/>
-		<Info bounds="Re:0.0,0.0,1691.0,903.0" diagramId="BQeIgqKD.AACAQVI" maximized="true" offsetX="0" offsetY="0"/>
-		<Info bounds="Re:0.0,0.0,1691.0,903.0" diagramId="ghWW9qKD.AACAQ1Y" maximized="true" offsetX="0" offsetY="0"/>
-		<Info bounds="Re:0.0,0.0,1691.0,903.0" diagramId="93vD9qKD.AACAQ7n" maximized="true" offsetX="0" offsetY="0"/>
+	<DiagramOpenInfos activeDiagramId="BQeIgqKD.AACAQVI">
+		<Info bounds="Re:0.0,0.0,1358.0,691.0" diagramId="lxLKgqKD.AACAQWa" maximized="true" offsetX="0" offsetY="0"/>
+		<Info bounds="Re:0.0,0.0,1358.0,691.0" diagramId="ghWW9qKD.AACAQ1Y" maximized="true" offsetX="0" offsetY="0"/>
+		<Info bounds="Re:0.0,0.0,1358.0,691.0" diagramId="93vD9qKD.AACAQ7n" maximized="true" offsetX="0" offsetY="0"/>
+		<Info bounds="Re:0.0,0.0,1358.0,691.0" diagramId="BQeIgqKD.AACAQVI" maximized="true" offsetX="560" offsetY="154"/>
+		<Info bounds="Re:0.0,0.0,1358.0,691.0" diagramId="NiS5EaKD.AACAQmv" maximized="true" offsetX="0" offsetY="0"/>
 	</DiagramOpenInfos>
 </ProjectsViewInfo>

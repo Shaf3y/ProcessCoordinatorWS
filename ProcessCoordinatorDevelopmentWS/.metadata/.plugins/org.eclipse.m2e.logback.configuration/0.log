@@ -2012,3 +2012,18 @@ org.eclipse.core.runtime.CoreException: Launch configuration EsperApp references
 2014-04-16 12:12:14,396 [Worker-848] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2014-04-16 12:12:14,398 [Worker-848] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2014-04-16 12:12:14,399 [Worker-848] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-27 11:25:25,496 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:BPCoordinator:0.0.1 @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/BPCoordinator/pom.xml.
+2014-04-27 11:25:30,020 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-27 11:25:30,058 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-27 11:25:30,080 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-27 11:25:30,081 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-27 11:25:35,175 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:JMSConsumer:0.0.1 @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EnterpriseEventProcessing/pom.xml.
+2014-04-27 11:25:35,563 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-27 11:25:35,564 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-27 11:25:35,583 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-27 11:25:35,584 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-27 11:25:35,947 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Marisoft:JMSActiveMQ:0.0.1 @ /home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/JMSProducer/pom.xml.
+2014-04-27 11:25:36,297 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-27 11:25:36,298 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-27 11:25:36,321 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-27 11:25:36,322 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource

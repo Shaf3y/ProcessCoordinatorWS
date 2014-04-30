@@ -18,8 +18,7 @@ public class ConsumerApp {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}		
-		
+		}			
 		
 		Thread.sleep(30000);
 	}
