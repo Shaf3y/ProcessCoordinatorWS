@@ -4,9 +4,7 @@
 <fullyQualifiedTypeName name="com.espertech.esper.client.UpdateListener"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="com.marisoft.ziba.cep.elements.TemporalGranularity"/>
-<fullyQualifiedTypeName name="com.marisoft.ziba.cep.elements.EventHeader"/>
 <fullyQualifiedTypeName name="com.marisoft.ziba.cep.elements.AttributeSemanticRole"/>
-<fullyQualifiedTypeName name="com.marisoft.ziba.cep.elements.EventAttribute"/>
 <fullyQualifiedTypeName name="com.marisoft.ziba.bpm.coordinator.IBPCoordinator"/>
 <fullyQualifiedTypeName name="org.springframework.jms.core.MessageCreator"/>
 <fullyQualifiedTypeName name="org.apache.activemq.command.ActiveMQDestination"/>
@@ -44,7 +42,13 @@
 <fullyQualifiedTypeName name="org.springframework.jms.core.JmsTemplate"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="javax.jms.MapMessage"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.jms.Message"/>
+<fullyQualifiedTypeName name="com.marisoft.ziba.cep.elements.Applicability"/>
+<fullyQualifiedTypeName name="com.marisoft.ziba.cep.elements.EventAttribute"/>
+<fullyQualifiedTypeName name="com.marisoft.ziba.cep.elements.ElementType"/>
+<fullyQualifiedTypeName name="com.marisoft.ziba.cep.elements.EventHeader"/>
+<fullyQualifiedTypeName name="com.marisoft.ziba.cep.elements.EventBody"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.marisoft.ziba.cep.elements.EventChannel"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
