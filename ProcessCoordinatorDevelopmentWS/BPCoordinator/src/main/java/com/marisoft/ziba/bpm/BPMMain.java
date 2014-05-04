@@ -15,6 +15,7 @@ public class BPMMain {
 		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("META-INF/spring/bpcoordinator-context.xml");
 		IBPCoordinator coordinator = (IBPCoordinator) applicationContext.getBean("eventBasedBPCoordinator");
 		Thread.sleep(30000);
+		
 	}
 
 }
