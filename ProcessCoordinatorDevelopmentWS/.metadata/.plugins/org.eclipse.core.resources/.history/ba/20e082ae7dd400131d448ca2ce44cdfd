@@ -1,0 +1,12 @@
+package com.marisoft.ziba.cep.elements;
+
+import com.marisoft.ziba.cep.elements.apis.IEventChannel;
+
+public class EventChannel implements IEventChannel {
+	private String identifier;
+	private String description;
+	private RoutingScheme routingScheme;
+	private ElementType type;
+	
+	
+}

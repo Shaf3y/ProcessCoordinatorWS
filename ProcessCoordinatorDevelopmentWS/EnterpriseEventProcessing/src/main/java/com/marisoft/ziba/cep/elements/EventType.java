@@ -1,10 +1,16 @@
 package com.marisoft.ziba.cep.elements;
 
+import com.marisoft.ziba.cep.elements.apis.IEventType;
 
-public class EventType {
+
+public class EventType implements IEventType {
 
 	/** [R] Uniquely identifies the type */
-	private String eventTypeIdentifier;
+	private String identifier;
+	
+	private String description;
+	
+	private ElementType type;
 
 	/** [R] Denotes whether the event type is a composition of other events or not */
 	private boolean composed;
@@ -22,15 +28,31 @@ public class EventType {
 		header = new EventHeader();
 		body = new EventBody();
 	}
-
-	public String getEventTypeIdentifier() {
-		return eventTypeIdentifier;
+	
+	public String getIdentifier() {		
+		return this.identifier;
 	}
-
-	public void setEventTypeIdentifier(String eventTypeIdentifier) {
-		this.eventTypeIdentifier = eventTypeIdentifier;
+	
+	public void setIdentifier(String identifier) {
+		this.identifier = identifier;
 	}
-
+	
+	public String getDescription() {
+		return this.description;
+	}
+	
+	public ElementType getType() {
+		return this.type;
+	}
+	
+	public void setType(ElementType type) {
+		this.type = type;
+	}
+	
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
 	public boolean isComposed() {
 		return composed;
 	}
