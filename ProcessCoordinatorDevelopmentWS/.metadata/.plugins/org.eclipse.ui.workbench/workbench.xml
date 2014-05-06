@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="44" version="2.0">
+<workbench progressCount="40" version="2.0">
 <workbenchAdvisor/>
 <window height="766" maximized="true" width="1024" x="1426" y="41">
 <fastViewData fastViewLocation="1024">
@@ -44,52 +44,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
-<part id="7"/>
-<part id="8"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EventDetectionIT.java" partName="EventDetectionIT.java" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EnterpriseEventProcessing/src/test/java/com/marisoft/ziba/cep/tests/jms/EventDetectionIT.java" title="EventDetectionIT.java" tooltip="EnterpriseEventProcessing/src/test/java/com/marisoft/ziba/cep/tests/jms/EventDetectionIT.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EnterpriseEventProcessing/src/test/java/com/marisoft/ziba/cep/tests/jms/EventDetectionIT.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1395" selectionTopPixel="327"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EsperEventProcessingAgent.java" partName="EsperEventProcessingAgent.java" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/jms/EsperEventProcessingAgent.java" title="EsperEventProcessingAgent.java" tooltip="EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/jms/EsperEventProcessingAgent.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/jms/EsperEventProcessingAgent.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1694" selectionTopPixel="0"/>
-</editor>
-<editor id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" name="Dashboard" partName="Dashboard" title="Dashboard" tooltip="Dashboard" workbook="DefaultEditorWorkbook">
-<input factoryID="org.springsource.ide.eclipse.dashboard.ui.dashboard.elementFactory" openDashboard="true"/>
-</editor>
-<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="bpcoordinator-context.xml" partName="bpcoordinator-context.xml" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/BPCoordinator/src/main/resources/META-INF/spring/bpcoordinator-context.xml" title="bpcoordinator-context.xml" tooltip="BPCoordinator/src/main/resources/META-INF/spring/bpcoordinator-context.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BPCoordinator/src/main/resources/META-INF/spring/bpcoordinator-context.xml"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2050" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IBPCoordinator.java" partName="IBPCoordinator.java" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/IBPCoordinator.java" title="IBPCoordinator.java" tooltip="BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/IBPCoordinator.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/IBPCoordinator.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="22" selectionOffset="507" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JmsBPCoordinator.java" partName="JmsBPCoordinator.java" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/jms/JmsBPCoordinator.java" title="JmsBPCoordinator.java" tooltip="BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/jms/JmsBPCoordinator.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/jms/JmsBPCoordinator.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1199" selectionTopPixel="735"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TemporalGranularity.java" partName="TemporalGranularity.java" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/TemporalGranularity.java" title="TemporalGranularity.java" tooltip="EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/TemporalGranularity.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/TemporalGranularity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="168" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EventType.java" partName="EventType.java" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/EventType.java" title="EventType.java" tooltip="EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/EventType.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/EventType.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="407" selectionTopPixel="123"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EventProcessingAgent.java" partName="EventProcessingAgent.java" path="/home/shaf3y/Work/ZIBA/EventProcessing/ProcessCoordinatorDevelopmentWS/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/EventProcessingAgent.java" title="EventProcessingAgent.java" tooltip="EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/EventProcessingAgent.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/EventProcessingAgent.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="656" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EventConsumer.java" partName="EventConsumer.java" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/EventConsumer.java" title="EventConsumer.java" tooltip="EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/EventConsumer.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/EventConsumer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -166,7 +127,7 @@
 </view>
 <view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="com.springsource.sts.ide.perspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="com.springsource.sts.ide.perspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.springframework.ide.eclipse.ui.perspective.StsPerspective" id="com.springsource.sts.ide.perspective" label="Spring"/>
 <alwaysOnActionSet id="ajrefactoring"/>
@@ -283,7 +244,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.23536816" ratioLeft="374" ratioRight="1215" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.21058145" ratioLeft="402" ratioRight="1507" relationship="2" relative="left"/>
 <info folder="true" part="topright" ratio="0.74934036" ratioLeft="568" ratioRight="190" relationship="2" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
@@ -458,16 +419,10 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/EventAttribute.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/EventProcessingAgent.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/services/apis/IEventAdministrationService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EnterpriseEventProcessing/src/test/java/com/marisoft/ziba/cep/tests/jms/EventDetectionIT.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/apis/IEventConsumer.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/EventConsumer.java"/>
 </editors>
-<item historyLabel="application-context.xml" index="3">
-<position info="not_deleted" x="2512" y="15"/>
-</item>
-<item historyLabel="EventDetectionIT.java" index="0">
-<position info="not_deleted" x="1400" y="0"/>
-</item>
-<item historyLabel="EsperEventProcessingAgent.java" index="1">
-<position info="not_deleted" x="1592" y="0"/>
-</item>
 <item historyLabel="consumer-context.xml" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
@@ -604,8 +559,17 @@
 <item historyLabel="IEventAdministrationService.java" index="23">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="EventProcessingAgent.java" index="22">
-<position info="not_deleted" x="660" y="0"/>
+<item historyLabel="EventProcessingAgent.java" index="22">
+<position info="not_deleted" x="196" y="0"/>
+</item>
+<item historyLabel="EventDetectionIT.java" index="24">
+<position info="not_deleted" x="1395" y="0"/>
+</item>
+<item historyLabel="IEventConsumer.java" index="25">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="EventConsumer.java" index="26">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -626,6 +590,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EventConsumer.java" tooltip="EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/EventConsumer.java">
+<persistable path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/EventConsumer.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IEventConsumer.java" tooltip="EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/apis/IEventConsumer.java">
+<persistable path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/apis/IEventConsumer.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IEventAdministrationService.java" tooltip="EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/services/apis/IEventAdministrationService.java">
 <persistable path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/services/apis/IEventAdministrationService.java"/>
 </file>
@@ -634,9 +604,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EventAttribute.java" tooltip="EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/EventAttribute.java">
 <persistable path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/EventAttribute.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EventConsumer.java" tooltip="EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/EventConsumer.java">
-<persistable path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/EventConsumer.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EventRelationshipType.java" tooltip="EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/EventRelationshipType.java">
 <persistable path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/elements/EventRelationshipType.java"/>
@@ -667,9 +634,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="bpcoordinator-context.xml" tooltip="BPCoordinator/src/main/resources/META-INF/spring/bpcoordinator-context.xml">
 <persistable path="/BPCoordinator/src/main/resources/META-INF/spring/bpcoordinator-context.xml"/>
-</file>
-<file factoryID="org.springsource.ide.eclipse.dashboard.ui.dashboard.elementFactory" id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" name="Dashboard" tooltip="Dashboard">
-<persistable openDashboard="true"/>
 </file>
 </mruList>
 </workbench>
