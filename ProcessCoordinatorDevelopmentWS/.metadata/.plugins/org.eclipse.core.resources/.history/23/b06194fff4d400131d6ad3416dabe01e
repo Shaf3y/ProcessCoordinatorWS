@@ -69,6 +69,7 @@ public abstract class EventChannel implements IEventChannel {
 	public void subscribe(IEventConsumer consumer, IEventType event) {
 		// TODO Auto-generated method stub
 		
-	}	
+	}
+	
 	
 }

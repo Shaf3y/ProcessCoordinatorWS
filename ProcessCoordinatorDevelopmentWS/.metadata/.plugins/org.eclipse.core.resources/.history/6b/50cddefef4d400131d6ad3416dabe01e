@@ -1,11 +1,6 @@
 package com.marisoft.ziba.cep.elements;
 
-import java.util.List;
-
 import com.marisoft.ziba.cep.elements.apis.IEventChannel;
-import com.marisoft.ziba.cep.elements.apis.IEventConsumer;
-import com.marisoft.ziba.cep.elements.apis.IEventProducer;
-import com.marisoft.ziba.cep.elements.apis.IEventType;
 
 public abstract class EventChannel implements IEventChannel {
 	
@@ -46,29 +41,5 @@ public abstract class EventChannel implements IEventChannel {
 		return this.type;
 	}
 	
-	public List<IEventType> getEventTypes() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-	
-	public List<IEventProducer> getSources() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-	
-	public List<IEventConsumer> getTargets() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-	
-	public void publish(IEventProducer producer, IEventType event) {
-		// TODO Auto-generated method stub
-		
-	}
-	
-	public void subscribe(IEventConsumer consumer, IEventType event) {
-		// TODO Auto-generated method stub
-		
-	}	
 	
 }
