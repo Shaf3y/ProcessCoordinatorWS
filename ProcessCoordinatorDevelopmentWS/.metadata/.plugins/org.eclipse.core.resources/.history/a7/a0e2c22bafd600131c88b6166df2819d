@@ -1,0 +1,10 @@
+package com.marisoft.ziba.cep.epn.elements;
+
+public class EventRelationship {
+	private EventRelationshipType relationship;
+	
+	/** Identifier of related event */
+	private String relatedEvent;
+	
+	
+}

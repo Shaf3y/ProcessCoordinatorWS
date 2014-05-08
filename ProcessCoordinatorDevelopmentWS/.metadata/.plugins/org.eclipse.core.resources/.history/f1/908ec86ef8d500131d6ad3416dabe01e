@@ -1,0 +1,10 @@
+package com.marisoft.ziba.cep.elements.apis;
+
+import com.marisoft.ziba.cep.elements.EventBody;
+import com.marisoft.ziba.cep.elements.EventHeader;
+
+public interface IEvent {
+	
+	EventHeader getHeader();
+	EventBody getBody();
+}

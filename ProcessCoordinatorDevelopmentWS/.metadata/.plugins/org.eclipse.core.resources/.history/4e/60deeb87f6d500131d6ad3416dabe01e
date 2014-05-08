@@ -1,0 +1,6 @@
+package com.marisoft.ziba.cep.elements;
+
+
+public abstract class EventBody {
+	private 
+}

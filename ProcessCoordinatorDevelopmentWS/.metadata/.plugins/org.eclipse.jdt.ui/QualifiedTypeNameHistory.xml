@@ -48,7 +48,14 @@
 <fullyQualifiedTypeName name="com.marisoft.ziba.cep.elements.ElementType"/>
 <fullyQualifiedTypeName name="com.marisoft.ziba.cep.elements.EventHeader"/>
 <fullyQualifiedTypeName name="com.marisoft.ziba.cep.elements.EventBody"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.marisoft.ziba.cep.elements.EventChannel"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.marisoft.ziba.cep.apis.IEvent"/>
+<fullyQualifiedTypeName name="com.marisoft.ziba.cep.epn.elements.Applicability"/>
+<fullyQualifiedTypeName name="com.marisoft.ziba.cep.epn.elements.EventAttribute"/>
+<fullyQualifiedTypeName name="com.marisoft.ziba.cep.epn.elements.EventRelationshipType"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.marisoft.ziba.cep.epn.elements.EventRelationship"/>
+<fullyQualifiedTypeName name="com.espertech.esper.epl.generated.EsperEPL2GrammarParser.newAssign_return"/>
+<fullyQualifiedTypeName name="com.marisoft.ziba.cep.epn.EPNManager"/>
 </qualifiedTypeNameHistroy>

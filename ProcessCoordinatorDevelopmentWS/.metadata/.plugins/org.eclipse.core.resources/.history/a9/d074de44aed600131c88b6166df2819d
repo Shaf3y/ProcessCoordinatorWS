@@ -1,0 +1,12 @@
+package com.marisoft.ziba.cep.elements.apis;
+
+import com.marisoft.ziba.cep.epn.elements.Applicability;
+import com.marisoft.ziba.cep.epn.elements.TemporalGranularity;
+
+public interface IEventType extends IEPNElement {
+
+	boolean isComposed();
+	TemporalGranularity getGranularity();
+	Applicability getOpenContentIndicator();
+	
+}

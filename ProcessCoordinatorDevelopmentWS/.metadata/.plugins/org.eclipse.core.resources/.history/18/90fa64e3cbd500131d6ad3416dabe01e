@@ -1,0 +1,15 @@
+package com.marisoft.ziba.cep.elements;
+
+public class JmsEventChannel extends EventChannel {
+	
+	private MessagingMode type;
+	private String brokerUri;
+	private Integer port;
+	private CommunicationProtocol protocol;
+	private Integer receiveTimeout;
+
+	public JmsEventChannel() {
+	}
+	
+	
+}

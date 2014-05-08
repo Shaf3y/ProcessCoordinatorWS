@@ -1,0 +1,9 @@
+package com.marisoft.ziba.cep.elements;
+
+public class JmsEventChannel extends EventChannel {
+	
+	private JmsChannelT
+
+	public JmsEventChannel() {
+	}
+}

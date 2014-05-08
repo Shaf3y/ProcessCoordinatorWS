@@ -1,0 +1,10 @@
+package com.marisoft.ziba.cep.elements.apis;
+
+import com.marisoft.ziba.cep.elements.TemporalGranularity;
+
+public interface IEventType extends IEPNElement {
+
+	boolean isComposed();
+	TemporalGranularity getGranularity();
+	
+}

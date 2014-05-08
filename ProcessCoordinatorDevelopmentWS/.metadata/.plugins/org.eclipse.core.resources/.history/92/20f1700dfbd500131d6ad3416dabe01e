@@ -1,0 +1,21 @@
+package com.marisoft.ziba.cep;
+
+import com.marisoft.ziba.cep.elements.Event;
+import com.marisoft.ziba.cep.elements.EventBody;
+
+public class QuotationApprovedEvent extends Event {
+
+	
+	
+	public QuotationApprovedEvent() {
+		super("QUOTATIO_APPROVED");
+		// TODO Auto-generated constructor stub
+	}
+
+	public <B extends EventBody> B getBody() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}

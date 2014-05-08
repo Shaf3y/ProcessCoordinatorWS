@@ -1,0 +1,14 @@
+package com.marisoft.ziba.cep.epn;
+
+public class EPNManager {
+
+	private static EPNManager manager = null;
+	
+	protected EPNManager() {
+		
+	}
+	
+	public static EPNManager getManager() {
+		
+	}
+}

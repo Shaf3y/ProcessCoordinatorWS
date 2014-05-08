@@ -1,0 +1,40 @@
+package com.marisoft.ziba.cep.epn;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import com.marisoft.ziba.cep.epn.elements.apis.IEventChannel;
+import com.marisoft.ziba.cep.epn.elements.apis.IEventConsumer;
+import com.marisoft.ziba.cep.epn.elements.apis.IEventProcessingAgent;
+import com.marisoft.ziba.cep.epn.elements.apis.IEventType;
+
+public class EPNManager {
+
+	private static EPNManager manager = null;
+	
+	private Map<String, IEventType> eventTypes;
+	private Map<String, IEventChannel> channels;
+	private Map<String, IEventProcessingAgent> agents;
+	private Map<String, IEventConsumer> consumers;
+	
+	
+	protected EPNManager() {
+		eventTypes = new HashMap<String, IEventType>();
+	}
+	
+	public static synchronized EPNManager getManager() {
+		if (manager == null) {
+			manager = new EPNManager();
+		}	
+		
+		return manager;		
+	}
+	
+	public void load() {
+		
+	}
+	
+	public void addEventType(IEventType eventType) {
+		
+	}
+}
