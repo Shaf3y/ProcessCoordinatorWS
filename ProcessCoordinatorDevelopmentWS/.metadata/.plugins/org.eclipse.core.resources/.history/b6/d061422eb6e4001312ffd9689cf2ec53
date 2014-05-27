@@ -1,0 +1,39 @@
+package com.marisoft.ziba.cep.enterprise.bpm.events.bodies;
+
+import java.io.Serializable;
+import java.util.Map;
+
+import com.marisoft.ziba.cep.EventBody;
+
+public class BProcessEventBody extends EventBody {
+
+	private String processIdentifier;
+	private String instanceId;
+	
+	private Map<String, Serializable> variables;
+	private String businessKey;	
+
+	public String getProcessIdentifier() {
+		return processIdentifier;
+	}
+
+	public void setProcessIdentifier(String processIdentifier) {
+		this.processIdentifier = processIdentifier;
+	}
+	
+	public Map<String, Serializable> getVariables() {
+		return variables;
+	}
+
+	public void setVariables(Map<String, Serializable> variables) {
+		this.variables = variables;
+	}
+
+	public String getBusinessKey() {
+		return businessKey;
+	}
+
+	public void setBusinessKey(String businessKey) {
+		this.businessKey = businessKey;
+	}
+}

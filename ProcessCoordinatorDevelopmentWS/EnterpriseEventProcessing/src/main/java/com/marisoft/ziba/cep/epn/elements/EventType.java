@@ -3,8 +3,6 @@ package com.marisoft.ziba.cep.epn.elements;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.marisoft.ziba.cep.EventBody;
-import com.marisoft.ziba.cep.EventHeader;
 import com.marisoft.ziba.cep.epn.elements.apis.IEventType;
 
 
@@ -26,7 +24,7 @@ public class EventType implements IEventType {
 	/** [R] Denotes applicability of payload  */
 	private Applicability openContentIndicator;
 	
-	/** [R] Event's Payload Attributes [Attributes of Event Body] */
+	/** [R] Event's Payload Attributes [Attributes of Event Body */
 	private List<EventAttribute> payload;
 	
 	/** [R] Event's relationships with other events */

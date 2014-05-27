@@ -37,7 +37,7 @@ public class EPNManager {
 		return manager;		
 	}
 	
-	public void start() {
+	public void setupEPN() {
 		
 	}
 		

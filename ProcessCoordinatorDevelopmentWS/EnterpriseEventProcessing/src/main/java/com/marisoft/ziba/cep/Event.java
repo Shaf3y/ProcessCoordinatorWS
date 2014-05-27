@@ -9,17 +9,10 @@ public abstract class Event implements IEvent{
 	
 	/** header of event which holds a general information about any event instance */
 	private EventHeader header;
-	
-//	/** body of event instance which holds payload attributes of event instance */
-//	private EventBody body;
-//	
-//	protected void setBody(EventBody body) {
-//		this.body = body;
-//	}
-	
-	public Event(String identifier) {
+		
+	public Event(String identifier, Long identity) {
 		this.identifier = identifier;
-		header = new EventHeader();
+		header = new EventHeader(identity);
 	}
 	
 	public String getIdentifier() {

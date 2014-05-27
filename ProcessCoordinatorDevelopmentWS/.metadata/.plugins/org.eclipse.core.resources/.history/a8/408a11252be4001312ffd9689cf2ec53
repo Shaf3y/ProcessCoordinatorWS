@@ -1,0 +1,23 @@
+package com.marisoft.ziba.cep.enterprise.bpm.events;
+
+import com.marisoft.ziba.cep.Event;
+import com.marisoft.ziba.cep.EventBody;
+import com.marisoft.ziba.cep.enterprise.bpm.events.bodies.HTaskEventBody;
+
+public class HTaskEvent extends Event {
+
+	private HTaskEventBody body;
+	
+	/** TASK_EVENTS_IDENTIFIERS */
+	public static final String TASK_CREATED = "TASK_CREATED";
+	public static final String TASK_CREATED = "";
+	
+	public HTaskEvent(String identifier, Long identity) {
+		super(identifier, identity);
+		body = new HTaskEventBody();
+	}
+	
+	public EventBody getBody() {		
+		return this.body;
+	}
+}

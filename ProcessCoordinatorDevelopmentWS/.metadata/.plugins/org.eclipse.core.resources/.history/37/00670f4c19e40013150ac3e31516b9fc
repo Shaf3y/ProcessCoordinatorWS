@@ -1,0 +1,10 @@
+package com.marisoft.ziba.cep.enterprise.bpm.events.bodies;
+
+import java.io.Serializable;
+import java.util.Map;
+
+public class BPStartedEventBody extends BPEventBody {
+
+	private Map<String, Serializable> varibales;
+	private String 
+}

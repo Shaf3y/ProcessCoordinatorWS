@@ -1,0 +1,14 @@
+package com.marisoft.ziba.cep.enterprise.bpm.events.bodies;
+
+public abstract class BPEventBody {
+
+	private String processIdentifier;
+
+	public String getProcessIdentifier() {
+		return processIdentifier;
+	}
+
+	public void setProcessIdentifier(String processIdentifier) {
+		this.processIdentifier = processIdentifier;
+	}
+}

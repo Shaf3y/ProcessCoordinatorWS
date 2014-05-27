@@ -1,0 +1,14 @@
+package com.marisoft.ziba.cep.enterprise.bpm.events.bodies;
+
+public class HTaskEventBody {
+	
+	private String taskIdentifier;
+
+	public String getTaskIdentifier() {
+		return taskIdentifier;
+	}
+
+	public void setTaskIdentifier(String taskIdentifier) {
+		this.taskIdentifier = taskIdentifier;
+	}	
+}

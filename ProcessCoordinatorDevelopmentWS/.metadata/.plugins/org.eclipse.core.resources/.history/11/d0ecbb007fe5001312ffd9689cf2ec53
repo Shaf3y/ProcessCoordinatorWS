@@ -1,0 +1,7 @@
+package com.marisoft.ziba.cep;
+
+import com.marisoft.ziba.cep.apis.IEventHandler;
+
+public class EventHandler implements IEventHandler, Update{
+
+}

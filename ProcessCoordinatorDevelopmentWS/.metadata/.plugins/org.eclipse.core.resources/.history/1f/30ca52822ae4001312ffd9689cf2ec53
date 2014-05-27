@@ -1,0 +1,13 @@
+package com.marisoft.ziba.cep.enterprise.bpm.events;
+
+import com.marisoft.ziba.cep.Event;
+import com.marisoft.ziba.cep.EventBody;
+
+public class HTaskEvent extends Event {
+
+	private 
+	
+	public EventBody getBody() {		
+		return null;
+	}
+}

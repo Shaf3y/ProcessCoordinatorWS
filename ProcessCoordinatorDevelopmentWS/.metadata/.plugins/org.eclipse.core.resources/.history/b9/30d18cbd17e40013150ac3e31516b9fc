@@ -1,0 +1,14 @@
+package com.marisoft.ziba.cep.enterprise.bpm.events;
+
+import com.marisoft.ziba.cep.Event;
+
+public abstract class BPEvent extends Event {
+
+	private static final String 
+	
+	public BPEvent() {
+		super(identifier);
+		// TODO Auto-generated constructor stub
+	}
+
+}

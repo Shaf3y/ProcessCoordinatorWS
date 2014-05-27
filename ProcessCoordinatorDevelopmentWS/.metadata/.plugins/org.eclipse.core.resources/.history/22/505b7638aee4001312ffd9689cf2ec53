@@ -1,0 +1,32 @@
+package com.marisoft.ziba.cep.enterprise.bpm.events;
+
+import com.marisoft.ziba.cep.Event;
+import com.marisoft.ziba.cep.EventBody;
+import com.marisoft.ziba.cep.enterprise.bpm.events.bodies.BPStartedEventBody;
+
+public class BProcessEvent extends Event {
+
+	private BPStartedEventBody body;
+
+	/** BUSINESS_PROCESS_EVENTS_IDENTIFIERS */
+	private static final String BP_STARTED = "BP_STARTED";
+	private static final String BP_SUSPENDED = "BP_SUSPENDED";
+	private static final String BP_RESUMED = "BP_RESUMED";
+	private static final String BP_COMPLETED = "BP_COMPLETED";
+	private static final String BP_TERMINATED = "BP_TERMINATED";
+	private static final String BP_RESTARTED = "BP_RESTARTED";
+	private static final String BP_DELETED = "BP_DELETED";
+	private static final String BP_FAILED = "BP_FAILED";
+	private static final String BP_ = "BP_";
+	/** BUSINESS_PROCESS_EVENTS_IDENTIFIERS */
+	
+	public BProcessEvent(Long identity) {
+		super(BP_STARTED, identity);
+		body = new BPStartedEventBody();
+	}
+
+	public EventBody getBody() {
+		return body;
+	}
+
+}

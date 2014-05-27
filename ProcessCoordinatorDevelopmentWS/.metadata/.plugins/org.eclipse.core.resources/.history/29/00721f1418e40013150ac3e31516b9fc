@@ -1,0 +1,11 @@
+package com.marisoft.ziba.cep.enterprise.bpm.events;
+
+import com.marisoft.ziba.cep.Event;
+
+public abstract class BPEvent extends Event {
+		
+	public BPEvent(String identifier) {
+		super(identifier);		
+	}
+
+}

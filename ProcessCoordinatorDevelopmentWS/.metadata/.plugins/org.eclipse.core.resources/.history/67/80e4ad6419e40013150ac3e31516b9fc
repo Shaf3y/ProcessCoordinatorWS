@@ -1,0 +1,18 @@
+package com.marisoft.ziba.cep.enterprise.bpm.events;
+
+import com.marisoft.ziba.cep.Event;
+import com.marisoft.ziba.cep.EventBody;
+
+public class BPStartedEvent extends Event {
+
+	public BPStartedEvent() {
+		super(identifier);
+		// TODO Auto-generated constructor stub
+	}
+
+	public EventBody getBody() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

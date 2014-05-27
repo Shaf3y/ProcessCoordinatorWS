@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.jms.ExceptionListener"/>
-<fullyQualifiedTypeName name="com.espertech.esper.client.UpdateListener"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="com.marisoft.ziba.cep.elements.TemporalGranularity"/>
-<fullyQualifiedTypeName name="com.marisoft.ziba.cep.elements.AttributeSemanticRole"/>
-<fullyQualifiedTypeName name="com.marisoft.ziba.bpm.coordinator.IBPCoordinator"/>
-<fullyQualifiedTypeName name="org.springframework.jms.core.MessageCreator"/>
-<fullyQualifiedTypeName name="org.apache.activemq.command.ActiveMQDestination"/>
-<fullyQualifiedTypeName name="com.marisoft.ziba.cep.jms.MyInputEventListener"/>
-<fullyQualifiedTypeName name="org.apache.activemq.command.ActiveMQQueue"/>
 <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
 <fullyQualifiedTypeName name="org.springframework.test.context.junit4.SpringJUnit4ClassRunner"/>
 <fullyQualifiedTypeName name="org.springframework.test.context.ContextConfiguration"/>
@@ -33,14 +23,12 @@
 <fullyQualifiedTypeName name="javax.jms.ObjectMessage"/>
 <fullyQualifiedTypeName name="com.marisoft.ziba.cep.jms.MyInputEvent"/>
 <fullyQualifiedTypeName name="com.marisoft.ziba.cep.jms.EsperEventProcessingAgent"/>
-<fullyQualifiedTypeName name="java.io.Serializable"/>
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="com.espertech.esperio.jms.SpringJMSTemplateInputAdapter"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="com.espertech.esper.adapter.AdapterSPI"/>
 <fullyQualifiedTypeName name="com.espertech.esper.adapter.Adapter"/>
 <fullyQualifiedTypeName name="org.springframework.jms.core.JmsTemplate"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="javax.jms.MapMessage"/>
 <fullyQualifiedTypeName name="javax.jms.Message"/>
 <fullyQualifiedTypeName name="com.marisoft.ziba.cep.elements.Applicability"/>
@@ -58,4 +46,18 @@
 <fullyQualifiedTypeName name="com.marisoft.ziba.cep.epn.elements.EventRelationship"/>
 <fullyQualifiedTypeName name="com.espertech.esper.epl.generated.EsperEPL2GrammarParser.newAssign_return"/>
 <fullyQualifiedTypeName name="com.marisoft.ziba.cep.epn.EPNManager"/>
+<fullyQualifiedTypeName name="com.marisoft.ziba.cep.epn.elements.apis.IEventType"/>
+<fullyQualifiedTypeName name="com.marisoft.ziba.cep.epn.elements.apis.IEventChannel"/>
+<fullyQualifiedTypeName name="com.marisoft.ziba.cep.epn.elements.apis.IEventProcessingAgent"/>
+<fullyQualifiedTypeName name="com.marisoft.ziba.cep.epn.elements.apis.IEventConsumer"/>
+<fullyQualifiedTypeName name="com.marisoft.ziba.cep.epn.elements.apis.IEventProducer"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="com.espertech.esper.client.Configuration"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.marisoft.ziba.cep.EventBody"/>
+<fullyQualifiedTypeName name="com.marisoft.ziba.cep.enterprise.bpm.events.bodies.BPEventBody"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="com.marisoft.ziba.cep.Event"/>
+<fullyQualifiedTypeName name="com.marisoft.ziba.cep.enterprise.bpm.events.bodies.BPStartedEventBody"/>
 </qualifiedTypeNameHistroy>
