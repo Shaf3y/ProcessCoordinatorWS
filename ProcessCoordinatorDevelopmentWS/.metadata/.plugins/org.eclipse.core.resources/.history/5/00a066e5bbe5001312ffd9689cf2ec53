@@ -1,0 +1,7 @@
+package com.marisoft.ziba.bpm.engine;
+
+import org.activiti.engine.delegate.event.ActivitiEventListener;
+
+public class EngineEventsListener implements ActivitiEventListener {
+
+}
