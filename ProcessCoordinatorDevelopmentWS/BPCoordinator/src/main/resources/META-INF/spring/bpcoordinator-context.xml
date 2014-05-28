@@ -33,5 +33,6 @@
 	<jms:listener-container container-type="default" connection-factory="jmsConnectionFactory" acknowledge="auto">
 		<jms:listener destination="BPCoordinator-QUEUE" ref="eventBasedBPCoordinator"/>
 	</jms:listener-container>
-	
+		
+	<bean id="engineDelegate" class="com.marisoft.ziba.bpe.activiti.BusinessProcessEngineActiviti"/>
 </beans>

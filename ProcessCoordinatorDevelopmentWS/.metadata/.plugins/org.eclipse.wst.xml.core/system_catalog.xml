@@ -120,4 +120,6 @@
   <uri name="http://www.w3.org/TR/html4/strict.dtd" uri="jar:file:/home/shaf3y/work/DevelopmentTools/springsource/sts-3.1.0.RELEASE/plugins/org.eclipse.wst.standard.schemas_1.0.501.v201301091615.jar!/dtds/strict.dtd"/>
   <public publicId="-//SPRING//DTD BEAN//EN" uri="jar:file:/home/shaf3y/work/DevelopmentTools/springsource/sts-3.1.0.RELEASE/plugins/org.springframework.beans_3.1.4.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans.dtd" webURL="http://www.springframework.org/dtd/spring-beans.dtd"/>
   <public publicId="-//SPRING//DTD BEAN 2.0//EN" uri="jar:file:/home/shaf3y/work/DevelopmentTools/springsource/sts-3.1.0.RELEASE/plugins/org.springframework.beans_3.1.4.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans-2.0.dtd" webURL="http://www.springframework.org/dtd/spring-beans-2.0.dtd"/>
+  <uri name="http://www.omg.org/spec/BPMN/20100524/MODEL" uri="jar:file:/home/shaf3y/work/DevelopmentTools/springsource/sts-3.1.0.RELEASE/plugins/org.activiti.designer.eclipse_5.14.1.jar!/xsd/BPMN20.xsd"/>
+  <uri name="http://activiti.org/bpmn" uri="jar:file:/home/shaf3y/work/DevelopmentTools/springsource/sts-3.1.0.RELEASE/plugins/org.activiti.designer.eclipse_5.14.1.jar!/xsd/activiti-bpmn-extensions-5.4.xsd"/>
 </catalog>

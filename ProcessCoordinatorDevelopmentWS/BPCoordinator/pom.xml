@@ -70,7 +70,21 @@
 			<artifactId>activiti-engine</artifactId>
 			<version>5.15</version>
 		</dependency>
-		
+
+		<!-- H2 Dependency -->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>1.4.178</version>
+		</dependency>
+
+		<!-- Postgres Dependency -->
+		<dependency>
+			<groupId>postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>9.1-901-1.jdbc4</version>
+		</dependency>
+
 	</dependencies>
 
 </project>

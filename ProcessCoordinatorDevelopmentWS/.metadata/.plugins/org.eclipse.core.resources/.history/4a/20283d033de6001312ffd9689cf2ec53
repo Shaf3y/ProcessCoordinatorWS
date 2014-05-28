@@ -1,0 +1,32 @@
+package com.marisoft.ziba.bpm;
+
+import java.sql.SQLException;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.marisoft.ziba.bpe.activiti.BusinessProcessEngineActiviti;
+import com.marisoft.ziba.bpe.api.BusinessProcessEngineDelegate;
+import com.marisoft.ziba.bpm.coordinator.IBPCoordinator;
+
+public class BPMMain {
+
+	/**
+	 * @param args
+	 * @throws InterruptedException 
+	 * @throws IllegalAccessException 
+	 * @throws InstantiationException 
+	 * @throws SQLException 
+	 * @throws ClassNotFoundException 
+	 */
+	public static void main(String[] args) throws InterruptedException, ClassNotFoundException, SQLException, InstantiationException, IllegalAccessException {
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("META-INF/spring/bpcoordinator-context.xml");
+		
+//		IBPCoordinator coordinator = (IBPCoordinator) applicationContext.getBean("eventBasedBPCoordinator");
+//		Thread.sleep(30000);
+		
+		BusinessProcessEngineDelegate engineDelegate = (BusinessProcessEngineDelegate) applicationContext.getBean("engineDelegate");
+		
+	}
+
+}

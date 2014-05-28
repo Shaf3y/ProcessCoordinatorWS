@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
-<fullyQualifiedTypeName name="org.springframework.test.context.junit4.SpringJUnit4ClassRunner"/>
-<fullyQualifiedTypeName name="org.springframework.test.context.ContextConfiguration"/>
 <fullyQualifiedTypeName name="com.marisoft.ziba.jms.MessageProducer"/>
 <fullyQualifiedTypeName name="com.marisoft.ziba.jms.tests.utils.TestListener"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
@@ -53,11 +50,14 @@
 <fullyQualifiedTypeName name="com.marisoft.ziba.cep.epn.elements.apis.IEventProducer"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="com.espertech.esper.client.Configuration"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="com.marisoft.ziba.cep.EventBody"/>
 <fullyQualifiedTypeName name="com.marisoft.ziba.cep.enterprise.bpm.events.bodies.BPEventBody"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.io.Serializable"/>
 <fullyQualifiedTypeName name="com.marisoft.ziba.cep.Event"/>
 <fullyQualifiedTypeName name="com.marisoft.ziba.cep.enterprise.bpm.events.bodies.BPStartedEventBody"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="org.joda.time.DateTime"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.activiti.engine.runtime.ProcessInstance"/>
 </qualifiedTypeNameHistroy>

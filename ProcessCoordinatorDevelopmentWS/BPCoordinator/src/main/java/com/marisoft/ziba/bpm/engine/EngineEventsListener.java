@@ -8,7 +8,7 @@ public class EngineEventsListener implements ActivitiEventListener {
 	
 
 	public void onEvent(ActivitiEvent event) {
-		event.getType().
+		
 	}
 	
 	public boolean isFailOnException() {

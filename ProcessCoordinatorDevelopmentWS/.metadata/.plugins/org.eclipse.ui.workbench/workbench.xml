@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="43" version="2.0">
+<workbench progressCount="42" version="2.0">
 <workbenchAdvisor/>
 <window height="766" maximized="true" width="1024" x="1426" y="41">
 <fastViewData fastViewLocation="1024">
@@ -32,7 +32,7 @@
 <coolItem id="org.eclipse.jpt.jpa.ui.internal.editors.PersistenceEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.m2e.editor.MavenPomEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -63,6 +63,8 @@
 <part id="17"/>
 <part id="18"/>
 <part id="19"/>
+<part id="20"/>
+<part id="21"/>
 </presentation>
 </folder>
 </info>
@@ -135,10 +137,6 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/Event.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="747" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BPStartedEvent.java" partName="BPStartedEvent.java" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/enterprise/bpm/events/BPStartedEvent.java" title="BPStartedEvent.java" tooltip="EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/enterprise/bpm/events/BPStartedEvent.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/enterprise/bpm/events/BPStartedEvent.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="476" selectionTopPixel="0"/>
-</editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BPEventBody.java" partName="BPEventBody.java" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/enterprise/bpm/events/bodies/BPEventBody.java" title="BPEventBody.java" tooltip="EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/enterprise/bpm/events/bodies/BPEventBody.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/enterprise/bpm/events/bodies/BPEventBody.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="378" selectionTopPixel="0"/>
@@ -146,6 +144,18 @@
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BPStartedEventBody.java" partName="BPStartedEventBody.java" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/enterprise/bpm/events/bodies/BPStartedEventBody.java" title="BPStartedEventBody.java" tooltip="EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/enterprise/bpm/events/bodies/BPStartedEventBody.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/enterprise/bpm/events/bodies/BPStartedEventBody.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="242" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BPMMain.java" partName="BPMMain.java" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/BPCoordinator/src/main/java/com/marisoft/ziba/bpm/BPMMain.java" title="BPMMain.java" tooltip="BPCoordinator/src/main/java/com/marisoft/ziba/bpm/BPMMain.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BPCoordinator/src/main/java/com/marisoft/ziba/bpm/BPMMain.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1510" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusinessProcessEngineDelegate.java" partName="BusinessProcessEngineDelegate.java" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/BPCoordinator/src/main/java/com/marisoft/ziba/bpe/api/BusinessProcessEngineDelegate.java" title="BusinessProcessEngineDelegate.java" tooltip="BPCoordinator/src/main/java/com/marisoft/ziba/bpe/api/BusinessProcessEngineDelegate.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BPCoordinator/src/main/java/com/marisoft/ziba/bpe/api/BusinessProcessEngineDelegate.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="814" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusinessProcessEngineActiviti.java" partName="BusinessProcessEngineActiviti.java" path="/home/shaf3y/work/TasksWorkspaces/ProcessCoordinatorWS/ProcessCoordinatorWS.git/ProcessCoordinatorDevelopmentWS/BPCoordinator/src/main/java/com/marisoft/ziba/bpe/activiti/BusinessProcessEngineActiviti.java" title="BusinessProcessEngineActiviti.java" tooltip="BPCoordinator/src/main/java/com/marisoft/ziba/bpe/activiti/BusinessProcessEngineActiviti.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BPCoordinator/src/main/java/com/marisoft/ziba/bpe/activiti/BusinessProcessEngineActiviti.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6620" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -490,11 +500,8 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/epn/EPNManager.java"/>
-<editor factoryID="org.springsource.ide.eclipse.dashboard.ui.dashboard.elementFactory" id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" openDashboard="true"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/jms/EsperEventProcessingAgent.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/jms/EsperExpriments.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/jms/ConsumerApp.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/epn/EPNManager.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/IBPCoordinator.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BPCoordinator/src/main/java/com/marisoft/ziba/bpm/coordinator/jms/JmsBPCoordinator.java"/>
@@ -508,154 +515,159 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/enterprise/bpm/events/bodies/BPEventBody.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/enterprise/bpm/events/bodies/BPStartedEvent.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/enterprise/bpm/events/bodies/BPStartedEventBody.java"/>
+<editor factoryID="org.springsource.ide.eclipse.dashboard.ui.dashboard.elementFactory" id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" openDashboard="true"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/epn/elements/EventConsumer.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BPCoordinator/src/main/java/com/marisoft/ziba/bpe/activiti/BusinessProcessEngineActiviti.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BPCoordinator/src/main/java/com/marisoft/ziba/bpm/BPMMain.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BPCoordinator/src/main/java/com/marisoft/ziba/bpe/api/BusinessProcessEngineDelegate.java"/>
 </editors>
-<item historyLabel="EPNManager.java" index="0">
-<position info="not_deleted" x="130" y="0"/>
-</item>
-<item historyLabel="EPNManager.java" index="0">
-<position info="not_deleted" x="192" y="0"/>
-</item>
-<item historyLabel="EPNManager.java" index="0">
-<position/>
-</item>
-<item historyLabel="EPNManager.java" index="0">
-<position info="not_deleted" x="303" y="0"/>
-</item>
-<item historyLabel="Dashboard" index="1"/>
-<item historyLabel="EPNManager.java" index="0">
-<position info="not_deleted" x="1295" y="0"/>
-</item>
-<item historyLabel="EPNManager.java" index="0">
-<position info="not_deleted" x="1266" y="0"/>
-</item>
-<item historyLabel="EPNManager.java" index="0">
-<position info="not_deleted" x="521" y="0"/>
-</item>
-<item historyLabel="EPNManager.java" index="0">
-<position info="not_deleted" x="533" y="0"/>
-</item>
-<item historyLabel="EPNManager.java" index="0">
-<position/>
-</item>
-<item historyLabel="EPNManager.java" index="0">
-<position info="not_deleted" x="732" y="0"/>
-</item>
-<item historyLabel="EPNManager.java" index="0">
-<position/>
-</item>
-<item historyLabel="EPNManager.java" index="0">
-<position/>
-</item>
-<item historyLabel="EPNManager.java" index="0">
-<position info="not_deleted" x="1184" y="108"/>
-</item>
-<item historyLabel="EsperEventProcessingAgent.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="EsperExpriments.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ConsumerApp.java" index="4">
-<position info="not_deleted" x="256" y="38"/>
-</item>
-<item historyLabel="EsperExpriments.java" index="3">
-<position info="not_deleted" x="377" y="0"/>
-</item>
-<item historyLabel="EsperEventProcessingAgent.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="EsperExpriments.java" index="3">
-<position info="not_deleted" x="377" y="0"/>
-</item>
-<item historyLabel="EsperExpriments.java" index="3">
-<position info="not_deleted" x="368" y="7"/>
-</item>
-<item historyLabel="EsperExpriments.java" index="3">
+<item historyLabel="EsperExpriments.java" index="1">
 <position info="not_deleted" x="274" y="0"/>
 </item>
-<item historyLabel="EsperExpriments.java" index="3">
+<item historyLabel="EsperExpriments.java" index="1">
 <position info="not_deleted" x="383" y="0"/>
 </item>
-<item historyLabel="EsperEventProcessingAgent.java" index="2">
+<item historyLabel="EsperEventProcessingAgent.java" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="EPNManager.java" index="5">
+<item historyLabel="EPNManager.java" index="2">
 <position info="not_deleted" x="1196" y="8"/>
 </item>
-<item historyLabel="IBPCoordinator.java" index="6">
+<item historyLabel="IBPCoordinator.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="JmsBPCoordinator.java" index="7">
+<item historyLabel="JmsBPCoordinator.java" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="EventType.java" index="8">
+<item historyLabel="EventType.java" index="5">
 <position info="not_deleted" x="1099" y="0"/>
 </item>
-<item historyLabel="Event.java" index="9">
+<item historyLabel="Event.java" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="EventType.java" index="8">
+<item historyLabel="EventType.java" index="5">
 <position info="not_deleted" x="1099" y="0"/>
 </item>
-<item historyLabel="EventBody.java" index="10">
+<item historyLabel="EventBody.java" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="EventType.java" index="8">
+<item historyLabel="EventType.java" index="5">
 <position info="not_deleted" x="1099" y="0"/>
 </item>
-<item historyLabel="Event.java" index="9">
+<item historyLabel="Event.java" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="IPublicationService.java" index="11">
+<item historyLabel="IPublicationService.java" index="8">
 <position info="not_deleted" x="207" y="0"/>
 </item>
-<item historyLabel="IPublicationService.java" index="11">
+<item historyLabel="IPublicationService.java" index="8">
 <position info="not_deleted" x="126" y="0"/>
 </item>
-<item historyLabel="ISubscriptionService.java" index="12">
+<item historyLabel="ISubscriptionService.java" index="9">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="IPublicationService.java" index="11">
+<item historyLabel="IPublicationService.java" index="8">
 <position info="not_deleted" x="126" y="0"/>
 </item>
-<item historyLabel="BPStartedEvent.java" index="13">
+<item historyLabel="BPStartedEvent.java" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="BPEvent.java" index="14">
+<item historyLabel="BPEvent.java" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="BPEvent.java" index="14">
+<item historyLabel="BPEvent.java" index="11">
 <position info="not_deleted" x="135" y="0"/>
 </item>
-<item historyLabel="BPEvent.java" index="14">
+<item historyLabel="BPEvent.java" index="11">
 <position info="not_deleted" x="197" y="0"/>
 </item>
-<item historyLabel="BPStartedEvent.java" index="13">
+<item historyLabel="BPStartedEvent.java" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="BPEventBody.java" index="15">
+<item historyLabel="BPEventBody.java" index="12">
 <position info="not_deleted" x="378" y="0"/>
 </item>
-<item historyLabel="BPStartedEvent.java" index="16">
+<item historyLabel="BPStartedEvent.java" index="13">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="BPStartedEventBody.java" index="17">
+<item historyLabel="BPStartedEventBody.java" index="14">
 <position info="not_deleted" x="141" y="0"/>
 </item>
-<item historyLabel="BPStartedEventBody.java" index="17">
+<item historyLabel="BPStartedEventBody.java" index="14">
 <position info="not_deleted" x="242" y="0"/>
 </item>
-<item historyLabel="BPStartedEvent.java" index="13">
+<item historyLabel="BPStartedEvent.java" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="BPStartedEvent.java" index="13">
+<item historyLabel="BPStartedEvent.java" index="10">
 <position info="not_deleted" x="251" y="0"/>
 </item>
-<item historyLabel="BPStartedEvent.java" index="13">
+<item historyLabel="BPStartedEvent.java" index="10">
 <position info="not_deleted" x="222" y="14"/>
 </item>
-<item active="true" historyLabel="BPStartedEvent.java" index="13">
-<position info="not_deleted" x="307" y="0"/>
+<item historyLabel="BPStartedEvent.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Dashboard" index="15"/>
+<item historyLabel="BPStartedEvent.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="EventConsumer.java" index="16">
+<position info="not_deleted" x="770" y="0"/>
+</item>
+<item historyLabel="BusinessProcessEngineActiviti.java" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="EventConsumer.java" index="16">
+<position info="not_deleted" x="770" y="0"/>
+</item>
+<item historyLabel="BPMMain.java" index="18">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="BPMMain.java" index="18">
+<position info="not_deleted" x="1848" y="0"/>
+</item>
+<item historyLabel="BPMMain.java" index="18">
+<position info="not_deleted" x="1848" y="0"/>
+</item>
+<item historyLabel="BPMMain.java" index="18">
+<position info="not_deleted" x="1599" y="0"/>
+</item>
+<item historyLabel="BPMMain.java" index="18">
+<position info="not_deleted" x="1607" y="0"/>
+</item>
+<item historyLabel="BPMMain.java" index="18">
+<position info="not_deleted" x="1542" y="0"/>
+</item>
+<item historyLabel="BPMMain.java" index="18">
+<position info="not_deleted" x="1679" y="0"/>
+</item>
+<item historyLabel="BPMMain.java" index="18">
+<position info="not_deleted" x="1714" y="0"/>
+</item>
+<item historyLabel="BPMMain.java" index="18">
+<position info="not_deleted" x="1745" y="0"/>
+</item>
+<item historyLabel="BPMMain.java" index="18">
+<position info="not_deleted" x="1773" y="0"/>
+</item>
+<item historyLabel="BPMMain.java" index="18">
+<position info="not_deleted" x="1831" y="0"/>
+</item>
+<item historyLabel="BusinessProcessEngineDelegate.java" index="19">
+<position info="not_deleted" x="814" y="12"/>
+</item>
+<item historyLabel="BusinessProcessEngineActiviti.java" index="17">
+<position info="not_deleted" x="6055" y="12"/>
+</item>
+<item historyLabel="BusinessProcessEngineActiviti.java" index="17">
+<position info="not_deleted" x="6620" y="0"/>
+</item>
+<item historyLabel="BPMMain.java" index="18">
+<position info="not_deleted" x="1510" y="0"/>
+</item>
+<item active="true" historyLabel="BusinessProcessEngineActiviti.java" index="17">
+<position info="not_deleted" x="6620" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -676,6 +688,18 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusinessProcessEngineActiviti.java" tooltip="BPCoordinator/src/main/java/com/marisoft/ziba/bpe/activiti/BusinessProcessEngineActiviti.java">
+<persistable path="/BPCoordinator/src/main/java/com/marisoft/ziba/bpe/activiti/BusinessProcessEngineActiviti.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BusinessProcessEngineDelegate.java" tooltip="BPCoordinator/src/main/java/com/marisoft/ziba/bpe/api/BusinessProcessEngineDelegate.java">
+<persistable path="/BPCoordinator/src/main/java/com/marisoft/ziba/bpe/api/BusinessProcessEngineDelegate.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BPMMain.java" tooltip="BPCoordinator/src/main/java/com/marisoft/ziba/bpm/BPMMain.java">
+<persistable path="/BPCoordinator/src/main/java/com/marisoft/ziba/bpm/BPMMain.java"/>
+</file>
+<file factoryID="org.springsource.ide.eclipse.dashboard.ui.dashboard.elementFactory" id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" name="Dashboard" tooltip="Dashboard">
+<persistable openDashboard="true"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BPStartedEvent.java" tooltip="EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/enterprise/bpm/events/bodies/BPStartedEvent.java">
 <persistable path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/enterprise/bpm/events/bodies/BPStartedEvent.java"/>
 </file>
@@ -708,18 +732,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EsperExpriments.java" tooltip="EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/jms/EsperExpriments.java">
 <persistable path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/jms/EsperExpriments.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EsperEventProcessingAgent.java" tooltip="EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/jms/EsperEventProcessingAgent.java">
-<persistable path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/jms/EsperEventProcessingAgent.java"/>
-</file>
-<file factoryID="org.springsource.ide.eclipse.dashboard.ui.dashboard.elementFactory" id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" name="Dashboard" tooltip="Dashboard">
-<persistable openDashboard="true"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EPNManager.java" tooltip="EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/epn/EPNManager.java">
-<persistable path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/epn/EPNManager.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EventRelationship.java" tooltip="EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/epn/elements/EventRelationship.java">
-<persistable path="/EnterpriseEventProcessing/src/main/java/com/marisoft/ziba/cep/epn/elements/EventRelationship.java"/>
 </file>
 </mruList>
 </workbench>

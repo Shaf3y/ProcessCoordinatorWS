@@ -6,12 +6,16 @@ import javax.jms.JMSException;
 import javax.jms.Message;
 import javax.jms.MessageListener;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.marisoft.ziba.bpe.api.BusinessProcessEngineDelegate;
 import com.marisoft.ziba.bpm.coordinator.IBPCoordinator;
 
 
 public class JmsBPCoordinator implements IBPCoordinator, MessageListener {
 
-	// TODO autowire business process activiti engine delegate 
+	@Autowired
+	private BusinessProcessEngineDelegate engineDelegate;
 	
 	public void onMessage(Message message) {
 		try {

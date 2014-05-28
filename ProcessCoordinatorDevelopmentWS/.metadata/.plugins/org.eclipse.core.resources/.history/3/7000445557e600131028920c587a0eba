@@ -1,0 +1,54 @@
+package com.marisoft.ziba.bpm;
+
+import java.sql.SQLException;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.activiti.engine.runtime.ProcessInstance;
+import org.joda.time.DateTime;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.marisoft.ziba.bpe.activiti.BusinessProcessEngineActiviti;
+import com.marisoft.ziba.bpe.api.BusinessProcessEngineDelegate;
+import com.marisoft.ziba.bpm.coordinator.IBPCoordinator;
+
+public class BPMMain {
+
+	/**
+	 * @param args
+	 * @throws InterruptedException 
+	 * @throws IllegalAccessException 
+	 * @throws InstantiationException 
+	 * @throws SQLException 
+	 * @throws ClassNotFoundException 
+	 */
+	public static void main(String[] args) throws InterruptedException, ClassNotFoundException, SQLException, InstantiationException, IllegalAccessException {
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("META-INF/spring/bpcoordinator-context.xml");
+		
+//		IBPCoordinator coordinator = (IBPCoordinator) applicationContext.getBean("eventBasedBPCoordinator");
+//		Thread.sleep(30000);
+		
+		BusinessProcessEngineDelegate engineDelegate = (BusinessProcessEngineDelegate) applicationContext.getBean("engineDelegate");
+//		BusinessProcessEngineDelegate engineDelegate = new BusinessProcessEngineActiviti();
+		
+		/*
+		try {
+			engineDelegate.completeTask("Approval request created by kermit:2", "kermit");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//*/
+		
+		Map<String, Object> vars = new HashMap<String, Object>();
+		vars.put("duedate", new Date());
+		vars.put("initiator", "kermit");
+		vars.put("difficulty", "3");
+		vars.put("instructions", "5");
+		vars.put("UserID", "kermit");
+		
+		engineDelegate.startProcess("simpleApprovalProcess", vars);		
+	}
+}
