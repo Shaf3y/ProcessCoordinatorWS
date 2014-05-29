@@ -3,7 +3,7 @@ package com.marisoft.ziba.cep.enterprise.bpm.events.bodies;
 import java.io.Serializable;
 import java.util.Map;
 
-import com.marisoft.ziba.cep.EventBody;
+import com.marisoft.ziba.cep.epn.artifacts.EventBody;
 
 public class BProcessEventBody extends EventBody {
 

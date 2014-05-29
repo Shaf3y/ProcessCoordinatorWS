@@ -1,6 +1,6 @@
 package com.marisoft.ziba.cep.enterprise.bpm.events.bodies;
 
-import com.marisoft.ziba.cep.EventBody;
+import com.marisoft.ziba.cep.epn.artifacts.EventBody;
 
 public class HTaskEventBody extends EventBody {
 	

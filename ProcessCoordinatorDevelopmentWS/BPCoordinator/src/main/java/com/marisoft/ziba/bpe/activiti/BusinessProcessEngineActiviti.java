@@ -76,9 +76,7 @@ public class BusinessProcessEngineActiviti implements BusinessProcessEngineDeleg
 		engineConf.setJdbcPassword("postgres");
 		engineConf.setJobExecutorActivate(true);
 		engineConf.setDatabaseSchemaUpdate("true");
-		
-		
-		
+				
 		//		logger.info("BusinessProcessEngineActivitiDriver: Jdbc Driver: " + engineConf.getJdbcDriver());
 		
 		//		logger.info("BusinessProcessEngineActiviti.BusinessProcessEngineActiviti(): Registering the JDBC driver if it is not already registered...");
@@ -89,6 +87,7 @@ public class BusinessProcessEngineActiviti implements BusinessProcessEngineDeleg
 				
 		//		logger.info("BusinessProcessEngineActiviti.BusinessProcessEngineActiviti(): Getting Run Time Service...");
 		runtimeService = processEngine.getRuntimeService();
+		runtimeService.addEventListener(new ActivitiEngineEventListener());
 		
 		//		logger.info("BusinessProcessEngineActiviti.BusinessProcessEngineActiviti(): Getting Task Service...");
 		taskService = processEngine.getTaskService();

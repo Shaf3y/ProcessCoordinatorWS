@@ -1,0 +1,7 @@
+package com.marisoft.ziba.bpe.activiti;
+
+import org.activiti.engine.delegate.event.ActivitiEventListener;
+
+public class ActivitiEngineEventListener implements ActivitiEventListener {
+
+}

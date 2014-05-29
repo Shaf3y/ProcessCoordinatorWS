@@ -56,6 +56,8 @@ public class BPMMain {
 		properties.put("duedate", new Date());
 		
 		ProcessEngine processEngine = engineDelegate.getEngine();
+		
+		/*
 		FormService formService = processEngine.getFormService();		
 		
 		StartFormData startFormData = formService.getStartFormData(processDefId);
@@ -63,15 +65,16 @@ public class BPMMain {
 			System.out.println("Prop ID : " + property.getId());
 			System.out.println("Type : " + property.getType().toString());
 		}
+		//*/
 		
-		
+		//*
 		engineDelegate.setAuthenticatedUserId("kermit");
 		
 		ProcessInstance instance =
 				processEngine.getRuntimeService().startProcessInstanceById(processDefId, properties);
 		
 		System.out.println("Instance : " + instance.getId());
-		
+		//*/
 		
 		
 //		Map<String, Object> vars = new HashMap<String, Object>();
