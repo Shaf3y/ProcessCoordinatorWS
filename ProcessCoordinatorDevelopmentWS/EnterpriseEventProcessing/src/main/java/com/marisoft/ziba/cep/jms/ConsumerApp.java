@@ -20,7 +20,7 @@ public class ConsumerApp {
 			e.printStackTrace();
 		}			
 		
-		Thread.sleep(30000);
+		Thread.sleep(30000);		
 	}
 
 }

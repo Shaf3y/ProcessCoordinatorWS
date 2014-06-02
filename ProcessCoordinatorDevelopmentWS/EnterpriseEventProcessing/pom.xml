@@ -6,6 +6,7 @@
 	<version>0.0.1</version>
 
 	<dependencies>
+		
 		<!-- Spring Framework Dependencies -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -42,6 +43,42 @@
 			<artifactId>spring-test</artifactId>
 			<version>4.0.2.RELEASE</version>
 		</dependency>
+		
+		<!-- Spring Data Dependencies -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>4.0.2.RELEASE</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>3.1.0.RELEASE</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongo-java-driver</artifactId>
+			<version>2.11.0</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-mongodb</artifactId>
+			<version>1.4.2.RELEASE</version>
+		</dependency>
+		
+		<!-- MongoDB Driver -->
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongo-java-driver</artifactId>
+			<version>2.11.0</version>
+		</dependency>
+		<!-- MongoDB Driver -->	
+				
+		<!-- End Of Spring Data Dependencies -->		
+		<!-- End Of Spring Framework Dependencies -->
 
 		<!-- ActiveMQ Dependencies -->
 		<dependency>
@@ -68,19 +105,20 @@
 			<version>3.16</version>
 		</dependency>
 
-		<!-- Javax Annotation -->
 		<dependency>
 			<groupId>javax.annotation</groupId>
 			<artifactId>javax.annotation-api</artifactId>
 			<version>1.2</version>
 		</dependency>
+		<!-- End Of ActiveMQ Dependencies -->
 
-		<!-- Espser Dependencies -->
+		<!-- Espser Dependency -->
 		<dependency>
 			<groupId>com.espertech</groupId>
 			<artifactId>esperio-springjms</artifactId>
 			<version>4.11.0</version>
 		</dependency>
+		<!-- Espser Dependency -->
 
 		<!-- jUnit For Testing -->
 		<dependency>
@@ -88,6 +126,7 @@
 			<artifactId>junit</artifactId>
 			<version>4.11</version>
 		</dependency>
+		<!-- jUnit For Testing -->
 
 		<!-- JodaTime Dependency -->
 		<dependency>
@@ -95,19 +134,7 @@
 			<artifactId>joda-time</artifactId>
 			<version>2.3</version>
 		</dependency>
-
-		<!-- Spring Data Dependencies -->
-		<dependency>
-			<groupId>org.mongodb</groupId>
-			<artifactId>mongo-java-driver</artifactId>
-			<version>2.11.0</version>
-		</dependency>
-		
-		<dependency>
-			<groupId>org.springframework.data</groupId>
-			<artifactId>spring-data-mongodb</artifactId>
-			<version>1.4.2.RELEASE</version>
-		</dependency>
+		<!-- JodaTime Dependency -->		
 
 	</dependencies>
 

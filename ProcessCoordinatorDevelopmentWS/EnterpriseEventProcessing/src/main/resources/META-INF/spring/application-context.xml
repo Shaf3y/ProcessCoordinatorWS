@@ -6,17 +6,31 @@
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:jms="http://www.springframework.org/schema/jms"
        xmlns:amq="http://activemq.apache.org/schema/core"
+       xmlns:mongo="http://www.springframework.org/schema/data/mongo"
        xsi:schemaLocation="http://www.springframework.org/schema/beans 
                            http://www.springframework.org/schema/beans/spring-beans.xsd
                            http://www.springframework.org/schema/context 
                            http://www.springframework.org/schema/context/spring-context.xsd
                            http://www.springframework.org/schema/jms 
                            http://www.springframework.org/schema/jms/spring-jms.xsd
+                           http://www.springframework.org/schema/data/mongo http://www.springframework.org/schema/data/mongo/spring-mongo.xsd
                            http://activemq.apache.org/schema/core 
                            http://activemq.apache.org/schema/core/activemq-core.xsd">
     
     <context:annotation-config/>
 	<context:component-scan base-package="com.marisoft.ziba.cep"/>
+    
+    <!-- ********************************** Event Processing Data Configs ********************************** -->
+    
+    <!-- DB Connection -->
+    <mongo:db-factory id="epnDbFactory" dbname="ECEP" host="localhost" port="27017"/>
+    <mongo:template id="epnMongoTemplate" db-factory-ref="epnDbFactory"/>
+    <!-- DB Connection -->
+    
+    <mongo:repositories base-package="com.marisoft.ziba.cep.data.repositories" mongo-template-ref="epnMongoTemplate"/>
+    
+    <!-- ********************************** Event Processing Data Configs ********************************** -->
+        
         
 	<!-- JMS ActiveMQ Connection Factory -->
 	<bean id="jmsActiveMQFactory" class="org.apache.activemq.pool.PooledConnectionFactory">

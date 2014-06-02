@@ -1,0 +1,24 @@
+package com.marisoft.ziba.cep.epn.elements.apis;
+
+import java.util.List;
+
+public interface IEventProducer {
+	
+	/**
+	 * 
+	 * @return
+	 */
+	boolean isQueriable();
+	
+	/**
+	 * publish events via outChannels
+	 * @param eventObject
+	 */
+	void publish(Object eventObject);
+	
+	/**
+	 * 
+	 * @return
+	 */
+	List<IEventChannel> getOutChannels();
+}

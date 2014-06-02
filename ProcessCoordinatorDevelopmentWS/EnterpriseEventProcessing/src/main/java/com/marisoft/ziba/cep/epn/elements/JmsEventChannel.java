@@ -1,10 +1,11 @@
 package com.marisoft.ziba.cep.epn.elements;
 
+
 public class JmsEventChannel extends EventChannel {
 	
 	private MessagingMode messagingMode;
-	private String brokerUri;
-	private Integer port;
+	private String host;
+	private int port;
 	private CommunicationProtocol protocol;
 	private Integer receiveTimeout;
 
@@ -18,22 +19,26 @@ public class JmsEventChannel extends EventChannel {
 	
 	public void setMessagingMode(MessagingMode messagingMode) {
 		this.messagingMode = messagingMode;
-	}
+	}	
 	
-	public String getBrokerUri() {
-		return brokerUri;
+	public String getHost() {
+		return host;
 	}
-	
-	public void setBrokerUri(String brokerUri) {
-		this.brokerUri = brokerUri;
+
+	public void setHost(String host) {
+		this.host = host;
 	}
-	
-	public Integer getPort() {
+
+	public int getPort() {
 		return port;
 	}
 	
-	public void setPort(Integer port) {
-		this.port = port;
+	public void setPort(int port) throws Exception {
+		if (port >= 1 && port <= 65535) {
+			this.port = port;
+		} else {
+			throw new Exception("Invalid Port : Must be in range [1 - 65535]");
+		}
 	}
 	
 	public CommunicationProtocol getProtocol() {
@@ -50,5 +55,14 @@ public class JmsEventChannel extends EventChannel {
 	
 	public void setReceiveTimeout(Integer receiveTimeout) {
 		this.receiveTimeout = receiveTimeout;
+	}
+	
+	public String getBrokerURL() {
+		String brokerUrl = "";
+		
+		brokerUrl = protocol.name() + "://";
+		brokerUrl += host + ":" + port + "/"; 
+		
+		return brokerUrl;
 	}
 }

@@ -1,0 +1,21 @@
+package com.marisoft.ziba.cep.epn.elements;
+
+import java.util.Map;
+
+import javax.jms.ConnectionFactory;
+
+import com.marisoft.ziba.cep.epn.artifacts.apis.IEvent;
+
+public class JmsEventProducer extends EventProducer {
+
+	private Map<String, ConnectionFactory> connectionFactories;
+	
+	public JmsEventProducer() {
+		
+	}
+	
+	public void publish(IEvent eventObject) throws Exception {
+					
+	}
+	
+}

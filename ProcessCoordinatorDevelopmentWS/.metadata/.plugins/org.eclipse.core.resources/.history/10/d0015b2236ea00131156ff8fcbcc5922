@@ -1,0 +1,9 @@
+package com.marisoft.ziba.cep.services.apis;
+
+import com.marisoft.ziba.cep.epn.elements.EventChannel;
+import com.marisoft.ziba.cep.epn.elements.EventProducer;
+
+public interface EPNAdministrationService {
+	EventProducer saveEventProducer(EventProducer producer) throws Exception;
+	EventChannel saveEventChannel(EventChannel channel) throws Exception;
+}

@@ -60,6 +60,7 @@ public class BusinessProcessEngineActiviti implements BusinessProcessEngineDeleg
 	private RepositoryService repositoryService;
 	private Map<String,Object> vars;
 //	private ZIBAContextBeans zibaContextBeans;
+	
 
 	public BusinessProcessEngineActiviti() throws ClassNotFoundException, SQLException, InstantiationException, IllegalAccessException{
 //        zibaContextBeans = new ZIBAContextBeans();

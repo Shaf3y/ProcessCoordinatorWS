@@ -1,0 +1,26 @@
+package com.marisoft.ziba.cep.epn.artifacts;
+
+import javax.jms.ConnectionFactory;
+
+import org.apache.activemq.ActiveMQConnectionFactory;
+
+import com.marisoft.ziba.cep.epn.artifacts.apis.IEvent;
+import com.marisoft.ziba.cep.epn.artifacts.apis.IEventEmitter;
+import com.marisoft.ziba.cep.epn.elements.JmsEventChannel;
+
+public class JmsEventEmitter implements IEventEmitter {
+	
+	private JmsEventChannel eventChannel;
+	private ConnectionFactory connectionFactory;	
+	
+	public JmsEventEmitter(JmsEventChannel eventChannel) {
+		this.eventChannel = eventChannel;
+		
+		
+	}
+
+	public void emit(IEvent eventObj) throws Exception {
+		
+	}
+
+}

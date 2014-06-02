@@ -1,0 +1,19 @@
+package com.marisoft.ziba.cep.epn.artifacts;
+
+import com.marisoft.ziba.cep.epn.artifacts.apis.IEvent;
+import com.marisoft.ziba.cep.epn.artifacts.apis.IEventEmitter;
+import com.marisoft.ziba.cep.epn.elements.JmsEventChannel;
+
+public class JmsEventEmitter implements IEventEmitter {
+	
+	private JmsEventChannel eventChannel;
+	
+	public JmsEventEmitter(JmsEventChannel eventChannel) {
+		this.eventChannel = eventChannel;
+	}
+
+	public void emit(IEvent eventObj) throws Exception {
+		// TODO Auto-generated method stub		
+	}
+
+}

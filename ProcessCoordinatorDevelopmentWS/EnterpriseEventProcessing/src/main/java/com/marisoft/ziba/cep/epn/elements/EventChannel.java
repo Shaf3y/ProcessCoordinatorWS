@@ -2,15 +2,24 @@ package com.marisoft.ziba.cep.epn.elements;
 
 import java.util.List;
 
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.DBRef;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+import com.marisoft.ziba.cep.epn.artifacts.apis.IEvent;
 import com.marisoft.ziba.cep.epn.elements.apis.IEventChannel;
 import com.marisoft.ziba.cep.epn.elements.apis.IEventType;
 
+@Document(collection="EventChannel")
 public abstract class EventChannel implements IEventChannel {
 	
+	@Id
 	private String identifier;
 	private String description;
 	private RoutingScheme routingScheme;
 	private ElementType type;
+	
+	@DBRef
 	private List<IEventType> eventTypes;
 	
 	public void setIdentifier(String identifier) {
@@ -47,6 +56,19 @@ public abstract class EventChannel implements IEventChannel {
 	
 	public List<IEventType> getEventTypes() {
 		return this.eventTypes;
+	}
+	
+	public boolean isRegistered(IEvent event) {
+		boolean registered = false;
+		
+		for(IEventType eventType : eventTypes) {
+			if (eventType.getIdentifier().equals(event.getIdentifier())) {
+				registered = true;
+				break;
+			}
+		}
+		
+		return registered;
 	}
 	
 }
