@@ -2704,3 +2704,11 @@ org.eclipse.core.runtime.CoreException: Launch configuration EsperApp references
 2014-06-02 11:29:05,117 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2014-06-02 11:29:05,119 [Worker-321] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2014-06-02 11:29:05,119 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-06-05 09:50:45,455 [Worker-645] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-06-05 09:50:45,456 [Worker-645] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-06-05 09:50:45,458 [Worker-645] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-06-05 09:50:45,458 [Worker-645] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-06-05 09:50:45,481 [Worker-645] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-06-05 09:50:45,482 [Worker-645] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-06-05 09:50:45,484 [Worker-645] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-06-05 09:50:45,484 [Worker-645] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

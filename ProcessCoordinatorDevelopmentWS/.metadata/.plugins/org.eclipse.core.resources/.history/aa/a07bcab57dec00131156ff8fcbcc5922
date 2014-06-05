@@ -13,7 +13,7 @@ public class ActivitiEngineEventListener implements ActivitiEventListener {
 	
 
 	public void onEvent(ActivitiEvent event) {
-		System.out.println(event);
+		
 	}
 
 	public boolean isFailOnException() {

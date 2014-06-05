@@ -10,10 +10,10 @@ import org.activiti.engine.delegate.event.ActivitiEventListener;
  */
 public class ActivitiEngineEventListener implements ActivitiEventListener {
 	
-	
+	private 
 
 	public void onEvent(ActivitiEvent event) {
-		System.out.println(event);
+		
 	}
 
 	public boolean isFailOnException() {
