@@ -1,5 +1,7 @@
 package com.marisoft.ziba.cep.epn.elements;
 
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import org.springframework.data.annotation.Id;
@@ -20,7 +22,11 @@ public abstract class EventChannel implements IEventChannel {
 	private ElementType type;
 	
 	@DBRef
-	private List<IEventType> eventTypes;
+	private List<EventType> publishedEvents;
+	
+	public EventChannel() {
+		publishedEvents = new ArrayList<EventType>();
+	}
 	
 	public void setIdentifier(String identifier) {
 		this.identifier = identifier;
@@ -54,14 +60,31 @@ public abstract class EventChannel implements IEventChannel {
 		return this.type;
 	}
 	
-	public List<IEventType> getEventTypes() {
-		return this.eventTypes;
+	public void addEventType(EventType eventType) {
+		this.publishedEvents.add(eventType);
 	}
 	
+	public void removeEventType(String typeId) {
+		
+		for (EventType type : this.publishedEvents) {
+			
+			if (type.getIdentifier().equals(typeId)) {
+				this.publishedEvents.remove(type);
+				break;
+			}
+			
+		}
+		
+	}
+	
+	public Iterator<? extends IEventType> getPublishedEvents() {
+		return this.publishedEvents.iterator();
+	}
+		
 	public boolean isRegistered(IEvent event) {
 		boolean registered = false;
 		
-		for(IEventType eventType : eventTypes) {
+		for(IEventType eventType : publishedEvents) {
 			if (eventType.getIdentifier().equals(event.getIdentifier())) {
 				registered = true;
 				break;
@@ -69,6 +92,5 @@ public abstract class EventChannel implements IEventChannel {
 		}
 		
 		return registered;
-	}
-	
+	}	
 }

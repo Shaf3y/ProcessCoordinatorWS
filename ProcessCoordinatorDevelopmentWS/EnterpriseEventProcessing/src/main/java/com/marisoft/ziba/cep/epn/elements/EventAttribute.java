@@ -2,16 +2,20 @@ package com.marisoft.ziba.cep.epn.elements;
 
 public class EventAttribute {
 
-	private String attributeName;
+	private String name;
 	private Class<?> dataType;
-	private AttributeSemanticRole semanticRole;	
+	private AttributeSemanticRole semanticRole;
 	
-	public String getAttributeName() {
-		return attributeName;
+	public EventAttribute() {		
+		semanticRole = AttributeSemanticRole.CommonAttribute;
 	}
 
-	public void setAttributeName(String attributeName) {
-		this.attributeName = attributeName;
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	public Class<?> getDataType() {
@@ -28,5 +32,5 @@ public class EventAttribute {
 
 	public void setSemanticRole(AttributeSemanticRole semanticRole) {
 		this.semanticRole = semanticRole;
-	}
+	}	
 }

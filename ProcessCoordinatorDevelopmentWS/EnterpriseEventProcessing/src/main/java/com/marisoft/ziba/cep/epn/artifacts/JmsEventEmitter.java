@@ -30,10 +30,10 @@ public class JmsEventEmitter implements IEventEmitter {
 		jmsTemplate = new JmsTemplate(connectionFactory);
 		
 		if (channel.getMessagingMode().equals(MessagingMode.P2P)) {			
-			// Destination is a queue
+			// The destination is a queue
 			destination = new ActiveMQQueue(channel.getIdentifier());			
 		} else if (channel.getMessagingMode().equals(MessagingMode.PUB_SUB)) {			
-			// Destination is a topic
+			// The destination is a topic
 			destination = new ActiveMQTopic(channel.getIdentifier());
 		}
 	}

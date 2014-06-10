@@ -3,11 +3,15 @@ package com.marisoft.ziba.cep.epn.elements;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
 import com.marisoft.ziba.cep.epn.elements.apis.IEventType;
 
-
+@Document(collection="EventType")
 public class EventType implements IEventType {
 
+	@Id
 	/** [R] Uniquely identifies the type */
 	private String identifier;
 	
@@ -32,6 +36,7 @@ public class EventType implements IEventType {
 	
 	public EventType() {
 		payload = new ArrayList<EventAttribute>();
+		relationships = new ArrayList<EventRelationship>();
 	}
 	
 	public String getIdentifier() {		

@@ -6,7 +6,7 @@ import com.marisoft.ziba.cep.epn.elements.apis.IEventChannel;
 
 public class EventEmitterFactory {
 
-	public static IEventEmitter instantiateEventEmitter(IEventChannel eventChannel) throws Exception {
+	public static IEventEmitter createEmitter(IEventChannel eventChannel) throws Exception {
 		IEventEmitter emitter = null;
 		
 		if(eventChannel instanceof JmsEventChannel) {

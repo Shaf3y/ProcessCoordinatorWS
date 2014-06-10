@@ -1,16 +1,30 @@
 package com.marisoft.ziba.cep.epn.elements;
 
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.DBRef;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import com.marisoft.ziba.cep.epn.elements.apis.IEventChannel;
 import com.marisoft.ziba.cep.epn.elements.apis.IEventConsumer;
 
+@Document(collection="EventConsumer")
 public class EventConsumer implements IEventConsumer {
 
+	@Id
 	private String identifier;
 	private ElementType type;
 	private String description;
-	private List<IEventChannel> inChannels;
+	
+	@DBRef
+	private List<EventChannel> inChannels;
+	
+	public EventConsumer() {
+		inChannels = new ArrayList<EventChannel>();
+	}
 
 	public String getIdentifier() {
 		return identifier;
@@ -36,8 +50,8 @@ public class EventConsumer implements IEventConsumer {
 		this.description = description;
 	}
 	
-	public List<IEventChannel> getInChannels() {
-		return inChannels;
+	public Iterator<? extends IEventChannel> getInChannels() {
+		return inChannels.iterator();
 	}
 
 }

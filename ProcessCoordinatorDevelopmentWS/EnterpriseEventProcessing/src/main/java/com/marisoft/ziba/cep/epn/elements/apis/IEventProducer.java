@@ -22,5 +22,5 @@ public interface IEventProducer extends IEPNElement {
 	 * 
 	 * @return
 	 */
-	Iterator<IEventChannel> getOutChannels();
+	Iterator<? extends IEventChannel> getOutChannels();
 }

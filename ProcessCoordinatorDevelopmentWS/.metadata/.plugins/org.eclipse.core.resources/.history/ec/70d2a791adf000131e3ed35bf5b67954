@@ -1,0 +1,10 @@
+package com.marisoft.ziba.cep.epn.elements;
+
+public class EventAttribute {
+
+	private String name;
+	private Class<?> dataType;
+	private AttributeSemanticRole semanticRole;
+	
+		
+}

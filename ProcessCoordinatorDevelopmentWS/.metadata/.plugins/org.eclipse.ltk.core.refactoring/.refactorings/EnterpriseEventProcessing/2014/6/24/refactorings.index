@@ -1,0 +1,6 @@
+1402391813107	Rename method 'instantiateEventEmitter'
+1402409279526	Rename type 'EventProducerRep'
+1402409292173	Rename type 'EventChannelRep'
+1402410973493	Rename local variable 'eventType'
+1402415379829	Rename field 'eventTypes'
+1402415622848	Rename method 'getEventTypes'

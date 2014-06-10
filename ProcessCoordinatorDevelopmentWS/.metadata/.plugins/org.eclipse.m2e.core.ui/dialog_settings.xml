@@ -52,6 +52,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/home/shaf3y/work/ZIBA/RepoistoryManagement/ziba-data"/>
 			<item value="/media/shaf3y/X86_710/Juniors Training/Server Side Developement/DevelopmentWS/VLS/VLSDataServices"/>
 		</list>
 		<list key="projectNameTemplate">

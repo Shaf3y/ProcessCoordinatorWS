@@ -1,5 +1,6 @@
 package com.marisoft.ziba.cep.epn.elements;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -35,12 +36,13 @@ public class EventProducer implements IEventProducer {
 	private boolean queriable;
 	
 	@DBRef
-	private List<IEventChannel> outChannels;
+	private List<EventChannel> outChannels;
 	
 	@Transient
 	private Map<String, IEventEmitter> emitters;
 		
 	public EventProducer() {
+		outChannels = new ArrayList<EventChannel>();
 		emitters = new HashMap<String, IEventEmitter>();
 	}
 	
@@ -67,12 +69,16 @@ public class EventProducer implements IEventProducer {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-
+	
+	public boolean isQueriable() {		
+		return queriable;
+	}
+	
 	public void setQueriable(boolean queriable) {
 		this.queriable = queriable;
 	}
 	
-	public void addOutChannel(IEventChannel channel) {
+	public void addOutChannel(EventChannel channel) {
 		this.outChannels.add(channel);
 	}
 	
@@ -84,22 +90,18 @@ public class EventProducer implements IEventProducer {
 				outChannels.remove(outChannel);
 				break;
 			}
-			
 		}
 		
 	}
 	
-	public Iterator<IEventChannel> getOutChannels() {
+	public Iterator<? extends IEventChannel> getOutChannels() {
 		return outChannels.iterator();
-	}
+	}		
 		
-	public boolean isQueriable() {		
-		return queriable;
-	}	
 	
 	public void publish(IEvent event) throws Exception {
 		//Setting producer as event source
-		event.getHeader().setEventSource(identifier);
+		event.getHeader().setSource(identifier);
 		
 		for(IEventChannel channel : outChannels) {
 			
@@ -107,14 +109,12 @@ public class EventProducer implements IEventProducer {
 				IEventEmitter emitter = emitters.get(channel.getIdentifier());
 				
 				if (emitter == null) {
-					emitter = EventEmitterFactory.instantiateEventEmitter(channel);
+					emitter = EventEmitterFactory.createEmitter(channel);
 					emitters.put(channel.getIdentifier(), emitter);
 				}
 				
 				emitter.emit(event);
 			}
-			
 		}
-		
 	}
 }

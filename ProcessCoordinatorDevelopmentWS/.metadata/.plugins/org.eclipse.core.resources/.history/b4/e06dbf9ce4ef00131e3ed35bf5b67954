@@ -1,0 +1,28 @@
+package com.marisoft.ziba.cep.epn.artifacts;
+
+import org.joda.time.DateTime;
+
+public class EventHeader {
+
+	/**
+	 * A system generated unique ID for each individual event instance Denotes
+	 * an identifier for event occurrence for tracking issues
+	 */
+	private Long identity;
+
+	/** Is provided by the event producer or event processing agent 
+	 * that detects or derives the event
+	 * */
+	private Long occurrenceTime;
+
+	/** Provides a free-text explanation of what happened in this particular event */
+	private String annotation;
+	
+	/** The identifier of the element {Producer - Agent} that originated this event */
+	private String source;
+	
+	/** Records time at which the agent has detected the event */
+	private Long detectionTime;
+
+	
+}

@@ -1,0 +1,9 @@
+package com.marisoft.ziba.cep.epn.elements.apis;
+
+import java.util.Iterator;
+import java.util.List;
+
+public interface IEventConsumer extends IEPNElement {
+
+	Iterator<? extends IEventChannel> getInChannels();
+}

@@ -1,15 +1,15 @@
 package com.marisoft.ziba.cep.epn.elements;
 
+import org.springframework.data.mongodb.core.mapping.DBRef;
+
 public class EventRelationship {
+	
 	private EventRelationshipType relationship;
 	
+	@DBRef
 	/** Identifier of related event */
-	private String relatedEvent;
+	private EventType relatedEvent;
 	
-	public EventRelationship() {
-		
-	}	
-
 	public EventRelationshipType getRelationship() {
 		return relationship;
 	}
@@ -18,11 +18,11 @@ public class EventRelationship {
 		this.relationship = relationship;
 	}
 
-	public String getRelatedEvent() {
+	public EventType getRelatedEvent() {
 		return relatedEvent;
 	}
 
-	public void setRelatedEvent(String relatedEvent) {
+	public void setRelatedEvent(EventType relatedEvent) {
 		this.relatedEvent = relatedEvent;
 	}	
 }

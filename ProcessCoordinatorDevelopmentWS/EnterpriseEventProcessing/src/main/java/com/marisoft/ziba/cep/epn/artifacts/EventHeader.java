@@ -8,34 +8,42 @@ public class EventHeader {
 	 * A system generated unique ID for each individual event instance Denotes
 	 * an identifier for event occurrence for tracking issues
 	 */
-	private Long eventIdentity;
+	private Long identity;
 
-	/**
-	 * A time stamp with a precision given by the event type's temporal
-	 * granularity. Is provided by the event producer or event processing agent
-	 * that detects or derives the event.
-	 * */
+	/** Records the time at which the event */
 	private Long occurrenceTime;
 
+	/** Provides a free-text explanation of what happened in this particular event */
 	private String annotation;
-	private String eventSource;
+	
+	/** The identifier of the element {Producer - Agent} that originated this event */
+	private String source;
+	
+	/** Records time at which the agent has detected the event */
 	private Long detectionTime;
 
-	public EventHeader(Long identity) {
-		this.eventIdentity = identity;
-		
-		DateTime currentTime = new DateTime();
-		this.occurrenceTime = new Long(currentTime.getMillis());
+	public EventHeader(Long identity, String source) {
+		this.identity = identity;
+		occurrenceTime = new DateTime().getMillis();
+		this.source = source;
 	}
 
-	public Long getEventIdentity() {
-		return eventIdentity;
+	public Long getIdentity() {
+		return identity;
+	}
+
+	public void setIdentity(Long identity) {
+		this.identity = identity;
 	}
 
 	public Long getOccurrenceTime() {
 		return occurrenceTime;
 	}
-	
+
+	public void setOccurrenceTime(Long occurrenceTime) {
+		this.occurrenceTime = occurrenceTime;
+	}
+
 	public String getAnnotation() {
 		return annotation;
 	}
@@ -44,12 +52,12 @@ public class EventHeader {
 		this.annotation = annotation;
 	}
 
-	public String getEventSource() {
-		return eventSource;
+	public String getSource() {
+		return source;
 	}
 
-	public void setEventSource(String eventSource) {
-		this.eventSource = eventSource;
+	public void setSource(String source) {
+		this.source = source;
 	}
 
 	public Long getDetectionTime() {

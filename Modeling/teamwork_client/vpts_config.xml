@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VptsInfio version="20080410">
+	<Option lastSelectedFilePath="OCM_Design" lastSelectedRepository="mahmoud.elshaffie@gmail.com@marisoft.vpository.com"/>
+	<Repositories>
+		<Repository ldapSAMAccountName="" password="OSRWOnHvv7g4JTBq" password2="TmtsSlNVbEpTVTVoY21sdFlXND0=" path="/vpteamwork/VPTeamworkServer" portNumber="" protocol="https://" proxyHost="" proxyPort="8080" serverHost="marisoft.vpository.com" twFileFeatureSupport="true" useProxy="false" userName="mahmoud.elshaffie@gmail.com">
+			<ClientPermission allow="false" name="allowAccessLockedContent"/>
+			<ClientPermission allow="true" name="manageReferenceProject"/>
+			<ClientPermission allow="true" name="changeProjectOptions"/>
+			<ClientPermission allow="true" name="configProjectStereotype"/>
+			<ClientPermission allow="true" name="configDefaultTaggedValues"/>
+			<ClientPermission allow="true" name="configRequirements"/>
+			<ClientPermission allow="true" name="configProjectManagementLookups"/>
+			<ClientPermission allow="true" name="configViewpoints"/>
+			<ClientPermission allow="true" name="configBusinessRuleKeywords"/>
+			<ClientPermission allow="true" name="createTag"/>
+			<ClientPermission allow="true" name="createBranch"/>
+			<ClientPermission allow="true" name="mergeBranch"/>
+			<ClientPermission allow="true" name="deleteBranch"/>
+			<Checksum value="f60775a32e477d93c1046dd42b3cb28e"/>
+		</Repository>
+	</Repositories>
+	<Projects>
+		<Project checkedOut="true" dateTime="1402319547951" filePath="projects/OCM_Design/OCM_Design.vpp" lastLocalStatus="0" lastLocalStatusProjectModifiedDate="1402319546000" lastServerRevision="1" name="OCM_Design" origVppMd5="fcbf5a829c3e2fbb3914652fdaa5e840" revision="1" workingCopyName="OCM_Design">
+			<Repository ldapSAMAccountName="" password="OSRWOnHvv7g4JTBq" password2="TjFSVVZGUlVWRlJPWVhKcGJXRnU=" path="/vpteamwork/VPTeamworkServer" portNumber="" protocol="https://" proxyHost="" proxyPort="8080" serverHost="marisoft.vpository.com" twFileFeatureSupport="true" useProxy="false" userName="mahmoud.elshaffie@gmail.com">
+				<ClientPermission allow="false" name="allowAccessLockedContent"/>
+				<ClientPermission allow="true" name="manageReferenceProject"/>
+				<ClientPermission allow="true" name="changeProjectOptions"/>
+				<ClientPermission allow="true" name="configProjectStereotype"/>
+				<ClientPermission allow="true" name="configDefaultTaggedValues"/>
+				<ClientPermission allow="true" name="configRequirements"/>
+				<ClientPermission allow="true" name="configProjectManagementLookups"/>
+				<ClientPermission allow="true" name="configViewpoints"/>
+				<ClientPermission allow="true" name="configBusinessRuleKeywords"/>
+				<ClientPermission allow="true" name="createTag"/>
+				<ClientPermission allow="true" name="createBranch"/>
+				<ClientPermission allow="true" name="mergeBranch"/>
+				<ClientPermission allow="true" name="deleteBranch"/>
+				<Checksum value="f60775a32e477d93c1046dd42b3cb28e"/>
+			</Repository>
+			<ProjectInfo projectDescription="&lt;html&gt;&#10;  &lt;head&gt;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Monospaced; font-size: 11px }&#10;      --&gt;&#10;    &lt;/style&gt;&#10;    &#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    &lt;p&gt;&#10;      This draft about business services design process&#10;    &lt;/p&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;" projectId="kwF9AWKD.AACAQYH" projectName="OCM_Design" version="1"/>
+		</Project>
+	</Projects>
+</VptsInfio>
