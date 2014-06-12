@@ -1,0 +1,8 @@
+package com.marisoft.ziba.cep.epn.exceptions;
+
+public class DublicateInChannel extends Exception {
+	
+	private String channelIdentifier;
+	private String elementIdentifier;
+	
+}

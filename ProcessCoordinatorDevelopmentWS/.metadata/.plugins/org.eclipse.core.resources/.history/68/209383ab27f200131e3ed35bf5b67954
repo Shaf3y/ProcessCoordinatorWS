@@ -1,0 +1,6 @@
+package com.marisoft.ziba.cep.epn.elements;
+
+public class QueryStatement {
+
+	
+}

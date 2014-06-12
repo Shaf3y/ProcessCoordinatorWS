@@ -24,8 +24,8 @@ public class BProcessEvent extends Event {
 	private static final String BP_OWNER_TRANSFERED = "BP_OWNER_TRANSFERED";
 	/** BUSINESS_PROCESS_EVENTS_IDENTIFIERS */
 	
-	public BProcessEvent(String identifier, Long identity) {
-		super(identifier, identity);
+	public BProcessEvent(String identifier, Long identity, String source) {
+		super(identifier, identity, source);
 		body = new BProcessEventBody();
 	}
 

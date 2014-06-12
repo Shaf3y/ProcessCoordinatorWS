@@ -9,6 +9,7 @@ import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import com.marisoft.ziba.cep.epn.artifacts.apis.IEvent;
+import com.marisoft.ziba.cep.epn.elements.apis.IEventChannel;
 import com.marisoft.ziba.cep.epn.elements.apis.IEventType;
 
 @Document(collection="EventChannel")

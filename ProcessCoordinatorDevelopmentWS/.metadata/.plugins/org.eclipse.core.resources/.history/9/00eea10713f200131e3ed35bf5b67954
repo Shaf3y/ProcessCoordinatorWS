@@ -1,0 +1,11 @@
+package com.marisoft.ziba.cep.epn.exceptions;
+
+public class DuplicateOutputChannel extends Exception {
+	
+	private String channelIdentifier;
+	private String elementIdentifier;
+	
+	public DuplicateOutputChannel(String channelIdentifier, String elementIdentifier) {
+		
+	}
+}

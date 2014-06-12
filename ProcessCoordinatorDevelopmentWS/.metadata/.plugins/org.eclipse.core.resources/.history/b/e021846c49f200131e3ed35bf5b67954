@@ -1,0 +1,10 @@
+package com.marisoft.ziba.cep.epn.artifacts;
+
+import com.marisoft.ziba.cep.epn.elements.EventStreamProcessingAgent;
+
+public class EventStreamProcessingAgentManager extends EventProcessingAgentManager {
+
+	public EventStreamProcessingAgentManager(EventStreamProcessingAgent agent) {
+		super(agent);
+	}
+}

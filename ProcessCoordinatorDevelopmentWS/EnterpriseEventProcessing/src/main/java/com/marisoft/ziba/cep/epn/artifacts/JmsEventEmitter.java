@@ -17,6 +17,7 @@ import com.marisoft.ziba.cep.epn.artifacts.apis.IEvent;
 import com.marisoft.ziba.cep.epn.artifacts.apis.IEventEmitter;
 import com.marisoft.ziba.cep.epn.elements.JmsEventChannel;
 import com.marisoft.ziba.cep.epn.elements.MessagingMode;
+import com.marisoft.ziba.cep.epn.elements.apis.IEventChannel;
 
 public class JmsEventEmitter implements IEventEmitter {
 	
@@ -55,6 +56,10 @@ public class JmsEventEmitter implements IEventEmitter {
 			}
 			
 		});		
+	}
+
+	public IEventChannel getChannel() {
+		return this.channel;
 	}
 
 }

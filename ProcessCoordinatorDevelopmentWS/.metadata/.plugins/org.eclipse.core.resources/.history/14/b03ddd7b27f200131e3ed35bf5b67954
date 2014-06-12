@@ -1,0 +1,5 @@
+package com.marisoft.ziba.cep.epn.elements;
+
+public class EventStreamProcessingAgent extends EventProcessingAgent {
+
+}

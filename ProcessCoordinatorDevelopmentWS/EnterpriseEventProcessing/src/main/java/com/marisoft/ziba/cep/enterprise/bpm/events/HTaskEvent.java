@@ -25,8 +25,8 @@ public class HTaskEvent extends Event {
 	public static final String TASK_UPDATED = "TASK_TASK_UPDATED";
 	/** TASK_EVENTS_IDENTIFIERS */
 	
-	public HTaskEvent(String identifier, Long identity) {
-		super(identifier, identity);
+	public HTaskEvent(String identifier, Long identity, String source) {
+		super(identifier, identity, source);
 		body = new HTaskEventBody();
 	}
 	

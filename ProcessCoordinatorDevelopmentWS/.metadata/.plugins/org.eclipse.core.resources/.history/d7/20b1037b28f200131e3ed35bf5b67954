@@ -1,0 +1,16 @@
+package com.marisoft.ziba.cep.epn.elements;
+
+public class EventStreamProcessingAgent extends EventProcessingAgent {
+
+	private 
+	
+	public void start() {
+		// TODO Auto-generated method stub
+		
+	}
+	 
+	public void stop() {
+		// TODO Auto-generated method stub
+		
+	}
+}

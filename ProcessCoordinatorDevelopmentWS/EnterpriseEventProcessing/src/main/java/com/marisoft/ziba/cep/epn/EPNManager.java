@@ -1,7 +1,6 @@
 package com.marisoft.ziba.cep.epn;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,8 +10,12 @@ import com.marisoft.ziba.cep.data.repositories.EventConsumerRepository;
 import com.marisoft.ziba.cep.data.repositories.EventProcessingAgentRepository;
 import com.marisoft.ziba.cep.data.repositories.EventProducerRepository;
 import com.marisoft.ziba.cep.data.repositories.EventTypeRepository;
+import com.marisoft.ziba.cep.epn.artifacts.EventProcessingAgentManager;
+import com.marisoft.ziba.cep.epn.elements.EventChannel;
+import com.marisoft.ziba.cep.epn.elements.EventConsumer;
+import com.marisoft.ziba.cep.epn.elements.EventProcessingAgent;
+import com.marisoft.ziba.cep.epn.elements.EventProducer;
 import com.marisoft.ziba.cep.epn.elements.EventType;
-import com.marisoft.ziba.cep.epn.elements.apis.IEPNElement;
 import com.marisoft.ziba.cep.epn.elements.apis.IEventChannel;
 import com.marisoft.ziba.cep.epn.elements.apis.IEventConsumer;
 import com.marisoft.ziba.cep.epn.elements.apis.IEventProcessingAgent;
@@ -24,12 +27,16 @@ public class EPNManager {
 	private static EPNManager manager = null;	
 	
 	/** Network Elements */
-	private Map<String, IEventType> eventTypes;
-	private Map<String, IEventChannel> channels;
-	private Map<String, IEventProducer> producers;	
-	private Map<String, IEventConsumer> consumers;
-	private Map<String, IEventProcessingAgent> agents;
+	private Map<String, IEventType> eventTypesMap;
+	private Map<String, IEventChannel> eventChannelsMap;
+	private Map<String, IEventProducer> producersMap;	
+	private Map<String, IEventConsumer> consumersMap;
+	private Map<String, IEventProcessingAgent> agentsMap;
 	/** Network Elements */
+	
+	/** Elements Managers */
+	private Map<String, EventProcessingAgentManager> agentsManagersMap;
+	/** Elements Managers */
 	
 	/** Data Services */
 	@Autowired
@@ -47,45 +54,67 @@ public class EPNManager {
 	@Autowired
 	private EventProcessingAgentRepository agentRepository;
 	/** Data Services */
-	
-	private void initializeElementsMap(Iterable<IEPNElement> elements, Map<String,IEPNElement> map) {
-		for (IEPNElement element : elements) {
-			map.put(element.getIdentifier(), element);
-		}
-	}
-	
+		
 	private void initializeEventTypesMap() {
-		eventTypes = new HashMap<String, IEventType>();
-		
-		
+		eventTypesMap = new HashMap<String, IEventType>();		
 		
 		Iterable<EventType> typesElements = typeRepository.findAll();		
-		
-		this.initializeElementsMap(typesElements, eventTypes);
-		
+				
 		for (EventType type : typesElements) {
-			eventTypes.put(type.getIdentifier(), type);
+			eventTypesMap.put(type.getIdentifier(), type);
 		}
 	}
 	
 	private void initializeEventChannelsMap() {
-		channels = new HashMap<String, IEventChannel>();
+		eventChannelsMap = new HashMap<String, IEventChannel>();
+		
+		Iterable<EventChannel> channels = channelRepository.findAll();
+		
+		for (EventChannel channel : channels) {
+			eventChannelsMap.put(channel.getIdentifier(), channel);
+		}
 	}
 	
 	private void initializeEventProducersMap() {
-		producers = new HashMap<String, IEventProducer>();
+		producersMap = new HashMap<String, IEventProducer>();
+		
+		Iterable<EventProducer> producers = producerRepository.findAll();
+		
+		for (EventProducer producer : producers) {
+			producersMap.put(producer.getIdentifier(), producer);
+		}
 	}
 	
 	private void initializeEventConsumersMap() {
-		consumers = new HashMap<String, IEventConsumer>();
+		consumersMap = new HashMap<String, IEventConsumer>();
+		
+		Iterable<EventConsumer> consumers = consumerRepository.findAll();
+		
+		for (EventConsumer consumer : consumers) {
+			consumersMap.put(consumer.getIdentifier(), consumer);
+		}
 	}
 	
 	private void initializeEventAgentsMap() {
-		agents = new HashMap<String, IEventProcessingAgent>();
+		agentsMap = new HashMap<String, IEventProcessingAgent>();
+		
+		Iterable<EventProcessingAgent> agents = agentRepository.findAll();
+		
+		for (EventProcessingAgent agent : agents) {
+			agentsMap.put(agent.getIdentifier(), agent);
+		}
+	}
+	
+	private void init() {
+		this.initializeEventAgentsMap();
+		this.initializeEventChannelsMap();
+		this.initializeEventConsumersMap();
+		this.initializeEventProducersMap();
+		this.initializeEventTypesMap();
 	}
 	
 	protected EPNManager() {	
-		
+		init();
 	}
 	
 	public static synchronized EPNManager getManager() {

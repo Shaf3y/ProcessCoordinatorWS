@@ -1,0 +1,26 @@
+package com.marisoft.ziba.cep.epn.elements;
+
+import java.util.List;
+
+public class EventStreamProcessingAgent extends EventProcessingAgent {
+
+	private List<QueryStatement> statements;
+	
+	public void start() {
+		// TODO Auto-generated method stub
+		
+	}
+	 
+	public void stop() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public void addStatement(QueryStatement statement) {
+		this.statements.add(statement);
+	}
+	
+	public boolean removeStatement(String statmentId) {
+		for()
+	}
+}

@@ -1,5 +1,7 @@
 package com.marisoft.ziba.cep.epn.artifacts.apis;
 
+import com.marisoft.ziba.cep.epn.elements.apis.IEventChannel;
+
 public interface IEventEmitter {
 	/**
 	 * Emits event through EventChannel
@@ -7,4 +9,6 @@ public interface IEventEmitter {
 	 * @throws Exception
 	 */
 	void emit(IEvent event) throws Exception;
+	
+	IEventChannel getChannel();
 }

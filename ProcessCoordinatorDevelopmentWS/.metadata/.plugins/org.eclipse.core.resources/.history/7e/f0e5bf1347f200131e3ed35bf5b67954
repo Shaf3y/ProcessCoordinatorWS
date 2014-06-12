@@ -1,0 +1,11 @@
+package com.marisoft.ziba.cep.epn.artifacts;
+
+import com.marisoft.ziba.cep.epn.elements.EventProcessingAgent;
+
+public class EventProcessingAgentManagerFactory {
+	
+	public static EventProcessingAgentManager createManager(EventProcessingAgent agent) {
+		if(agent instanceof )
+	}
+	
+}
