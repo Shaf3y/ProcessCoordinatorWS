@@ -1,6 +1,0 @@
-package com.marisoft.ziba.cep.services.apis;
-
-public interface IPublicationService {
-
-	void publish() throws Exception ;
-}

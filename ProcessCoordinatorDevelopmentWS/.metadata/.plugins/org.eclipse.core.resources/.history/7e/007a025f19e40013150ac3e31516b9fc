@@ -1,7 +1,0 @@
-package com.marisoft.ziba.cep.enterprise.bpm.events;
-
-import com.marisoft.ziba.cep.Event;
-
-public class BPStartedEvent extends Event {
-
-}

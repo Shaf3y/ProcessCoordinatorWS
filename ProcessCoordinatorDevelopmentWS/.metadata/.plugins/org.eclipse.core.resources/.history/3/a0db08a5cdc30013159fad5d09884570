@@ -1,8 +1,0 @@
-package com.marisoft.ziba.jms.tests.utils;
-
-import javax.jms.MessageListener;
-
-public class TestListener implements MessageListener {
-
-
-}

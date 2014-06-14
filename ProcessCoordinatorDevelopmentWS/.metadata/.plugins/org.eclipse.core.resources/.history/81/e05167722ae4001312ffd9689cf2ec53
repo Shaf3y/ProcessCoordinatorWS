@@ -1,5 +1,0 @@
-package com.marisoft.ziba.cep.enterprise.bpm.events;
-
-public class HTaskEvent extends {
-
-}

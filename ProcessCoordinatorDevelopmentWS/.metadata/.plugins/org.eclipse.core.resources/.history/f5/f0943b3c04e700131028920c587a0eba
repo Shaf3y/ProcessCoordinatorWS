@@ -1,5 +1,0 @@
-package com.marisoft.ziba.bpe.activiti;
-
-public class ActivitiEngineEventListener {
-
-}

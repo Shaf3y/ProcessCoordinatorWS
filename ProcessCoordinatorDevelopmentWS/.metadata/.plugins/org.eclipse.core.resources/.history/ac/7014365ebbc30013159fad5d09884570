@@ -1,7 +1,0 @@
-package com.marisoft.ziba.jms.tests;
-
-@RunW
-public class MessageProducerIT {
-
-
-}

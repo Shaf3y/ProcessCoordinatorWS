@@ -1,8 +1,0 @@
-package com.marisoft.ziba.cep.elements;
-
-public class EventProcessingAgent {
-
-	private String identifier;
-	private String description;	
-
-}

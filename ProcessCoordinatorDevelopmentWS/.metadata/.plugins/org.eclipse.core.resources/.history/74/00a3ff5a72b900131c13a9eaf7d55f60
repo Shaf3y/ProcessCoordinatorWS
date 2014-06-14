@@ -1,8 +1,0 @@
-package com.marisoft.ziba.bpm.coordinator.jms;
-
-import 
-
-public class JmsExceptionListener {
-
-
-}

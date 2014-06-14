@@ -1,9 +1,0 @@
-package com.marisoft.ziba.jms.tests;
-
-import org.junit.runner.RunWith;
-
-@RunWith
-public class MessageProducerIT {
-
-
-}

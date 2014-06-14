@@ -1,8 +1,0 @@
-package com.marisoft.ziba.cep.tests.jms;
-
-public class EventDetectionIT {
-
-	public void setUp() {
-		
-	}
-}

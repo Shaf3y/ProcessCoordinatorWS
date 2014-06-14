@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename package &apos;com.marisoft.ziba.jms&apos; to &apos;com.marisoft.ziba.cep.jms&apos;&#x0A;- Original project: &apos;JMSConsumer&apos;&#x0A;- Original element: &apos;JMSConsumer/src/main/java/com.marisoft.ziba.jms&apos;&#x0A;- Renamed element: &apos;JMSConsumer/src/main/java/com.marisoft.ziba.cep.jms&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.marisoft.ziba.jms&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.marisoft.ziba.jms" name="com.marisoft.ziba.cep.jms" qualified="false" references="true" stamp="1396354036717" textual="false" version="1.0"/>
-</session>

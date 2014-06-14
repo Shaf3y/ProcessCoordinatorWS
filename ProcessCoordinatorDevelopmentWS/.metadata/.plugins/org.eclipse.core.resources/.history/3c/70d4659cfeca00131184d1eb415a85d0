@@ -1,9 +1,0 @@
-package com.marisoft.ziba.cep.elements;
-
-public class EventProducer {
-
-	private String identifier;
-	private ElementType type;
-	private String description;
-	private Boolean queriable;
-}

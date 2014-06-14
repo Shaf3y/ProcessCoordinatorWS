@@ -1,5 +1,0 @@
-package com.marisoft.ziba.cep.enterprise.bpm.events.bodies;
-
-public abstract class BPEventBody {
-
-}
